@@ -11,6 +11,6 @@
 - `index.html`是自包含报告，含全部图像，支持离线打开、打印/PDF及汇总数据导出。
 - 科研代码、来源、关键结果和复算参数位于[ai-native4material研究仓库](https://github.com/zx070326-hash/ai-native4material)，访问需要相应权限。
 
-本次页面来自研究仓库[`40d3781cbaf775551fe5190513431704ed0636f5`](https://github.com/zx070326-hash/ai-native4material/tree/40d3781cbaf775551fe5190513431704ed0636f5)的`docs/index.html`；各科学结果分别锁定到报告内的完整提交。两题均未宣称完整解决。
+本次页面来自研究仓库[`de1e682b8029a477ee9d4f4cae3ecc7d69c08348`](https://github.com/zx070326-hash/ai-native4material/tree/de1e682b8029a477ee9d4f4cae3ecc7d69c08348)的`docs/index.html`；各科学结果分别锁定到报告内的完整提交。两题均未宣称完整解决。
 
 GitHub Pages从`main`根目录发布。此仓库只包含静态报告，不上传大型原始场、完整热历程或计算缓存，不运行科学计算。
