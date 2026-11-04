@@ -1,0 +1,17 @@
+<svg id="q1-experiment-figure" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 230" role="img" aria-labelledby="experiment-title experiment-desc">
+  <title id="experiment-title">题一实验交接路线</title>
+  <desc id="experiment-desc">从 PEI 基膜准备、氧化物沉积、ITO 与帽层到光学和力学表征的四步实验路线。</desc>
+  <defs><marker id="experiment-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#397b77"/></marker></defs>
+  <style>
+    .figure-heading{font:700 19px system-ui,"Microsoft YaHei",sans-serif;fill:#173b3d}
+    .figure-note{font:13px system-ui,"Microsoft YaHei",sans-serif;fill:#657678}
+    .stage-num{font:700 12px ui-monospace,Consolas,monospace;fill:#397b77}
+    .stage-title{font:700 17px system-ui,"Microsoft YaHei",sans-serif;fill:#173b3d}
+    .stage-note{font:13px system-ui,"Microsoft YaHei",sans-serif;fill:#4f6666}
+    .stage-arrow{stroke:#397b77;stroke-width:2;marker-end:url(#experiment-arrow)}
+  </style>
+  <text x="30" y="29" class="figure-heading">实验交接路线</text>
+  <text x="30" y="49" class="figure-note">先把样品身份和热史锁定，再把实测复谱回填到同一层序。</text>
+  <rect x="30" y="64" width="238" height="124" rx="14" fill="#e2f2ec" stroke="#cbdcd7"/><text x="48" y="91" class="stage-num">01</text><text x="48" y="121" class="stage-title">基膜准备</text><text x="48" y="151" class="stage-note">PEI 脱水、除气、尺寸参考</text><line x1="272" y1="126" x2="295" y2="126" class="stage-arrow"/><rect x="302" y="64" width="238" height="124" rx="14" fill="#e5eff8" stroke="#cbdcd7"/><text x="320" y="91" class="stage-num">02</text><text x="320" y="121" class="stage-title">多层沉积</text><text x="320" y="151" class="stage-note">TiO₂ / Al₂O₃ 交替沉积</text><line x1="544" y1="126" x2="567" y2="126" class="stage-arrow"/><rect x="574" y="64" width="238" height="124" rx="14" fill="#eee7f6" stroke="#cbdcd7"/><text x="592" y="91" class="stage-num">03</text><text x="592" y="121" class="stage-title">ITO 与帽层</text><text x="592" y="151" class="stage-note">记录膜温、应变和附着</text><line x1="816" y1="126" x2="839" y2="126" class="stage-arrow"/><rect x="846" y="64" width="238" height="124" rx="14" fill="#faefd9" stroke="#cbdcd7"/><text x="864" y="91" class="stage-num">04</text><text x="864" y="121" class="stage-title">表征与回填</text><text x="864" y="151" class="stage-note">椭偏、T/R/A、翘曲和重复性</text>
+  <text x="30" y="215" class="figure-note">建议每一步保存：膜厚、基底、沉积温度、氧状态、退火/固化历史，以及测量入射面。</text>
+</svg>
