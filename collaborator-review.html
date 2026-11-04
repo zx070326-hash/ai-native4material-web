@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>合作者审查入口｜设计、建模与数值干实验</title>
+<style>
+:root{--ink:#1f3036;--muted:#637177;--rule:#d8e0de;--paper:#f7f8f5;--card:#fff;--teal:#216d68;--blue:#246b87;--amber:#9b641c;--red:#a84837;--wash:#eaf3ef;--warn:#fff3df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,"Microsoft YaHei",sans-serif}main{width:min(1120px,calc(100% - 40px));margin:auto;padding:28px 0 64px}a{color:var(--blue);text-underline-offset:3px}h1,h2,h3{line-height:1.4}h1{font-size:34px;margin:8px 0 8px}h2{font-size:24px;margin:36px 0 14px;border-bottom:1px solid var(--rule);padding-bottom:8px}h3{font-size:18px;margin:18px 0 6px}.meta,.small{font-size:13px;color:var(--muted)}.lead{font-size:18px;max-width:900px}.status{padding:16px 18px;background:var(--wash);border-left:4px solid var(--teal);margin:18px 0}.warn{padding:14px 17px;background:var(--warn);border-left:4px solid var(--amber);margin:16px 0}.danger{border-left-color:var(--red);background:#fff0ed}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--rule);padding:17px 18px}.card .label{font-size:12px;color:var(--muted);letter-spacing:.04em}.card h3{margin-top:4px}.metric{font-size:23px;font-weight:700;color:var(--teal);line-height:1.35}.metric small{font-size:13px;font-weight:400;color:var(--muted)}table{border-collapse:collapse;width:100%;background:var(--card);font-size:14px}th,td{padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top;text-align:left}th{background:#edf2ef;color:#44575b;font-weight:650;white-space:nowrap}tr:last-child td{border-bottom:0}.scroll{overflow:auto;border:1px solid var(--rule);background:var(--card)}.chain{display:grid;grid-template-columns:1fr 28px 1fr 28px 1fr;gap:8px;align-items:stretch;margin:16px 0}.chain>div{background:var(--card);border:1px solid var(--rule);padding:14px}.chain b{display:block;margin-bottom:5px}.chain span{align-self:center;text-align:center;color:var(--teal);font-size:24px}.checks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.check{background:var(--card);border-top:3px solid var(--teal);padding:13px}.check strong{display:block;font-size:20px;color:var(--teal);margin-bottom:4px}.check p{font-size:13px;margin:0}.review{counter-reset:item;list-style:none;padding:0;margin:10px 0}.review li{counter-increment:item;padding:10px 0 10px 31px;border-top:1px solid var(--rule);position:relative}.review li:before{content:counter(item);position:absolute;left:0;top:10px;color:var(--teal);font-weight:700}.links{display:flex;flex-wrap:wrap;gap:10px 18px;margin:12px 0}.links a{background:var(--card);border:1px solid var(--rule);padding:8px 11px;text-decoration:none;font-size:14px}details{border-top:1px solid var(--rule);margin-top:16px;padding-top:5px}summary{cursor:pointer;color:var(--blue);padding:9px 0;font-weight:650}footer{border-top:1px solid var(--rule);margin-top:34px;padding-top:15px;font-size:12px;color:var(--muted)}code{font:12px ui-monospace,Consolas,monospace;background:#edf1ef;padding:2px 4px} @media(max-width:760px){main{width:calc(100% - 28px);padding-top:20px}h1{font-size:27px}h2{font-size:21px}.lead{font-size:16px}.cards,.checks{grid-template-columns:1fr}.chain{grid-template-columns:1fr;gap:5px}.chain span{transform:rotate(90deg);line-height:1.1}th,td{padding:9px 10px}.metric{font-size:21px}}
+@media print{body{background:white}main{width:100%;padding:0}.links{display:none}details{display:none}.card,.check,.status,.warn{break-inside:avoid}}
+</style>
+</head>
+<body><main>
+<p class="meta">2026-11-04 · 合作者审查入口 · 先看设计、建模和数值干实验</p>
+<h1>两题当前方案：可以介入审查，但还不能写成无条件完成</h1>
+<p class="lead">现在适合让熟悉该方向的博士合作者介入。结构、材料输入、求解链和主要失败边界已经固定到可以逐项检查；审查重点应放在材料—工艺迁移、器件边界和指标口径，而不是重新从文献目录开始。</p>
+<div class="status"><strong>交付身份：</strong>附明确材料与工艺条件的可复算仿真方案。题一固定七层，题二固定 10 mm 自由空间输出布局；数值干实验已完成，物理制样/实测数据当前没有纳入结果。</div>
+<div class="links"><a href="#design">先看两题设计</a><a href="#model">再看建模链</a><a href="#dry">数值干实验</a><a href="#strict-a">严格折射率 A</a><a href="#review">建议审查清单</a><a href="q1-candidates.html#research-closeout">完整阶段报告</a><a href="q1-candidates.html#research-closeout">下载复算包</a></div>
+
+<h2 id="design">1. 先看保留设计和结果</h2>
+<div class="cards">
+<section class="card"><div class="label">题一 · 透明辐射制冷</div><h3>PEI 侧入射的共享七层</h3><p><strong>PEI 9 µm / TiO₂ 123 nm / Al₂O₃ 178 nm / TiO₂ 123 nm / Al₂O₃ 178 nm / ITO 870 nm / Al₂O₃ 60 nm</strong></p><p class="metric">72.6483% · 26.4870% · 69.8246%<small><br>VIS 保守下界 · NIR 透射 · MIR 吸收</small></p><p>9 个源响应 × 39 个几何情景，共 351 个有限情景全部通过，最小余量 1.4891 个百分点。覆盖太阳吸热 133.8406 W/m²；ITO 约占其中 96.8%。</p><p class="small">这是 B 分支的条件候选：在声明的参考波长/状态和真实复谱条件下计算。不是制造良率，也不是实际净降温实测。</p></section>
+<section class="card"><div class="label">题二 · 电压 / 温度双响应</div><h3>独立液晶盒 + 实体输出选择</h3><p><strong>独立双液晶盒、2 µm EPO-TEK 301-2 胶、5 µm 倾斜 Ni 输出屏；10 mm 传播距离、25° 屏、400 µm 中心孔、20 × 15 mm 投影屏</strong></p><p class="metric">38.8623 pp · 32.2329 pp<small><br>指定胶 k=.005 时的单次前向 VIS / NIR 调制</small></p><p>7 个有限装配情景的最低值为 34.7325 / 29.4086 pp。该结果针对自由空间组装与实体屏定义，尚未把反馈、热复位和逐谱串扰变成已认证指标。</p><p class="small">这是器件级条件模拟，不是“单片薄膜”结果；屏、胶、封边和实际液晶返回路径仍是审查重点。</p></section>
+</div>
+
+<h2 id="model">2. 建模链：每一步对应什么物理问题</h2>
+<div class="chain"><div><b>真实或冻结材料复响应</b>PEI、ITO、TiO₂、Al₂O₃；E7/5CB 各向异性状态；胶与实体屏按声明情景加入。</div><span>→</span><div><b>器件传播模型</b>题一用相干多层 TMM；题二用四态纹理、有限传播/收光和输出屏；对局部分层再用 dtmm 对照。</div><span>→</span><div><b>指标与失效归因</b>三带平均、四态调制、层内吸热、热史曲率/应力、逐谱串扰；同时保留负例和输入缺口。</div></div>
+<table><thead><tr><th>问题</th><th>当前模型已经回答</th><th>当前模型没有冒充回答</th></tr></thead><tbody>
+<tr><td>题一光学</td><td>351 个源谱 × 几何有限联合情景；厚度、角度、正反方向和层内吸收诊断。</td><td>连续制造公差、同一低温制程的全谱、真实界面粗糙/裂纹与全天气净制冷。</td></tr>
+<tr><td>题一工艺</td><td>18 个沉积热史情景：层锁定、可逆热应变、不可逆自然收缩和载架边界。</td><td>实测收缩曲线、有限膜非线性形状、蠕变、附着/界面失效认证。</td></tr>
+<tr><td>题二数值</td><td>四态主响应、有限屏/收光布局，以及 176 个 dtmm 局部分层复核。</td><td>横向光栅全器件、真实 301-2 长 NIR 复谱、热循环自动复位和未定义的严格解耦容差。</td></tr>
+</tbody></table>
+
+<h2 id="dry">3. 数值干实验：已经做过的可复算检查</h2>
+<p class="small">这里的“干实验”指离线数值试验，不是物理制样或光学台实测。其价值是把结构是否值得继续、代码是否可能错、哪个输入最敏感先分开。</p>
+<div class="checks">
+<div class="check"><strong>351/351</strong><p>题一共享七层在 9×39 个有限源/几何情景中通过；Franta 氧化物备选也通过，但余量仅 0.2561 pp。</p></div>
+<div class="check"><strong>18</strong><p>题一沉积热史诊断。镀前尺寸稳定且载架放行时，不增加该次收缩失配；受阻或镀后收缩会把曲率推到 264.290 m⁻¹。</p></div>
+<div class="check"><strong>176</strong><p>题二 dtmm 对照。复散射块最大差 1.10×10⁻¹³，R/T 最大差 4.51×10⁻¹⁴；故意错序和省略回返会显著偏离。</p></div>
+<div class="check"><strong>7 点</strong><p>题二有限装配情景最低仍为 34.7325 / 29.4086 pp；这支持继续审查布局，不等于制造闭合。</p></div>
+</div>
+<div class="warn"><strong>一个关键负结果：</strong>题一指定部分热账本约为 −52.985 W/m²（天空交换减已覆盖太阳吸热的简化诊断）。因此不能把“三带通过”改写成已实现日间净制冷。</div>
+
+<h2 id="strict-a">4. 严格折射率 A 为什么不通过</h2>
+<p>当前采用两种口径并列报告。<strong>A</strong> 要求所有保留材料、全部目标波段和工作态逐点满足 <code>1.5 ≤ Re(n) ≤ 3</code>；<strong>B</strong> 只要求在声明的参考波长、温度和状态下标称 n 落在区间，同时保留真实全谱复响应并公开越界。</p>
+<div class="scroll"><table><thead><tr><th>材料源</th><th>参考点（约 589 nm）</th><th>全谱越界示例</th><th>判断</th></tr></thead><tbody>
+<tr><td>Hillier ITO</td><td>Re(n)=2.0208</td><td>2 µm：0.5736；12 µm：3.5417</td><td>A 失败，B 参考点通过</td></tr>
+<tr><td>Franta Al₂O₃</td><td>Re(n)=1.6536</td><td>10 µm：0.8331</td><td>A 失败，B 参考点通过</td></tr>
+<tr><td>Siefke TiO₂</td><td>Re(n)=2.4108</td><td>10 µm：1.1987</td><td>A 失败，B 参考点通过</td></tr>
+</tbody></table></div>
+<div class="warn danger"><strong>这不是求解器坏了，也不是把厚度调一调就能修好。</strong>A 失败来自材料色散本身：同一材料在目标波段的 Re(n) 真实值落到 1.5 以下或高于 3。改变层厚只能改变干涉和带平均响应，不能改变材料的 Re(n)。因此当前组合只能写成 B 条件候选；若老师把 A 作为硬约束，就必须换材料/机制并重新建模。PEI 380–400 nm 缺谱属于“未知”，不能当成已经观测到的 A 违例。</div>
+
+<h2 id="review">5. 现在请合作者重点审查什么</h2>
+<ol class="review"><li><strong>先确认题意口径：</strong>严格 A 是硬门槛，还是允许 B 的参考点口径？若是 A，当前七层和题二材料账本应直接判为不合格候选。</li><li><strong>审题一材料—工艺迁移：</strong>源谱膜厚/基底与目标 PEI、低温沉积、ITO 直接接触界面是否可以给出一个有依据的复谱和应变范围；不要把相邻文献的单步工艺当成完整流程证明。</li><li><strong>审题二器件边界：</strong>2 µm 胶在 0.78–2.5 µm 的真实复响应、实际配向/保护/封边、冷热复位，以及逐谱串扰容差如何定义。</li><li><strong>审数值实现：</strong>复算包中的 351、18、176 三组检查是否足以支撑当前结论；若发现模型边界问题，应指出它影响的是哪一题、哪一个指标。</li></ol>
+
+<h2 id="appendix">6. 后置材料与文献入口</h2>
+<details><summary>展开来源、输入缺口与完整复算路径</summary><p>公开资源检索、样品身份、工艺温度、厚度/基底要求和缺谱清单集中在 <a href="q1-candidates.html#research-closeout">两题阶段输入条件</a> 与 <a href="q1-candidates.html#open-resources">题一公开资源索引</a>。完整结果、历史候选和原始负例见 <a href="q1-candidates.html#research-closeout">阶段报告</a>。</p><p>复算命令：<code>python -m pip install -r requirements.txt</code>；<code>python -B scripts/reproduce_input_closeout.py --out replay-results</code>。可用 <code>--suite q1</code>、<code>--suite history</code> 或 <code>--suite q2</code> 单独重算。</p><p>文献优先级已收束为输入合同：同一样品身份 + 工艺 + 厚度/底层 + 完整 n/k 或可辨识原始光谱。没有这些条件时，不拼接不同样品来“补齐”复谱。</p></details>
+
+<footer>本页用于快速介入审查；不替代完整报告。当前声明仍是条件仿真方案，未宣称严格 A、完整制造、物理实测或原题无条件完成。<br><a href="q1-candidates.html">完整报告</a> · <a href="q1-candidates.html#research-closeout">复算包</a> · <a href="https://zx070326-hash.github.io/ai-native4material-web/">公开成果页</a></footer>
+</main></body></html>
+
+
