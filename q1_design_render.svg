@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 720" role="img" aria-labelledby="q1-render-title q1-render-desc">
+  <title id="q1-render-title">题一共享厚度七层候选结构渲染</title>
+  <desc id="q1-render-desc">从 PEI 一侧入射的七层平面薄膜、三带仿真指标和建议工艺顺序。图中层高为示意比例，标签给出真实法向厚度。</desc>
+  <defs>
+    <linearGradient id="render-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5faf7"/><stop offset="1" stop-color="#eef5f5"/></linearGradient>
+    <linearGradient id="ito-glow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d8c7ee"/><stop offset=".5" stop-color="#bda6de"/><stop offset="1" stop-color="#d8c7ee"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#216d68"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#246b87"/></marker>
+    <style>
+      .title{font:700 23px system-ui,"Microsoft YaHei",sans-serif;fill:#213c41}
+      .subtitle{font:13px system-ui,"Microsoft YaHei",sans-serif;fill:#526b70}
+      .label{font:700 14px system-ui,"Microsoft YaHei",sans-serif;fill:#213c41}
+      .layer-name{font:700 15px system-ui,"Microsoft YaHei",sans-serif;fill:#213c41}
+      .layer-thickness{font:600 13px ui-monospace,Consolas,monospace;fill:#3d5559}
+      .metric-name{font:700 14px system-ui,"Microsoft YaHei",sans-serif;fill:#213c41}
+      .metric-value{font:700 17px ui-monospace,Consolas,monospace;fill:#213c41}
+      .metric-note{font:12px system-ui,"Microsoft YaHei",sans-serif;fill:#637177}
+      .flow-title{font:700 13px system-ui,"Microsoft YaHei",sans-serif;fill:#213c41}
+      .flow-copy{font:12px system-ui,"Microsoft YaHei",sans-serif;fill:#526b70}
+      .tiny{font:11px system-ui,"Microsoft YaHei",sans-serif;fill:#637177}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1120" height="720" rx="18" fill="url(#render-bg)" stroke="#cbdcd6"/>
+  <text x="42" y="42" class="title">共享厚度七层 · PEI 朝天空入射</text>
+  <text x="42" y="68" class="subtitle">条件候选（B 口径） · 351/351 有限联合情景通过 · 最小余量 1.489 pp</text>
+  <rect x="823" y="24" width="246" height="35" rx="17" fill="#fff0d9" stroke="#d5ad6d"/>
+  <text x="946" y="47" text-anchor="middle" class="label" fill="#8b631e">A：全谱折射率仍未通过</text>
+
+  <text x="78" y="103" class="label">结构截面（示意比例）</text>
+  <line x1="48" y1="121" x2="48" y2="490" stroke="#246b87" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <text x="23" y="113" class="tiny" transform="rotate(-90 23 113)">天空 / 入射</text>
+  <rect x="78" y="128" width="482" height="360" rx="7" fill="#fff" stroke="#b9cfca" stroke-width="2"/>
+  <rect x="78" y="128" width="482" height="132" rx="5" fill="#dcefe8" stroke="#1f6862" stroke-width="2"/><text x="96" y="199.0" class="layer-name">PEI</text><text x="535" y="199.0" text-anchor="end" class="layer-thickness">9000 nm</text><rect x="78" y="260" width="482" height="32" rx="5" fill="#b8d7ef" stroke="#255f84" stroke-width="2"/><text x="96" y="281.0" class="layer-name">TiO₂  H₁</text><text x="535" y="281.0" text-anchor="end" class="layer-thickness">123 nm</text><rect x="78" y="292" width="482" height="38" rx="5" fill="#f3e1b7" stroke="#8b631e" stroke-width="2"/><text x="96" y="316.0" class="layer-name">Al₂O₃  L₁</text><text x="535" y="316.0" text-anchor="end" class="layer-thickness">178 nm</text><rect x="78" y="330" width="482" height="32" rx="5" fill="#b8d7ef" stroke="#255f84" stroke-width="2"/><text x="96" y="351.0" class="layer-name">TiO₂  H₂</text><text x="535" y="351.0" text-anchor="end" class="layer-thickness">123 nm</text><rect x="78" y="362" width="482" height="38" rx="5" fill="#f3e1b7" stroke="#8b631e" stroke-width="2"/><text x="96" y="386.0" class="layer-name">Al₂O₃  L₂</text><text x="535" y="386.0" text-anchor="end" class="layer-thickness">178 nm</text><rect x="78" y="400" width="482" height="66" rx="5" fill="#d8c7ee" stroke="#68458b" stroke-width="2"/><text x="96" y="438.0" class="layer-name">ITO</text><text x="535" y="438.0" text-anchor="end" class="layer-thickness">870 nm</text><rect x="78" y="466" width="482" height="22" rx="5" fill="#f3e1b7" stroke="#8b631e" stroke-width="2"/><text x="96" y="482.0" class="layer-name">Al₂O₃  cap</text><text x="535" y="482.0" text-anchor="end" class="layer-thickness">60 nm</text>
+  <line x1="78" y1="503" x2="560" y2="503" stroke="#216d68" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="78" y="526" class="tiny">光学顺序：PEI → 反射氧化物对 → ITO → 帽层</text>
+  <text x="78" y="546" class="tiny">标签为真实法向厚度；层高为可读性渲染，不是几何比例。</text>
+
+  <rect x="650" y="92" width="420" height="414" rx="12" fill="#fff" stroke="#cbdcd6"/>
+  <text x="682" y="125" class="label">三带仿真读出</text>
+  <text x="682" y="148" class="tiny">参考波段：VIS 380–780 nm · NIR 780–2500 nm · MIR 8–13 µm</text>
+  <text x="718" y="225" class="metric-name">VIS 透过率下界</text><text x="1018" y="225" text-anchor="end" class="metric-value">72.65%</text><rect x="718" y="235" width="220" height="24" rx="12" fill="#edf2ef"/><rect x="718" y="235" width="159.8" height="24" rx="12" fill="#247c76"/><line x1="872.0" y1="230" x2="872.0" y2="264" stroke="#8d4c39" stroke-width="2" stroke-dasharray="4 3"/><text x="718" y="278" class="metric-note">阈值 70% · 越高越好</text><text x="718" y="307" class="metric-name">NIR 透过率</text><text x="1018" y="307" text-anchor="end" class="metric-value">26.49%</text><rect x="718" y="317" width="220" height="24" rx="12" fill="#edf2ef"/><rect x="718" y="317" width="58.3" height="24" rx="12" fill="#2d6f9a"/><line x1="784.0" y1="312" x2="784.0" y2="346" stroke="#8d4c39" stroke-width="2" stroke-dasharray="4 3"/><text x="718" y="360" class="metric-note">阈值 30% · 越低越好</text><text x="718" y="389" class="metric-name">MIR 发射率</text><text x="1018" y="389" text-anchor="end" class="metric-value">69.82%</text><rect x="718" y="399" width="220" height="24" rx="12" fill="#edf2ef"/><rect x="718" y="399" width="153.6" height="24" rx="12" fill="#b4772d"/><line x1="828.0" y1="394" x2="828.0" y2="428" stroke="#8d4c39" stroke-width="2" stroke-dasharray="4 3"/><text x="718" y="442" class="metric-note">阈值 50% · 越高越好</text>
+  <line x1="682" y1="466" x2="1038" y2="466" stroke="#d8e0de"/>
+  <text x="682" y="489" class="tiny">覆盖太阳吸热：133.84 W/m²</text>
+  <text x="1038" y="489" text-anchor="end" class="tiny">ITO 约占 96.76%</text>
+
+  <text x="42" y="585" class="label">建议的工艺顺序（条件性）</text>
+  <g>
+    <rect x="42" y="602" width="236" height="70" rx="10" fill="#e4f1eb" stroke="#83b9a8"/>
+    <text x="58" y="625" class="flow-title">1 · PEI 基膜</text><text x="58" y="648" class="flow-copy">预除气 / 尺寸稳定 / 载架参考</text>
+    <line x1="286" y1="637" x2="313" y2="637" stroke="#216d68" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="324" y="602" width="236" height="70" rx="10" fill="#e4eef6" stroke="#8bb0cc"/>
+    <text x="340" y="625" class="flow-title">2 · 反射氧化物</text><text x="340" y="648" class="flow-copy">TiO₂ / Al₂O₃ 两对，先于 ITO</text>
+    <line x1="568" y1="637" x2="595" y2="637" stroke="#216d68" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="606" y="602" width="236" height="70" rx="10" fill="#efe6f7" stroke="#b19bcc"/>
+    <text x="622" y="625" class="flow-title">3 · ITO 870 nm</text><text x="622" y="648" class="flow-copy">锁定应变与温史需实测输入</text>
+    <line x1="850" y1="637" x2="877" y2="637" stroke="#216d68" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="888" y="602" width="190" height="70" rx="10" fill="#f8efd9" stroke="#d4b16a"/>
+    <text x="904" y="625" class="flow-title">4 · 帽层 / 释放</text><text x="904" y="648" class="flow-copy">夹持边界与残余收缩</text>
+  </g>
+  <text x="42" y="700" class="tiny">渲染用途：帮助审查层序、入射方向和指标关系；不替代连续公差、有限膜形状或制造认证。</text>
+</svg>
