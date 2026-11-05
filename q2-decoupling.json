@@ -1,5 +1,6 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
+  "research_started": "2026-11-05",
   "readouts": [
     {
       "label": "A／DLC10／双胞",
@@ -66,7 +67,20 @@
         0.0011887961513133232,
         0.8415369045828809
       ],
-      "nodes": 1425
+      "nodes": 1425,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "题二旧A候选"
     },
     {
       "label": "B／600µm孔／双胞",
@@ -133,10 +147,183 @@
         0.0002543765507314505,
         0.8905567505565982
       ],
-      "nodes": 1425
+      "nodes": 1425,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Source alpha phase/temperature/dichroism/calibration assumptions retained.",
+        "Each row is same-device fixed mask and four states; no combination of different masks.",
+        "Uniform gap samples are not a coherent wedge/bow certificate.",
+        "Finite-envelope optical projection and numerical truncation remain approximations.",
+        "StrictA failure, nominalB/source migration and full retained material inventory remain.",
+        "No crosstalk threshold or strict-decoupling pass inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "题二旧B／600孔"
     },
     {
-      "label": "decouple-external-127",
+      "label": "assembly-y750-hiresZnO-source25127",
+      "spectra": "runs/20261105-q2-finish-assembly-y750-hiresZnO-source25-readout127-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-assembly-y750-hiresZnO-source25-readout127-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.55504149952262,
+        16.83936091170144
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6758987377586178,
+            0.6735201168268727
+          ],
+          [
+            0.2534046976519524,
+            0.2571512589371609
+          ]
+        ],
+        "NIR": [
+          [
+            0.6144417289028721,
+            0.432340831673875
+          ],
+          [
+            0.6048850181500662,
+            0.43649140903305184
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.2378620931745213,
+            0.37465612852084895
+          ],
+          "mean_absolute_spectral_pp": [
+            9.903966891053692,
+            5.187739832330197
+          ],
+          "sampled_peak_absolute_pp": [
+            27.045058845616616,
+            16.84915925160434
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.9556710752805966,
+            0.4150577359176643
+          ],
+          "mean_absolute_spectral_pp": [
+            6.276647166870564,
+            4.875722406370593
+          ],
+          "sampled_peak_absolute_pp": [
+            17.846757167838533,
+            20.298512805023794
+          ]
+        }
+      },
+      "T_range": [
+        0.007584552031457188,
+        0.8889362102488231
+      ],
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound",
+      "display_label": "新温依校准ZnO／y750窗"
+    },
+    {
+      "label": "assembly-y750-rawZnO-source25127",
+      "spectra": "runs/20261105-q2-finish-assembly-y750-rawZnO-source25-readout127-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-assembly-y750-rawZnO-source25-readout127-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.862699791791094,
+        16.910436043654265
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6787846278007424,
+            0.6771557521484509
+          ],
+          [
+            0.25350816365084966,
+            0.2575483859190709
+          ]
+        ],
+        "NIR": [
+          [
+            0.6179638363278217,
+            0.43499543011893865
+          ],
+          [
+            0.6083511551290403,
+            0.4392467946924976
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.16288756522918496,
+            0.4040222268221216
+          ],
+          "mean_absolute_spectral_pp": [
+            9.864302250649457,
+            5.172205318641476
+          ],
+          "sampled_peak_absolute_pp": [
+            27.364308392917557,
+            16.82906314767954
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.9612681198781485,
+            0.42513645735591044
+          ],
+          "mean_absolute_spectral_pp": [
+            6.378423280432695,
+            4.942239565223053
+          ],
+          "sampled_peak_absolute_pp": [
+            17.99047282496803,
+            20.72715439192141
+          ]
+        }
+      },
+      "T_range": [
+        0.007607446421117184,
+        0.8931500642394273
+      ],
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "外电极17层／32源／700孔",
       "spectra": "runs/20261105-q2-finish-decouple-external-readout-127-identity-01/spectra.npz",
       "result": "runs/20261105-q2-finish-decouple-external-readout-127-identity-01/results.json",
       "spectrum_key": "total_T",
@@ -200,7 +387,210 @@
         0.0036354634845192245,
         0.850389729124801
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {
+        "main_path_layer_count": 17,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 12.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.353152083061113
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "外电极17层／64源／700孔",
+      "spectra": "runs/20261105-q2-finish-decouple-external17-readout64-127-identity-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-external17-readout64-127-identity-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        37.103775570756966,
+        22.20662804064543
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.5769795265970115,
+            0.5585579526795672
+          ],
+          [
+            0.1280494327183272,
+            0.11536031509265178
+          ]
+        ],
+        "NIR": [
+          [
+            0.5231989085856713,
+            0.301132628179217
+          ],
+          [
+            0.5250949703348414,
+            0.28667681275891305
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -1.8421573917444283,
+            -1.2689117625675357
+          ],
+          "mean_absolute_spectral_pp": [
+            14.966964088322015,
+            6.338118877830358
+          ],
+          "sampled_peak_absolute_pp": [
+            46.90916729038238,
+            19.34839123761297
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            0.18960617491700243,
+            -1.445581542030399
+          ],
+          "mean_absolute_spectral_pp": [
+            7.952429369285953,
+            5.710122181869761
+          ],
+          "sampled_peak_absolute_pp": [
+            32.109285303347576,
+            37.800496357450406
+          ]
+        }
+      },
+      "T_range": [
+        0.003633824655962311,
+        0.8504284509440941
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "main_path_layer_count": 17,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 12.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.353152083061113
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "外驱动17层／700孔"
+    },
+    {
+      "label": "外电极AR19层／64源／700孔",
+      "spectra": "runs/20261105-q2-finish-decouple-external19-readout64-127-identity-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-external19-readout64-127-identity-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        44.48397222456228,
+        22.124163069057346
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6725863223913989,
+            0.6687662055931932
+          ],
+          [
+            0.14732578931009585,
+            0.14788228743990606
+          ]
+        ],
+        "NIR": [
+          [
+            0.5528594250336825,
+            0.30957843577447725
+          ],
+          [
+            0.5248185907736469,
+            0.30357696008307344
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.3820116798206075,
+            0.055649812981023145
+          ],
+          "mean_absolute_spectral_pp": [
+            7.5973983240002765,
+            6.564093720687218
+          ],
+          "sampled_peak_absolute_pp": [
+            23.718569535267143,
+            24.02353504809277
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -2.804083426003551,
+            -0.6001475691403729
+          ],
+          "mean_absolute_spectral_pp": [
+            8.464091929861507,
+            5.348508617678948
+          ],
+          "sampled_peak_absolute_pp": [
+            54.928920929564384,
+            41.00214819673188
+          ]
+        }
+      },
+      "T_range": [
+        0.003750670619834286,
+        0.8537276058024108
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 12.235,
+        "physical_support_count": 5
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "三胞／DLC／2.5µm",
@@ -267,7 +657,19 @@
         0.0018879364944485758,
         0.8065826878042978
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "三胞／DLC／4µm",
@@ -334,7 +736,19 @@
         0.0016419230613557963,
         0.8284380011565665
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "三胞／SiNx／2.5µm",
@@ -401,10 +815,211 @@
         0.0030228604113365634,
         0.8785655796379376
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {
+        "main_path_layer_count": 16,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 1.5,
+        "physical_support_count": 4
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
-      "label": "decouple-SiNx64-713-600",
+      "label": "decouple-SiNx64-1425-600",
+      "spectra": "runs/20261105-q2-finish-decouple-SiNx-readout64-1425-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-SiNx-readout64-1425-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        43.96102510707626,
+        26.575084314447462
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7309121519706193,
+            0.7291807391119964
+          ],
+          [
+            0.21360702089748204,
+            0.21380152745856207
+          ]
+        ],
+        "NIR": [
+          [
+            0.6226014546828157,
+            0.3568506115383411
+          ],
+          [
+            0.6218562041746819,
+            0.35604505964410965
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.17314128586229302,
+            0.01945065610801378
+          ],
+          "mean_absolute_spectral_pp": [
+            9.552300001215889,
+            4.555748573560821
+          ],
+          "sampled_peak_absolute_pp": [
+            36.94582632665717,
+            24.059827605896047
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.07452505081336662,
+            -0.08055518942321938
+          ],
+          "mean_absolute_spectral_pp": [
+            3.0821777641442356,
+            2.581087263616184
+          ],
+          "sampled_peak_absolute_pp": [
+            22.773818118630263,
+            22.638262051246755
+          ]
+        }
+      },
+      "T_range": [
+        0.003737384270445122,
+        0.8929587257386673
+      ],
+      "nodes": 1425,
+      "source_identity": {
+        "main_path_layer_count": 16,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 1.5,
+        "physical_support_count": 4
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "补偿16层／600孔"
+    },
+    {
+      "label": "decouple-SiNx64-1425-700",
+      "spectra": "runs/20261105-q2-finish-decouple-SiNx-readout64-1425-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-SiNx-readout64-1425-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        50.401005184055336,
+        26.558544049938504
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7300780780438081,
+            0.7287601981124991
+          ],
+          [
+            0.14690960242217288,
+            0.1432545601223068
+          ]
+        ],
+        "NIR": [
+          [
+            0.6221149260796263,
+            0.3565294855802412
+          ],
+          [
+            0.6039672752088417,
+            0.3368506020368541
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.13178799313089576,
+            -0.3655042299866009
+          ],
+          "mean_absolute_spectral_pp": [
+            9.551655321915664,
+            4.692989768174691
+          ],
+          "sampled_peak_absolute_pp": [
+            36.9351696207241,
+            24.134122686101566
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.8147650870784084,
+            -1.967888354338802
+          ],
+          "mean_absolute_spectral_pp": [
+            4.451465861458535,
+            4.062502150315712
+          ],
+          "sampled_peak_absolute_pp": [
+            46.984814140964716,
+            54.78042926996588
+          ]
+        }
+      },
+      "T_range": [
+        0.002742409912035498,
+        0.8927800641773357
+      ],
+      "nodes": 1425,
+      "source_identity": {
+        "main_path_layer_count": 16,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 1.5,
+        "physical_support_count": 4
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "三胞16层／64源／600孔",
       "spectra": "runs/20261105-q2-finish-decouple-SiNx-readout64-713-600-01/spectra.npz",
       "result": "runs/20261105-q2-finish-decouple-SiNx-readout64-713-600-01/results.json",
       "spectrum_key": "total_T",
@@ -468,10 +1083,32 @@
         0.003737384270445122,
         0.8929587257386673
       ],
-      "nodes": 713
+      "nodes": 713,
+      "source_identity": {
+        "main_path_layer_count": 16,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 1.5,
+        "physical_support_count": 4
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
-      "label": "decouple-SiNx64-713-700",
+      "label": "三胞16层／64源／700孔",
       "spectra": "runs/20261105-q2-finish-decouple-SiNx-readout64-713-700-01/spectra.npz",
       "result": "runs/20261105-q2-finish-decouple-SiNx-readout64-713-700-01/results.json",
       "spectrum_key": "total_T",
@@ -535,7 +1172,1734 @@
         0.0027626400291136726,
         0.8927800641773357
       ],
-      "nodes": 713
+      "nodes": 713,
+      "source_identity": {
+        "main_path_layer_count": 16,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 1.5,
+        "physical_support_count": 4
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both15/50C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "decouple-solid-interface64-127-600",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-127-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-127-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        38.83102314420567,
+        23.02759042287894
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7415459233821179,
+            0.7308944250859011
+          ],
+          [
+            0.26527490383387237,
+            0.2695152340942624
+          ]
+        ],
+        "NIR": [
+          [
+            0.589278126723117,
+            0.3521509025402863
+          ],
+          [
+            0.5907512913727416,
+            0.3604753871439522
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -1.0651498296216722,
+            0.4240330260390045
+          ],
+          "mean_absolute_spectral_pp": [
+            7.4885640033597465,
+            4.150527325954594
+          ],
+          "sampled_peak_absolute_pp": [
+            26.025425972002793,
+            14.604758470320578
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            0.14731646496244763,
+            0.8324484603665799
+          ],
+          "mean_absolute_spectral_pp": [
+            2.9661973599818734,
+            2.778463420953034
+          ],
+          "sampled_peak_absolute_pp": [
+            17.729122367078542,
+            16.793270759491552
+          ]
+        }
+      },
+      "T_range": [
+        0.004272785119464715,
+        0.872130844901979
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "solid_interface_note": "No internal air2um. Driver AR83.028893nm is directly bonded to physical passive entranceAl9.8um, continuous same-sourceAl9.883028893um. Screen10mm after FINAL thermalAl exit. Ideal bond, constitutive and process migrations remain conditions.",
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-solid-interface64-127-700",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-127-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-127-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        43.16034656825201,
+        23.153799210371172
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7405519407340884,
+            0.7304796101250826
+          ],
+          [
+            0.2207937205520862,
+            0.22352859361716668
+          ]
+        ],
+        "NIR": [
+          [
+            0.58882458466707,
+            0.3517577253268806
+          ],
+          [
+            0.5798359248597981,
+            0.34829793275608634
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -1.0072330609006035,
+            0.27348730650804276
+          ],
+          "mean_absolute_spectral_pp": [
+            7.482261194716449,
+            4.004770422419322
+          ],
+          "sampled_peak_absolute_pp": [
+            26.018712672799506,
+            13.409564975343786
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.8988659807271964,
+            -0.34597925707942445
+          ],
+          "mean_absolute_spectral_pp": [
+            3.4747142140562306,
+            3.423053724352507
+          ],
+          "sampled_peak_absolute_pp": [
+            30.666839171359182,
+            20.987944733797814
+          ]
+        }
+      },
+      "T_range": [
+        0.004269932278305321,
+        0.871869331976227
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "solid_interface_note": "No internal air2um. Driver AR83.028893nm is directly bonded to physical passive entranceAl9.8um, continuous same-sourceAl9.883028893um. Screen10mm after FINAL thermalAl exit. Ideal bond, constitutive and process migrations remain conditions.",
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-solid-interface64-713-600",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-713-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-713-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        39.15783371174143,
+        23.426228745852207
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7345126964310242,
+            0.734133196617565
+          ],
+          [
+            0.2695054941817765,
+            0.26931389438870784
+          ]
+        ],
+        "NIR": [
+          [
+            0.5954987479210858,
+            0.36118497295559854
+          ],
+          [
+            0.5944834999990172,
+            0.3602212125404951
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.0379499813459264,
+            -0.019159979306886888
+          ],
+          "mean_absolute_spectral_pp": [
+            8.673103661369472,
+            3.1825620868944755
+          ],
+          "sampled_peak_absolute_pp": [
+            31.36757443363201,
+            15.656235147075662
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.10152479220683472,
+            -0.09637604151034265
+          ],
+          "mean_absolute_spectral_pp": [
+            3.038016348181261,
+            2.3668937023462995
+          ],
+          "sampled_peak_absolute_pp": [
+            16.783677865515156,
+            17.086811480650553
+          ]
+        }
+      },
+      "T_range": [
+        0.0038751151014982414,
+        0.8936980549087005
+      ],
+      "nodes": 713,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-solid-interface64-713-700",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-713-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-713-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        43.493135617986006,
+        23.38772996392829
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7334373944094804,
+            0.7336923619782392
+          ],
+          [
+            0.22298333527278558,
+            0.2231598503792611
+          ]
+        ],
+        "NIR": [
+          [
+            0.5950184316432926,
+            0.36077654886538574
+          ],
+          [
+            0.582270911311847,
+            0.34839361167256416
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.025496756875964106,
+            0.017651510647556268
+          ],
+          "mean_absolute_spectral_pp": [
+            8.684368971639376,
+            3.0351238189376
+          ],
+          "sampled_peak_absolute_pp": [
+            31.361374860074935,
+            15.687227618911306
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.2747520331445734,
+            -1.2382937192821752
+          ],
+          "mean_absolute_spectral_pp": [
+            3.8366136061066403,
+            3.1075697148364156
+          ],
+          "sampled_peak_absolute_pp": [
+            39.91827675664983,
+            41.370022658071015
+          ]
+        }
+      },
+      "T_range": [
+        0.0038725783854778643,
+        0.8920275833067854
+      ],
+      "nodes": 713,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-solid-interface64-837-600",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        39.169174734014476,
+        23.45309218420856
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7341719268534547,
+            0.7347140036069589
+          ],
+          [
+            0.269233245442776,
+            0.2696141260622779
+          ]
+        ],
+        "NIR": [
+          [
+            0.5954348267332986,
+            0.360903904891213
+          ],
+          [
+            0.5946946079766289,
+            0.36014014267553685
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.05420767535039825,
+            0.038088061950166785
+          ],
+          "mean_absolute_spectral_pp": [
+            8.649101617884135,
+            3.222831273495651
+          ],
+          "sampled_peak_absolute_pp": [
+            31.36757443363201,
+            15.656235147075662
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.07402187566693214,
+            -0.07637622156764964
+          ],
+          "mean_absolute_spectral_pp": [
+            3.018847403910273,
+            2.361304289510771
+          ],
+          "sampled_peak_absolute_pp": [
+            17.729122367078542,
+            17.086811480650553
+          ]
+        }
+      },
+      "T_range": [
+        0.0038751151014982414,
+        0.8936980549087005
+      ],
+      "nodes": 837,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound",
+      "display_label": "同源全固体连接／热8.55µm"
+    },
+    {
+      "label": "decouple-solid-interface64-837-700",
+      "spectra": "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        43.488181949590675,
+        23.419045321766774
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.7330923006322122,
+            0.7342726104305854
+          ],
+          [
+            0.2226903853733629,
+            0.22325059165952454
+          ]
+        ],
+        "NIR": [
+          [
+            0.5949544818665529,
+            0.3604959500216502
+          ],
+          [
+            0.5824925917853264,
+            0.3483021385676587
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.11803097983741759,
+            0.05602062861617683
+          ],
+          "mean_absolute_spectral_pp": [
+            8.662885575261695,
+            3.097940055694333
+          ],
+          "sampled_peak_absolute_pp": [
+            31.361374860074935,
+            15.687227618911306
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.2461890081226894,
+            -1.2193811453991577
+          ],
+          "mean_absolute_spectral_pp": [
+            3.8181070405226634,
+            3.1024413994406217
+          ],
+          "sampled_peak_absolute_pp": [
+            39.91827675664983,
+            41.370022658071015
+          ]
+        }
+      },
+      "T_range": [
+        0.0038725783854778643,
+        0.8920275833067854
+      ],
+      "nodes": 837,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "physical_interface": "One passive entrance Al2O3 plate9.8um oxide-bonded to existing driver exit AR83.028893nm; old intermodule standoff removed; no adhesive, void, or extra retained film. Contacts/fill tabs outside or notched from overlap; bond before filling.",
+        "internal_air_gap_um": 0.0,
+        "passive_entrance_plate_um": 9.8,
+        "contiguous_Al2O3_block_um": 9.883028893422603,
+        "merged_optical_material_layers": 18,
+        "layer_count_identity": {
+          "physical_retained_entities_including_carbon": 19,
+          "merged_optical_material_layers_including_carbon": 18,
+          "unmerged_pre_screen_computational_material_segments": 20,
+          "unmerged_computational_material_segments_including_carbon": 21,
+          "note": "LC slice subdivisions and zero-thickness air-basis algebraic cuts are not independent material entities. Launch computational_retained_segments20 refers to pre-screen segments only."
+        },
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-source25-AR1964-127-600",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-AR19-readout64-127-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-AR19-readout64-127-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.848710588103096,
+        15.909805374815505
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6783210764687766,
+            0.6768388343896052
+          ],
+          [
+            0.2531508540273759,
+            0.2573787229358884
+          ]
+        ],
+        "NIR": [
+          [
+            0.5657118097865114,
+            0.39348809066090507
+          ],
+          [
+            0.55693435580883,
+            0.39783630206067494
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.14822420791713115,
+            0.4227868908512532
+          ],
+          "mean_absolute_spectral_pp": [
+            9.8602457950794,
+            5.1630442056852255
+          ],
+          "sampled_peak_absolute_pp": [
+            27.349015151761357,
+            16.81969304134033
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.8777453977681114,
+            0.434821139976958
+          ],
+          "mean_absolute_spectral_pp": [
+            5.648604314594152,
+            4.551167510761373
+          ],
+          "sampled_peak_absolute_pp": [
+            17.980747798786567,
+            20.671058450943637
+          ]
+        }
+      },
+      "T_range": [
+        0.0061312460936959485,
+        0.8926537544266061
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 9.8
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "AR19层／新25–50°C源"
+    },
+    {
+      "label": "decouple-source25-AR1964-127-700",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-AR19-readout64-127-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-AR19-readout64-127-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        38.70547910879462,
+        16.01199034912839
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6764912929190121,
+            0.6764031958968875
+          ],
+          [
+            0.2121822567044275,
+            0.2163455210674704
+          ]
+        ],
+        "NIR": [
+          [
+            0.5652487833531592,
+            0.3929595632826489
+          ],
+          [
+            0.5465386561922626,
+            0.3864187527009787
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.008809702212450466,
+            0.4163264363042947
+          ],
+          "mean_absolute_spectral_pp": [
+            9.879401154255415,
+            4.963383459480194
+          ],
+          "sampled_peak_absolute_pp": [
+            27.339108567942926,
+            16.817060751877975
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.871012716089663,
+            -0.6540810581670614
+          ],
+          "mean_absolute_spectral_pp": [
+            6.363671905548863,
+            5.156822478170193
+          ],
+          "sampled_peak_absolute_pp": [
+            34.33742002793618,
+            22.47130407862358
+          ]
+        }
+      },
+      "T_range": [
+        0.006128218355032781,
+        0.892333374682503
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 9.8
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "非同温／非完整器件诊断：freezeDC",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-control-freezeDC-readout600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-control-freezeDC-readout600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        35.15461514781145,
+        16.1065966688911
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6783210764687766,
+            0.6799533844273985
+          ],
+          [
+            0.2531508540273759,
+            0.2572732249767517
+          ]
+        ],
+        "NIR": [
+          [
+            0.5657118097865114,
+            0.4046458430976004
+          ],
+          [
+            0.55693435580883,
+            0.39212982080108066
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.16323079586220082,
+            0.41223709493757804
+          ],
+          "mean_absolute_spectral_pp": [
+            4.682949980736706,
+            1.9881095914726747
+          ],
+          "sampled_peak_absolute_pp": [
+            14.206313267136277,
+            6.6137955324140405
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.8777453977681114,
+            -1.2516022296519542
+          ],
+          "mean_absolute_spectral_pp": [
+            5.648604314594152,
+            4.841394457746226
+          ],
+          "sampled_peak_absolute_pp": [
+            17.980747798786567,
+            16.89473458503159
+          ]
+        }
+      },
+      "T_range": [
+        0.005844975167148679,
+        0.8926537544266061
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5
+      },
+      "diagnostic_control": "freezeDC",
+      "is_physical_same_temperature_candidate": false,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred.",
+        "Frozenmoduletemperaturecontrolsarenotnewuniformtemperaturedevices.",
+        "SinglePassretainsintracellreflectionbutomitscrosscellreturns;lostforwardpowerisNOTabsorption.",
+        "Allotherfield/material/geometry/finitescreenparametersunchanged."
+      ],
+      "constitutive_scope": "Nonphysical diagnostic; module temperatures or cross-module return paths were deliberately frozen/removed. Not a uniform-temperature complete-device candidate. See source_limits.",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "非同温／非完整器件诊断：freezeThermal",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-control-freezeThermal-readout600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-control-freezeThermal-readout600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.690450260191184,
+        0.7915511993826563
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6783210764687766,
+            0.6731328852727149
+          ],
+          [
+            0.2531508540273759,
+            0.25533867200754445
+          ]
+        ],
+        "NIR": [
+          [
+            0.5657118097865114,
+            0.5545105098114719
+          ],
+          [
+            0.55693435580883,
+            0.5648498678026566
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.5188191196061767,
+            0.21878179801685477
+          ],
+          "mean_absolute_spectral_pp": [
+            8.286400528641595,
+            4.510710561439419
+          ],
+          "sampled_peak_absolute_pp": [
+            34.92399541376091,
+            15.990240851260745
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.8777453977681114,
+            1.0339357991184532
+          ],
+          "mean_absolute_spectral_pp": [
+            5.648604314594152,
+            5.407872267217777
+          ],
+          "sampled_peak_absolute_pp": [
+            17.980747798786567,
+            18.974035449327296
+          ]
+        }
+      },
+      "T_range": [
+        0.008575165130293083,
+        0.8926537544266061
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5
+      },
+      "diagnostic_control": "freezeThermal",
+      "is_physical_same_temperature_candidate": false,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred.",
+        "Frozenmoduletemperaturecontrolsarenotnewuniformtemperaturedevices.",
+        "SinglePassretainsintracellreflectionbutomitscrosscellreturns;lostforwardpowerisNOTabsorption.",
+        "Allotherfield/material/geometry/finitescreenparametersunchanged."
+      ],
+      "constitutive_scope": "Nonphysical diagnostic; module temperatures or cross-module return paths were deliberately frozen/removed. Not a uniform-temperature complete-device candidate. See source_limits.",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "非同温／非完整器件诊断：singlePass",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-control-singlePass-readout600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-control-singlePass-readout600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        31.014873136960475,
+        13.926190709043102
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6155701687342946,
+            0.6073767040619369
+          ],
+          [
+            0.23646624097681593,
+            0.22276346198083702
+          ]
+        ],
+        "NIR": [
+          [
+            0.4950387851851371,
+            0.34711047000179135
+          ],
+          [
+            0.49078417691844645,
+            0.35152226982801543
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.8193464672357768,
+            -1.370277899597891
+          ],
+          "mean_absolute_spectral_pp": [
+            6.249099409487286,
+            3.7247957098695412
+          ],
+          "sampled_peak_absolute_pp": [
+            20.742946221821413,
+            14.311864068770294
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.425460826669076,
+            0.44117998262240504
+          ],
+          "mean_absolute_spectral_pp": [
+            4.231752753491107,
+            3.713642503472984
+          ],
+          "sampled_peak_absolute_pp": [
+            13.625372601284358,
+            14.914529699784229
+          ]
+        }
+      },
+      "T_range": [
+        0.0049380170724076305,
+        0.870007374898216
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5
+      },
+      "diagnostic_control": "singlePass",
+      "is_physical_same_temperature_candidate": false,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred.",
+        "Frozenmoduletemperaturecontrolsarenotnewuniformtemperaturedevices.",
+        "SinglePassretainsintracellreflectionbutomitscrosscellreturns;lostforwardpowerisNOTabsorption.",
+        "Allotherfield/material/geometry/finitescreenparametersunchanged."
+      ],
+      "constitutive_scope": "Nonphysical diagnostic; module temperatures or cross-module return paths were deliberately frozen/removed. Not a uniform-temperature complete-device candidate. See source_limits.",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "decouple-source25-phase85564-127-600",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-127-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-127-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.03653595045063,
+        20.210106694978442
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6865871219032996,
+            0.6578829191790196
+          ],
+          [
+            0.25740784031087893,
+            0.24697201443743408
+          ]
+        ],
+        "NIR": [
+          [
+            0.5378751703626701,
+            0.3191310910917434
+          ],
+          [
+            0.5283473816252876,
+            0.3262463146755032
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -2.870420272427997,
+            -1.0435825873444857
+          ],
+          "mean_absolute_spectral_pp": [
+            9.724877540500247,
+            4.129186596141608
+          ],
+          "sampled_peak_absolute_pp": [
+            29.75529238895353,
+            17.333255406250725
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.9527788737382737,
+            0.7115223583759653
+          ],
+          "mean_absolute_spectral_pp": [
+            5.07921991304589,
+            4.025774210598649
+          ],
+          "sampled_peak_absolute_pp": [
+            16.69671600625157,
+            24.601078914428186
+          ]
+        }
+      },
+      "T_range": [
+        0.0032584476764066805,
+        0.8837303091742753
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-source25-phase85564-127-700",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-127-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-127-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        37.5819597686044,
+        20.106223227887345
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6850131265415663,
+            0.6574299362830507
+          ],
+          [
+            0.21029137905389367,
+            0.209198780824057
+          ]
+        ],
+        "NIR": [
+          [
+            0.5374449388567942,
+            0.31858993859212087
+          ],
+          [
+            0.5161216607959087,
+            0.3150594285170353
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -2.7583190258515797,
+            -0.10925982298366302
+          ],
+          "mean_absolute_spectral_pp": [
+            9.661022965157857,
+            3.5617045428509595
+          ],
+          "sampled_peak_absolute_pp": [
+            29.747369566953058,
+            11.367402359792656
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -2.1323278060885946,
+            -0.35305100750855406
+          ],
+          "mean_absolute_spectral_pp": [
+            5.832546374984262,
+            4.526619634547746
+          ],
+          "sampled_peak_absolute_pp": [
+            37.79181535314454,
+            27.101459833292996
+          ]
+        }
+      },
+      "T_range": [
+        0.0032564851204668066,
+        0.8835117256587466
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-source25-phase85564-713-600",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-713-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-713-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        35.508349098049656,
+        21.05414991618135
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6832584449980537,
+            0.6825327357098342
+          ],
+          [
+            0.2568547702817415,
+            0.2550572168920496
+          ]
+        ],
+        "NIR": [
+          [
+            0.5326472297378475,
+            0.3214048839733999
+          ],
+          [
+            0.5314590665837291,
+            0.32091756742191563
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.07257092882203915,
+            -0.1797553389691758
+          ],
+          "mean_absolute_spectral_pp": [
+            8.883428473481688,
+            4.146409076072601
+          ],
+          "sampled_peak_absolute_pp": [
+            36.43507619792155,
+            21.21168981483585
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.11881631541190026,
+            -0.048731655148417444
+          ],
+          "mean_absolute_spectral_pp": [
+            5.414232020780577,
+            3.977856408941488
+          ],
+          "sampled_peak_absolute_pp": [
+            21.345512929289935,
+            23.944961082653936
+          ]
+        }
+      },
+      "T_range": [
+        0.0029290058661604577,
+        0.8930100667969219
+      ],
+      "nodes": 713,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-source25-phase85564-713-700",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-713-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-713-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        39.45239554894307,
+        21.021284835519282
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6816942085206015,
+            0.6820556336012666
+          ],
+          [
+            0.2137742553738323,
+            0.2125123578783072
+          ]
+        ],
+        "NIR": [
+          [
+            0.5321619343141005,
+            0.3209508818121603
+          ],
+          [
+            0.5197580840183841,
+            0.30954523566319125
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.036142508066457635,
+            -0.12618974955251222
+          ],
+          "mean_absolute_spectral_pp": [
+            8.88909791701044,
+            3.974049783486621
+          ],
+          "sampled_peak_absolute_pp": [
+            36.42237640979386,
+            15.452865246451477
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.2403850295716508,
+            -1.140564614896948
+          ],
+          "mean_absolute_spectral_pp": [
+            6.136755304163173,
+            4.608654448275593
+          ],
+          "sampled_peak_absolute_pp": [
+            37.79181535314454,
+            44.62949619535643
+          ]
+        }
+      },
+      "T_range": [
+        0.002927069672481222,
+        0.8900798728560595
+      ],
+      "nodes": 713,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "decouple-source25-phase85564-837-600",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-837-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-837-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        35.48788247651661,
+        21.042161173664642
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6829681564199807,
+            0.6820318737793523
+          ],
+          [
+            0.256779919825069,
+            0.25453576234052994
+          ]
+        ],
+        "NIR": [
+          [
+            0.5323146363112491,
+            0.32129978535431425
+          ],
+          [
+            0.5312769335199287,
+            0.32085532178328224
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.09362826406291544,
+            -0.22441574845390005
+          ],
+          "mean_absolute_spectral_pp": [
+            8.972288857577844,
+            4.1090684957139985
+          ],
+          "sampled_peak_absolute_pp": [
+            36.43507619792155,
+            21.21168981483585
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.10377027913206235,
+            -0.04444635710312498
+          ],
+          "mean_absolute_spectral_pp": [
+            5.4256642069609855,
+            3.9746761922123084
+          ],
+          "sampled_peak_absolute_pp": [
+            21.345512929289935,
+            24.601078914428186
+          ]
+        }
+      },
+      "T_range": [
+        0.0029290058661604577,
+        0.8930100667969219
+      ],
+      "nodes": 837,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound",
+      "display_label": "新温依校准ZnO／热8.55µm"
+    },
+    {
+      "label": "decouple-source25-phase85564-837-700",
+      "spectra": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-837-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-decouple-source25-phase855-readout64-837-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        39.44518923644774,
+        21.00821039505838
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6814061753795121,
+            0.6815594822702332
+          ],
+          [
+            0.21356207815374645,
+            0.21228861999719914
+          ]
+        ],
+        "NIR": [
+          [
+            0.5318298984163001,
+            0.3208454853213331
+          ],
+          [
+            0.5195651562945901,
+            0.3094830523440063
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.01533068907207873,
+            -0.1273458156547261
+          ],
+          "mean_absolute_spectral_pp": [
+            8.976749112482585,
+            3.9263840611792826
+          ],
+          "sampled_peak_absolute_pp": [
+            36.42237640979386,
+            15.452865246451477
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.2264742121710364,
+            -1.1362432977327335
+          ],
+          "mean_absolute_spectral_pp": [
+            6.145936617635927,
+            4.608448937492986
+          ],
+          "sampled_peak_absolute_pp": [
+            37.79181535314454,
+            44.62949619535643
+          ]
+        }
+      },
+      "T_range": [
+        0.002927069672481222,
+        0.8900798728560595
+      ],
+      "nodes": 837,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 8.55,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
     },
     {
       "label": "双胞／DLC12nm",
@@ -602,7 +2966,19 @@
         0.0013784606773676413,
         0.8314050110815872
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "双胞／DLC20nm",
@@ -669,7 +3045,19 @@
         0.0009800297605965821,
         0.8212667232859948
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "三胞／SiNx／损耗压力／600孔",
@@ -736,7 +3124,19 @@
         0.0032778329392769215,
         0.7437722175432985
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "三胞／SiNx／损耗压力／700孔",
@@ -803,7 +3203,19 @@
         0.002110825568964683,
         0.7426662357109531
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     },
     {
       "label": "双胞／SiNx20nm",
@@ -870,7 +3282,408 @@
         0.002507805767168074,
         0.8816469798145611
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "SiNxoptical/dielectric/assignedanchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "SiNx双胞"
+    },
+    {
+      "label": "material-ZnO-hires-new25127-600",
+      "spectra": "runs/20261105-q2-finish-material-ZnO-hires-new25-readout127-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-ZnO-hires-new25-readout127-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        34.54116249422961,
+        15.847527058876809
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.675436231493016,
+            0.6732045014205859
+          ],
+          [
+            0.2530474874331622,
+            0.2569817383234321
+          ]
+        ],
+        "NIR": [
+          [
+            0.562604698255858,
+            0.39114369952880723
+          ],
+          [
+            0.5538743895198593,
+            0.39539911893109125
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.22317300724301142,
+            0.3934250890269798
+          ],
+          "mean_absolute_spectral_pp": [
+            9.89993092461345,
+            5.178637010690218
+          ],
+          "sampled_peak_absolute_pp": [
+            27.029943164482678,
+            16.839780356838286
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.8730308735998544,
+            0.42554194022840824
+          ],
+          "mean_absolute_spectral_pp": [
+            5.56246490938326,
+            4.492014089171667
+          ],
+          "sampled_peak_absolute_pp": [
+            17.837112360748286,
+            20.243575692835957
+          ]
+        }
+      },
+      "T_range": [
+        0.006112408743165532,
+        0.8884845727403408
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 9.8,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+        "actual_source_fields": "runs/20261105-q2-finish-source25-combined64-01"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound",
+      "display_label": "AR19层／新温依校准ZnO"
+    },
+    {
+      "label": "material-ZnO-hires-new25127-700",
+      "spectra": "runs/20261105-q2-finish-material-ZnO-hires-new25-readout127-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-ZnO-hires-new25-readout127-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        38.39478918479945,
+        15.949372554038376
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6736052191615863,
+            0.6727698308776447
+          ],
+          [
+            0.21207576490780308,
+            0.21598257630080844
+          ]
+        ],
+        "NIR": [
+          [
+            0.5621435555628655,
+            0.39061710765158225
+          ],
+          [
+            0.5434899225041049,
+            0.3839961969637211
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.0835388283941537,
+            0.3906811393005391
+          ],
+          "mean_absolute_spectral_pp": [
+            9.915254675814829,
+            4.972501772745825
+          ],
+          "sampled_peak_absolute_pp": [
+            27.02005855958533,
+            16.836818614561764
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.8653633058760364,
+            -0.6620910687861092
+          ],
+          "mean_absolute_spectral_pp": [
+            6.277417920158043,
+            5.0968226350747745
+          ],
+          "sampled_peak_absolute_pp": [
+            34.316916544124766,
+            22.49409092716368
+          ]
+        }
+      },
+      "T_range": [
+        0.0061093906393791565,
+        0.8880083320481824
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          25,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 9.235,
+        "physical_support_count": 5,
+        "thermal_LC_um": 9.8,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+        "actual_source_fields": "runs/20261105-q2-finish-source25-combined64-01"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[25, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "25/50°C; digitized pure-E7 1kHz dielectric anisotropy; epsilon_perp(50°C), K(T)/K3 and anchoring remain transferred/model conditions; external 9.235V; thermal thickness is retained in source_identity or the exact result receipt, not inferred from a previous candidate",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
+    },
+    {
+      "label": "material-ZnO-hires-old15127-600",
+      "spectra": "runs/20261105-q2-finish-material-ZnO-hires-old15-readout127-600-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-ZnO-hires-old15-readout127-600-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        38.50638132804498,
+        22.112107264598247
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6715728027659665,
+            0.6658197775333298
+          ],
+          [
+            0.2136108940497036,
+            0.20178593072812126
+          ]
+        ],
+        "NIR": [
+          [
+            0.5501739837832808,
+            0.30838736447927045
+          ],
+          [
+            0.540238347980712,
+            0.31911727533472956
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.5753025232636804,
+            -1.1824963321582365
+          ],
+          "mean_absolute_spectral_pp": [
+            7.638623422509097,
+            6.462873749066718
+          ],
+          "sampled_peak_absolute_pp": [
+            23.8979730990736,
+            22.709180703964265
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.993563580256873,
+            1.0729910855459335
+          ],
+          "mean_absolute_spectral_pp": [
+            6.96917513792447,
+            4.374092216605619
+          ],
+          "sampled_peak_absolute_pp": [
+            21.44510903361819,
+            22.948549391548678
+          ]
+        }
+      },
+      "T_range": [
+        0.0037434035505688685,
+        0.8460288027627432
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          15,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 12.235,
+        "physical_support_count": 5,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+        "actual_source_fields": "runs/20261105-q2-finish-external-director64-support32-01"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[15, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound",
+      "display_label": "AR19层／旧ε校准ZnO"
+    },
+    {
+      "label": "material-ZnO-hires-old15127-700",
+      "spectra": "runs/20261105-q2-finish-material-ZnO-hires-old15-readout127-700-01/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-ZnO-hires-old15-readout127-700-01/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        44.19211429323372,
+        21.988527382475908
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6695494784582465,
+            0.6653479171815436
+          ],
+          [
+            0.14628105671713132,
+            0.14753618777908337
+          ]
+        ],
+        "NIR": [
+          [
+            0.5496401770437611,
+            0.30791493289230226
+          ],
+          [
+            0.5216475960810699,
+            0.30176232225631083
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.42015612767031185,
+            0.12551310619520128
+          ],
+          "mean_absolute_spectral_pp": [
+            7.6380305459121205,
+            6.478194906958502
+          ],
+          "sampled_peak_absolute_pp": [
+            23.893921462895797,
+            22.72283952636782
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -2.7992580962691282,
+            -0.6152610635991331
+          ],
+          "mean_absolute_spectral_pp": [
+            8.350862753814699,
+            5.293053906313064
+          ],
+          "sampled_peak_absolute_pp": [
+            54.87428667460513,
+            41.00153009392204
+          ]
+        }
+      },
+      "T_range": [
+        0.0037410091553537867,
+        0.845857873163769
+      ],
+      "nodes": 127,
+      "source_identity": {
+        "temperatures_C": [
+          15,
+          50
+        ],
+        "main_path_layer_count": 19,
+        "drive_d_um": 2.5,
+        "fixed_drive_V": 12.235,
+        "physical_support_count": 5,
+        "ZnO_actual_optical_table": "runs\\20261105-q2-finish-material-ZnO-hires-input-01\\ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+        "ZnO_actual_optical_table_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+        "actual_source_fields": "runs/20261105-q2-finish-external-director64-support32-01"
+      },
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Same four-state numerical projection retained; spectral/order/director grids are identified in input receipts, not a universal error certificate.",
+        "SixSiNx20nm films use native-vector n,k from Amato2024sample23028 50-500nmIBSfilm family;20nm is thickness migration; nonzero fittedk retained, including below instrument sensitivity.",
+        "SiNxepsilon7.5, Wa1.14e-4 and Wp2e-4 are transferred scenarios, not same-film measurements;1.5um8direction patterning is not source-certified.",
+        "E7Li2005realn(T), Wu2002isotropic70Calpha transferred to both[15, 50]C axes; continuous same-T anisotropic loss is not measured here.",
+        "ZnO optical graph/parameter normalization and actual electrical transport remain conditional; all nonLCfilm spectra are transferred to both working temperatures.",
+        "Al2O3Franta121.5nmoptical source transferred to8um supports; carbonHagemann response transferred to5um foil. Complete release/seal/assembly not certified.",
+        "Four/five physical supports, real fixed voltage and optional AR are identified by actual optical source receipt; internal16layer results do not establish external17/19layer results.",
+        "Finite hardGaussian/tilted-hole propagation is the same physical-optics envelope approximation, not finite-edge fullMaxwell.",
+        "Ambient air is external environment under retained convention; full retained peripheral inventory and A/B manufacturing conditions remain.",
+        "No user crosstalk acceptance cutoff and no fullA/manufacturing/strict-decoupling closure inferred."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Original 1254x747 Fig5d recalibration; terminal dashed gap uses an explicitly modelled linear tail, not a measured upper bound"
     },
     {
       "label": "三胞／SiNx／600µm孔",
@@ -937,10 +3750,532 @@
         0.00464768046227769,
         0.8799085178827365
       ],
-      "nodes": 127
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "外电极AR19层／64源／600孔",
+      "spectra": "runs/20261105-q2-finish-lead-AR-aperture-01/inner600/spectra.npz",
+      "result": "runs/20261105-q2-finish-lead-AR-aperture-01/inner600/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        38.68918290872433,
+        22.247620123071183
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6746118049432481,
+            0.6692392251546003
+          ],
+          [
+            0.2147256690619395,
+            0.20223576178655892
+          ]
+        ],
+        "NIR": [
+          [
+            0.553394935771799,
+            0.31005231027510205
+          ],
+          [
+            0.5434344082659237,
+            0.3209582070352119
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.5372579788647812,
+            -1.2489907275380574
+          ],
+          "mean_absolute_spectral_pp": [
+            7.597419746763738,
+            6.547173586633232
+          ],
+          "sampled_peak_absolute_pp": [
+            23.722583648208108,
+            24.025795540043276
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.9960527505875323,
+            1.0905896760109777
+          ],
+          "mean_absolute_spectral_pp": [
+            7.080181357250501,
+            4.4284620007415025
+          ],
+          "sampled_peak_absolute_pp": [
+            21.972149143640983,
+            23.071083805995148
+          ]
+        }
+      },
+      "T_range": [
+        0.003753070024533021,
+        0.8538724727997328
+      ],
+      "nodes": 127,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "外驱动AR19层／旧介电条件／600孔",
+      "spectra": "runs/20261105-q2-finish-assembly-AR19-713-readout-01/inner600/spectra.npz",
+      "result": "runs/20261105-q2-finish-assembly-AR19-713-readout-01/inner600/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        39.85986431591211,
+        23.42826040818457
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6847521465304494,
+            0.6856486239500664
+          ],
+          [
+            0.2125430484682166,
+            0.20574543129075082
+          ]
+        ],
+        "NIR": [
+          [
+            0.5488075738244094,
+            0.3142365843591728
+          ],
+          [
+            0.5475157671415777,
+            0.313233163059732
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.08964774196174834,
+            -0.6797617177465951
+          ],
+          "mean_absolute_spectral_pp": [
+            8.928983828160309,
+            6.145062737165842
+          ],
+          "sampled_peak_absolute_pp": [
+            34.64885564957855,
+            33.18854912038963
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.12918066828319474,
+            -0.10034212994402857
+          ],
+          "mean_absolute_spectral_pp": [
+            6.8484493206978305,
+            4.566541451390305
+          ],
+          "sampled_peak_absolute_pp": [
+            26.009506832150358,
+            29.018304242427806
+          ]
+        }
+      },
+      "T_range": [
+        0.00395925898760126,
+        0.8886202426918007
+      ],
+      "nodes": 713,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "AR19层／旧ε旧ZnO"
+    },
+    {
+      "label": "补偿16层／64源／损耗压力／600孔",
+      "spectra": "runs/20261105-q2-finish-material-lossstress64-collected-01/readout713-inner600/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-lossstress64-collected-01/readout713-inner600/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        31.385121294872757,
+        24.550654079799827
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.5443053039550372,
+            0.5434851793197994
+          ],
+          [
+            0.16130402716690284,
+            0.15984895616147873
+          ]
+        ],
+        "NIR": [
+          [
+            0.5540950577087836,
+            0.30858851691078537
+          ],
+          [
+            0.5535287795338125,
+            0.30796802922687183
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.08201246352381142,
+            -0.1455071005424162
+          ],
+          "mean_absolute_spectral_pp": [
+            6.0815029311962965,
+            3.1362502247598782
+          ],
+          "sampled_peak_absolute_pp": [
+            20.275819125354346,
+            13.133133951235997
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -0.056627817497124956,
+            -0.06204876839137216
+          ],
+          "mean_absolute_spectral_pp": [
+            2.5208829384753697,
+            2.0946000447734336
+          ],
+          "sampled_peak_absolute_pp": [
+            15.148456384416676,
+            18.25400827773341
+          ]
+        }
+      },
+      "T_range": [
+        0.0030326249502240256,
+        0.7865929924606367
+      ],
+      "nodes": 713,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "SiNxoptical/dielectric/assignedanchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration",
+      "display_label": "补偿16层／k压力"
+    },
+    {
+      "label": "外驱动AR19层／旧介电条件／700孔",
+      "spectra": "runs/20261105-q2-finish-assembly-AR19-713-readout-01/inner700/spectra.npz",
+      "result": "runs/20261105-q2-finish-assembly-AR19-713-readout-01/inner700/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        46.23089755645193,
+        23.143469703402786
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.6828354213590773,
+            0.6851786965034703
+          ],
+          [
+            0.14356281550168853,
+            0.14477102894763744
+          ]
+        ],
+        "NIR": [
+          [
+            0.5482095936460407,
+            0.3137863143074615
+          ],
+          [
+            0.5279374232822963,
+            0.29650272624826846
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            0.23432751443928482,
+            0.12082134459489056
+          ],
+          "mean_absolute_spectral_pp": [
+            9.008381764565412,
+            6.374018897968109
+          ],
+          "sampled_peak_absolute_pp": [
+            34.64532255952817,
+            33.314531123209804
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -2.0272170363744184,
+            -1.7283588059192736
+          ],
+          "mean_absolute_spectral_pp": [
+            8.327133451048143,
+            5.696703791982941
+          ],
+          "sampled_peak_absolute_pp": [
+            54.928920929564384,
+            52.82598181580009
+          ]
+        }
+      },
+      "T_range": [
+        0.003956292744823311,
+        0.8883499590866996
+      ],
+      "nodes": 713,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "DLCoptical/electrical/anchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
+    },
+    {
+      "label": "补偿16层／64源／损耗压力／700孔",
+      "spectra": "runs/20261105-q2-finish-material-lossstress64-collected-01/readout713-inner700/spectra.npz",
+      "result": "runs/20261105-q2-finish-material-lossstress64-collected-01/readout713-inner700/results.json",
+      "spectrum_key": "total_T",
+      "main_pp": [
+        36.359053793327014,
+        24.53561366342295
+      ],
+      "band_T": {
+        "VIS": [
+          [
+            0.5437082713043457,
+            0.5431626848963745
+          ],
+          [
+            0.10834981032195615,
+            0.10375889102509682
+          ]
+        ],
+        "NIR": [
+          [
+            0.5536785415350446,
+            0.3083224049008151
+          ],
+          [
+            0.5389119551247774,
+            0.2923006533846988
+          ]
+        ]
+      },
+      "cross": {
+        "VIS": {
+          "signed_band_pp": [
+            -0.05455864079710365,
+            -0.4590919296859283
+          ],
+          "mean_absolute_spectral_pp": [
+            6.083404738467767,
+            3.2655828900303216
+          ],
+          "sampled_peak_absolute_pp": [
+            20.272058178095094,
+            13.173977617197307
+          ]
+        },
+        "NIR": {
+          "signed_band_pp": [
+            -1.4766586410267046,
+            -1.6021751516116098
+          ],
+          "mean_absolute_spectral_pp": [
+            3.657830938298054,
+            3.3176685842041023
+          ],
+          "sampled_peak_absolute_pp": [
+            37.76977409661808,
+            41.91212917247743
+          ]
+        }
+      },
+      "T_range": [
+        0.002092114200701269,
+        0.7861127428609944
+      ],
+      "nodes": 713,
+      "source_identity": {},
+      "diagnostic_control": null,
+      "is_physical_same_temperature_candidate": true,
+      "source_limits": [
+        "Pilot spectral/truncation grids only; no convergence certificate.",
+        "Hagemann carbon response transferred to5umfreefoil; process/flatness not certified.",
+        "SiNxoptical/dielectric/assignedanchoring and source-temperature transfers remain explicit conditions.",
+        "Ambientair excluded under ambient convention; retained solid parts inventoried separately.",
+        "No crosstalk acceptance cutoff added; no fullApass or solved claim."
+      ],
+      "constitutive_scope": "15/50°C except frozen B; old K(T)~delta_n(T)^2 and fixed dielectric parameters are model conditions, not same-batch temperature measurements",
+      "ZnO_scope": "Frozen earlier low-resolution graph extraction; not silently updated to the corrected calibration"
     }
   ],
   "full_problem_solved": false,
-  "scope": "Same-device saved four-state spectra; all source/anchoring/process conditions remain. Numerical grid is reported per row. No extra crosstalk acceptance cutoff.",
-  "replay_scope": "Independent saved-spectrum integration and SHA verification, not a full Maxwell/director recomputation."
+  "scope": "Saved four-state same-device candidates and explicitly marked nonphysical causal diagnostics. Candidate classification, source identities and limits are retained per row. All source/anchoring/process conditions remain; grids are reported per row. No extra crosstalk acceptance cutoff.",
+  "replay_scope": "Independent saved-spectrum integration and SHA verification, not a full Maxwell/director recomputation.",
+  "display_readouts": [
+    "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-600-01/results.json",
+    "runs/20261105-q2-finish-decouple-source25-phase855-readout64-837-600-01/results.json",
+    "runs/20261105-q2-finish-material-ZnO-hires-new25-readout127-600-01/results.json",
+    "runs/20261105-q2-finish-assembly-y750-hiresZnO-source25-readout127-01/results.json",
+    "runs/20261105-q2-finish-material-ZnO-hires-old15-readout127-600-01/results.json",
+    "runs/20261105-q2-finish-assembly-AR19-713-readout-01/inner600/results.json",
+    "runs/20261105-q2-finish-decouple-SiNx-readout64-1425-600-01/results.json"
+  ],
+  "current_q2_candidate": {
+    "temperatures_C": [
+      25,
+      50
+    ],
+    "same_fixed_external_voltage_V_RMS": [
+      0,
+      9.235
+    ],
+    "driver_stack_in_order": [
+      "Al2O3 AR83.028893nm",
+      "ZnO99.8nm",
+      "Al2O3 support8um",
+      "SiNx20nm",
+      "E7 driven2.5um",
+      "SiNx20nm",
+      "Al2O3 support8um",
+      "ZnO99.8nm",
+      "Al2O3 oxide bondface83.028893nm contiguous with passive entranceAl9.8um"
+    ],
+    "environment_gap_after_driver_AR_um": 0.0,
+    "passive_thermal_stack_in_order": [
+      "Al2O3 passive entrance plate9.8um",
+      "SiNx20nm",
+      "E7 crossed passive2.5um",
+      "SiNx20nm",
+      "Al2O3 shared support8um",
+      "SiNx20nm",
+      "E7 thermal8.55um",
+      "SiNx20nm",
+      "Al2O3 support8um"
+    ],
+    "collector_after_final_support_mm": 10.0,
+    "collector": "Carbon5um with three x slots[-2500,-600],[-200,200],[600,2500]um; y+-600um;11umshadow;25degtilt",
+    "main_path_solid_layers": 19,
+    "bare_ZnO_contact_standoff_um": null,
+    "thermal_bare_cavity_um": 8.59,
+    "source_fields": "runs/20261105-q2-finish-assembly-phase25-d8p55-source64-01/fields.npz",
+    "source_fields_SHA256": "d281beb19c1504927f336eaac1dd74231ccd7d711903fb167ee0195d4e587e7e",
+    "ZnO_input_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+    "boundary": "Conditional simulation construction, not an unconditional fullA, process, or strict-zero-crosstalk certificate.",
+    "conditions": [
+      "K25=[11.1,6.5,17.1]pN scaled by Li2005 delta_n589(T)^2 is a model, not newly measured K3(T).",
+      "Measured-graph delta_epsilon25/50=12.343049/9.800802; epsilon_perp25=4.886949 held at50 is a model.",
+      "Cross-batch and thin-film/temperature anchoring and complex-spectrum transfers are explicit.",
+      "ZnO final dashed gap is linearly continued as a graphical scenario, not a measured bound.",
+      "Flat nominal optical field is not coupled to capillary bow/CTE/residualstress; assembly sequence and retained peripheral materials remain conditional.",
+      "No-slip ideal full-overlap oxide bond without voids; actual bond/activation/release and CTE/residual stress are not certified. Composite-wall mechanics replaces independent-five-plate model."
+    ],
+    "merged_contiguous_Al2O3_block_um": 9.8830288934226,
+    "merged_optical_material_layers_including_screen": 18,
+    "unmerged_computational_segments_including_screen": 21,
+    "physical_connection": "Existing83.028893nm exitAl2O3 directly dry-bonded to passive entranceAl2O3 plate9.8um; no internalair/standoff/adhesive/extra seed film. Twenty-one computational segments include both split homogeneousAl sections and are not independent retained layers."
+  },
+  "air_gap_reference_candidate": {
+    "temperatures_C": [
+      25,
+      50
+    ],
+    "same_fixed_external_voltage_V_RMS": [
+      0,
+      9.235
+    ],
+    "driver_stack_in_order": [
+      "Al2O3 AR83.028893nm",
+      "ZnO99.8nm",
+      "Al2O3 support8um",
+      "SiNx20nm",
+      "E7 driven2.5um",
+      "SiNx20nm",
+      "Al2O3 support8um",
+      "ZnO99.8nm",
+      "Al2O3 AR83.028893nm"
+    ],
+    "environment_gap_after_driver_AR_um": 2.0,
+    "passive_thermal_stack_in_order": [
+      "Al2O3 support8um",
+      "SiNx20nm",
+      "E7 crossed passive2.5um",
+      "SiNx20nm",
+      "Al2O3 shared support8um",
+      "SiNx20nm",
+      "E7 thermal8.55um",
+      "SiNx20nm",
+      "Al2O3 support8um"
+    ],
+    "collector_after_final_support_mm": 10.0,
+    "collector": "Carbon5um with three x slots[-2500,-600],[-200,200],[600,2500]um; y+-600um;11umshadow;25degtilt",
+    "main_path_solid_layers": 19,
+    "including_internal_air_as_layer_alternative": 20,
+    "bare_ZnO_contact_standoff_um": 2.0830288934226,
+    "thermal_bare_cavity_um": 8.59,
+    "source_fields": "runs/20261105-q2-finish-assembly-phase25-d8p55-source64-01/fields.npz",
+    "source_fields_SHA256": "d281beb19c1504927f336eaac1dd74231ccd7d711903fb167ee0195d4e587e7e",
+    "ZnO_input_SHA256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e",
+    "boundary": "Conditional simulation construction, not an unconditional fullA, process, or strict-zero-crosstalk certificate.",
+    "conditions": [
+      "K25=[11.1,6.5,17.1]pN scaled by Li2005 delta_n589(T)^2 is a model, not newly measured K3(T).",
+      "Measured-graph delta_epsilon25/50=12.343049/9.800802; epsilon_perp25=4.886949 held at50 is a model.",
+      "Cross-batch and thin-film/temperature anchoring and complex-spectrum transfers are explicit.",
+      "ZnO final dashed gap is linearly continued as a graphical scenario, not a measured bound.",
+      "Flat nominal optical field is not coupled to capillary bow/CTE/residualstress; assembly sequence and retained peripheral materials remain conditional."
+    ]
+  }
 }
