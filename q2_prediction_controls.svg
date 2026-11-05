@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="331.2pt" viewBox="0 0 720 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.2 
+L 720 331.2 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 38.868834 295.849572 
+L 716.99976 295.849572 
+L 716.99976 3.00024 
+L 38.868834 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.692967 295.849572 
+L 113.349464 295.849572 
+L 113.349464 85.112981 
+L 69.692967 85.112981 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #1d776e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 201.985383 295.849572 
+L 245.641881 295.849572 
+L 245.641881 85.028305 
+L 201.985383 85.028305 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #1d776e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 334.277799 295.849572 
+L 377.934297 295.849572 
+L 377.934297 88.191722 
+L 334.277799 88.191722 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #1d776e"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 466.570216 295.849572 
+L 510.226713 295.849572 
+L 510.226713 79.337016 
+L 466.570216 79.337016 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #1d776e"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 598.862632 295.849572 
+L 642.51913 295.849572 
+L 642.51913 56.87735 
+L 598.862632 56.87735 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #1d776e"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 113.349464 295.849572 
+L 157.005962 295.849572 
+L 157.005962 199.16337 
+L 113.349464 199.16337 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #2c568b"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 245.641881 295.849572 
+L 289.298378 295.849572 
+L 289.298378 193.112164 
+L 245.641881 193.112164 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #2c568b"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 377.934297 295.849572 
+L 421.590794 295.849572 
+L 421.590794 172.547151 
+L 377.934297 172.547151 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #2c568b"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 510.226713 295.849572 
+L 553.883211 295.849572 
+L 553.883211 167.470763 
+L 510.226713 167.470763 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #2c568b"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 642.51913 295.849572 
+L 686.175627 295.849572 
+L 686.175627 152.761606 
+L 642.51913 152.761606 
+z
+" clip-path="url(#p7d04a747b0)" style="fill: #2c568b"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m8fda2dde03" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8fda2dde03" x="113.349464" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(84.331808 312.039729)">热胞9.8 µm</text>
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(98.173761 325.32601)">127点</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m8fda2dde03" x="245.641881" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(215.230318 312.115354)">仅扩大y口径</text>
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(230.466177 325.465229)">127点</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m8fda2dde03" x="377.934297" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(334.691406 312.050041)">相位预测8.55 µm</text>
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(362.758594 325.336322)">127点</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m8fda2dde03" x="510.226713" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(466.983823 312.072385)">8.55 µm空气接口</text>
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(495.05101 325.358666)">837点</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m8fda2dde03" x="642.51913" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(599.276239 312.039729)">8.55 µm固体接口</text>
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(627.343426 325.32601)">837点</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <path d="M 38.868834 295.849572 
+L 716.99976 295.849572 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <defs>
+       <path id="mc665a8e2d5" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc665a8e2d5" x="38.868834" y="295.849572" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="31.868834" y="300.246135" transform="rotate(-0 31.868834 300.246135)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <path d="M 38.868834 234.839295 
+L 716.99976 234.839295 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mc665a8e2d5" x="38.868834" y="234.839295" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="31.868834" y="239.235857" transform="rotate(-0 31.868834 239.235857)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <path d="M 38.868834 173.829017 
+L 716.99976 173.829017 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc665a8e2d5" x="38.868834" y="173.829017" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="31.868834" y="178.22558" transform="rotate(-0 31.868834 178.22558)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <path d="M 38.868834 112.81874 
+L 716.99976 112.81874 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mc665a8e2d5" x="38.868834" y="112.81874" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="31.868834" y="117.215302" transform="rotate(-0 31.868834 117.215302)">30</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <path d="M 38.868834 51.808462 
+L 716.99976 51.808462 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mc665a8e2d5" x="38.868834" y="51.808462" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="31.868834" y="56.205025" transform="rotate(-0 31.868834 56.205025)">40</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="12.233365" y="149.424906" transform="rotate(-90 12.233365 149.424906)">透射率调控 / pp</text>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 38.868834 112.81874 
+L 716.99976 112.81874 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #1d776e; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 38.868834 173.829017 
+L 716.99976 173.829017 
+" clip-path="url(#p7d04a747b0)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #2c568b; stroke-width: 0.8"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 38.868834 295.849572 
+L 38.868834 3.00024 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 38.868834 295.849572 
+L 716.99976 295.849572 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_15">
+     <path d="M 599.29976 21.693365 
+L 621.29976 21.693365 
+L 621.29976 13.993365 
+L 599.29976 13.993365 
+z
+" style="fill: #1d776e"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="630.09976" y="21.693365" transform="rotate(-0 630.09976 21.693365)">可见主调控下界</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 599.29976 38.721021 
+L 621.29976 38.721021 
+L 621.29976 31.021021 
+L 599.29976 31.021021 
+z
+" style="fill: #2c568b"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="630.09976" y="38.721021" transform="rotate(-0 630.09976 38.721021)">近红外主调控</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7d04a747b0">
+   <rect x="38.868834" y="3.00024" width="678.130926" height="292.849333"/>
+  </clipPath>
+ </defs>
+</svg>

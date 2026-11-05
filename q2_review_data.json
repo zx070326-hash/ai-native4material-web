@@ -1,0 +1,1408 @@
+{
+  "scope": "Q2 conditional same-device simulation; no new physical experiment",
+  "design": {
+    "status": "Conditional all-solid candidate; design communication, not fabrication drawing or manufactured device",
+    "layers_before_screen": [
+      {
+        "role": "入口氧化层 / AR",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 0.08302889342260214,
+        "axial_start_um": 0.0,
+        "axial_end_um": 0.08302889342260214
+      },
+      {
+        "role": "驱动入口电极",
+        "material": "ZnO",
+        "normal_thickness_um": 0.0998,
+        "axial_start_um": 0.08302889342260214,
+        "axial_end_um": 0.18282889342260214
+      },
+      {
+        "role": "驱动入口板",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 8,
+        "axial_start_um": 0.18282889342260214,
+        "axial_end_um": 8.182828893422602
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 8.182828893422602,
+        "axial_end_um": 8.202828893422602
+      },
+      {
+        "role": "电控液晶 · P = 12 µm",
+        "material": "E7",
+        "normal_thickness_um": 2.5,
+        "axial_start_um": 8.202828893422602,
+        "axial_end_um": 10.702828893422602
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 10.702828893422602,
+        "axial_end_um": 10.722828893422601
+      },
+      {
+        "role": "驱动出口板",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 8,
+        "axial_start_um": 10.722828893422601,
+        "axial_end_um": 18.7228288934226
+      },
+      {
+        "role": "驱动出口电极",
+        "material": "ZnO",
+        "normal_thickness_um": 0.0998,
+        "axial_start_um": 18.7228288934226,
+        "axial_end_um": 18.8226288934226
+      },
+      {
+        "role": "出口氧化接合层",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 0.08302889342260214,
+        "axial_start_um": 18.8226288934226,
+        "axial_end_um": 18.9056577868452
+      },
+      {
+        "role": "被动补偿入口板",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 9.8,
+        "axial_start_um": 18.9056577868452,
+        "axial_end_um": 28.7056577868452
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 28.7056577868452,
+        "axial_end_um": 28.7256577868452
+      },
+      {
+        "role": "正交被动补偿 · P = 12 µm",
+        "material": "E7",
+        "normal_thickness_um": 2.5,
+        "axial_start_um": 28.7256577868452,
+        "axial_end_um": 31.2256577868452
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 31.2256577868452,
+        "axial_end_um": 31.2456577868452
+      },
+      {
+        "role": "补偿 / 热胞共享板",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 8,
+        "axial_start_um": 31.2456577868452,
+        "axial_end_um": 39.2456577868452
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 39.2456577868452,
+        "axial_end_um": 39.2656577868452
+      },
+      {
+        "role": "热液晶 · P = 24 µm",
+        "material": "E7",
+        "normal_thickness_um": 8.55,
+        "axial_start_um": 39.2656577868452,
+        "axial_end_um": 47.81565778684521
+      },
+      {
+        "role": "内配向 / 绝缘",
+        "material": "SiNₓ",
+        "normal_thickness_um": 0.02,
+        "axial_start_um": 47.81565778684521,
+        "axial_end_um": 47.83565778684521
+      },
+      {
+        "role": "最终出口板",
+        "material": "Al₂O₃",
+        "normal_thickness_um": 8,
+        "axial_start_um": 47.83565778684521,
+        "axial_end_um": 55.83565778684521
+      }
+    ],
+    "screen": {
+      "material": "Hagemann carbon source transferred to free foil",
+      "normal_thickness_um": 5,
+      "center_distance_from_final_thermal_Al_exit_um": 10000,
+      "tilt_deg": 25,
+      "plane_equation_um": "z=10000+y*tan(25deg)",
+      "projected_external_extent_um": [
+        20000,
+        15000
+      ],
+      "nominal_holes_x_um": [
+        [
+          -2500,
+          -600
+        ],
+        [
+          -200,
+          200
+        ],
+        [
+          600,
+          2500
+        ]
+      ],
+      "nominal_holes_y_um": [
+        -600,
+        600
+      ],
+      "conservative_edge_inset_um": 11,
+      "effective_x_um": [
+        [
+          -2489,
+          -611
+        ],
+        [
+          -189,
+          189
+        ],
+        [
+          611,
+          2489
+        ]
+      ],
+      "effective_y_um": [
+        -589,
+        589
+      ],
+      "legacy_kernel_note": "Geometry/source contains historical Ni names; current screen optical response is carbon."
+    },
+    "counts": {
+      "physical_retained_including_screen": 19,
+      "merged_optical_layers_including_screen": 18,
+      "unmerged_computational_before_screen": 20,
+      "unmerged_computational_including_screen": 21,
+      "physical_support_pieces": 5,
+      "mechanically_connected_wall_assemblies": 4
+    },
+    "thickness_identity": {
+      "contiguous_oxide_plus_passive_Al_um": 9.883028893422603,
+      "mechanical_bonded_wall_depth_um": 17.982828893422603,
+      "prescreen_axial_envelope_um": 55.83565778684521,
+      "normal_layer_thickness_vs_bow": "Solid normal material thickness, whole-wall displacement, and LC normal gap are separate quantities. ZnO separates Al8 from contiguous Al9.883; mechanical17.9828 is not a single Al optical layer."
+    },
+    "local_layout": {
+      "units": "um",
+      "illumination_hard_square_xy": [
+        -75,
+        75
+      ],
+      "Gaussian_waist": 75,
+      "normalization": "Full untruncated Gaussian incident power; exit hard-envelope approximation",
+      "alignment_square_xy": [
+        -105,
+        105
+      ],
+      "LC_ring_inner_outer_radius": [
+        150,
+        170
+      ],
+      "mechanical_clamp_radius_scenario": 150,
+      "bare_cavity_heights": [
+        2.54,
+        2.54,
+        8.59
+      ],
+      "LC_flat_normal_gaps": [
+        2.5,
+        2.5,
+        8.55
+      ],
+      "pattern_period_drive_passive_thermal": [
+        12,
+        12,
+        24
+      ],
+      "eight_step_min_band_drive_thermal": [
+        1.5,
+        3
+      ],
+      "passive_registration_x": 6,
+      "thermal_spatial_and_axis_rotation_deg": 90,
+      "branch_width": 20,
+      "recorded_proposed_ports_xy": [
+        [
+          250,
+          300
+        ],
+        [
+          250,
+          400
+        ],
+        [
+          250,
+          500
+        ]
+      ],
+      "branch_route": "Drawing route schematic; channels at separate LC z levels",
+      "removed_old_intermodule_standoff_radius": [
+        180,
+        200
+      ],
+      "contact_geometry": "Proposed only, outside actual overlap or explicit notch; exact mask dimensions undefined",
+      "substrate_outline_and_overlap_extent": "Not fully dimensioned; not inferred from mechanical circle or pattern square"
+    },
+    "dry_assembly": {
+      "stage_titles": [
+        "Prepare external faces on carrier",
+        "Direct dry oxide bond to single9.8um passive plate",
+        "Prepare exposed inner SiNx/easy-axis faces",
+        "Assemble retained cavity rings and remaining walls",
+        "Fill E7 through separate vented branches/contact electrodes",
+        "Mount carbon screen from final exit reference"
+      ],
+      "removed": "Old intermodule Al standoff; no retained glue, seed layer or internal air",
+      "bond_footprint": "Final83nm oxide must cover actual entire overlap/bond surface, not just optical square",
+      "unproven": [
+        "Surface roughness and activation process",
+        "Final oxide thickness/spectrum after activation",
+        "Released thin Al support flatness and residual stress",
+        "Void-free no-slip direct bond and thermal compatibility",
+        "SiNx anchoring/1.5um easy-axis transfer",
+        "Real contact/branch/edge masks",
+        "Bow-coupled director/optical response"
+      ]
+    },
+    "figure_conventions": {
+      "all_cross_section_heights": "Not to scale; physical layer dimensions printed",
+      "independent_plan_scales": true,
+      "solid_lines": "Defined geometry/material boundaries",
+      "dashed_lines": "Physical same-material bond seam or proposed process boundary, labelled in each drawing",
+      "font": "Arial / Microsoft YaHei / Noto Sans CJK SC; SVG text retained",
+      "minimum_main_text_px": 17,
+      "no_badges": true
+    },
+    "evidence_sha256": {
+      "scripts/build_q1_collaborator_review.py": "9e4cf3432978bbf4386e0163130f070156f23793879ef7cc8f2c6372255a9756",
+      "deliverables/20261104-q1-collaborator-review/q1_academic_design.svg": "4f6e0f485334e4702f22a15dd0901de5c41d325784437d88a80310fdbcf91774",
+      "STATE.md": "8971926400383c658d175adb020dad247cbb63a162024c787035bbbe0777c38f",
+      "runs/20261105-q2-finish-decouple-solid-interface-optics64-127-0-01/launch.json": "6a3fb605c7d1930cb25065aae1cac0369d96509d683155f063282e8405b7679f",
+      "runs/20261105-q2-finish-assembly-d8p55-ledger-01/results.json": "9e5a46b2caa86ea6049a74cc72e75bbe783b9e3e8cf4d27a8081cc8496cffabd",
+      "runs/20261105-q2-finish-assembly-solid-plate-01/results.json": "bc6152cf6689ff87cf8a68ecee31e8b7c02695ffb4cdb2188961f4bdd0cce0e8",
+      "experiments/q2_package_device_20261105.py": "cf7a56cfd8ef7c7ad167c91b0110f2423761ea48730322cb1eae6c8baf3f6c12",
+      "notes/q2_finish_assembly_20261105.md": "800e1b3fae6f1adaa1f5636a727683694de8292dc4af720f1364da402ce5cd8e"
+    },
+    "assets": {
+      "q2_aperture_layout.svg": "6908c4b2415e5c6ca2235536e67b4cc7f0307536220156bb347ae9cd6951dd56",
+      "q2_four_state_spectra.svg": "bc7c655c7107ad4b6e6280f0478a438c2652d9a75c940c8914b053e8d6ad0997",
+      "q2_prediction_controls.svg": "8dc9ed7702ffec27f0273264cd083e245e58e1c683799c4b382691d213deb674",
+      "q2_proposed_dry_assembly.svg": "bb7f4d78b69f2f632fac58cfc0f9954a043536b366027bae5da4832ea35343a8",
+      "q2_stack_cross_section.svg": "c0e2d9b76732345ba0b9c31083b8a1de79aade53697b500c2fc56ee37d0523bb"
+    }
+  },
+  "final": {
+    "actual_wavelengths": 837,
+    "periodic_states": 3348,
+    "main_VIS_lower_NIR_pp": [
+      39.169174734014476,
+      23.45309218420856
+    ],
+    "VIS_thermal_meanabs_peak_pp": [
+      8.649101617884135,
+      31.36757443363201
+    ],
+    "NIR_voltage_meanabs_peak_pp": [
+      3.018847403910273,
+      17.729122367078542
+    ],
+    "four_states": [
+      {
+        "voltage_index": 0,
+        "temperature_index": 0,
+        "external_voltage_V_RMS": 0,
+        "temperature_C": 25,
+        "VIS400_780_mean_T": 0.7341719268534547,
+        "NIR780_2500_mean_T": 0.5954348267332986
+      },
+      {
+        "voltage_index": 0,
+        "temperature_index": 1,
+        "external_voltage_V_RMS": 0,
+        "temperature_C": 50,
+        "VIS400_780_mean_T": 0.7347140036069589,
+        "NIR780_2500_mean_T": 0.360903904891213
+      },
+      {
+        "voltage_index": 1,
+        "temperature_index": 0,
+        "external_voltage_V_RMS": 9.235,
+        "temperature_C": 25,
+        "VIS400_780_mean_T": 0.269233245442776,
+        "NIR780_2500_mean_T": 0.5946946079766289
+      },
+      {
+        "voltage_index": 1,
+        "temperature_index": 1,
+        "external_voltage_V_RMS": 9.235,
+        "temperature_C": 50,
+        "VIS400_780_mean_T": 0.2696141260622779,
+        "NIR780_2500_mean_T": 0.36014014267553685
+      }
+    ],
+    "periodic_numerics": {
+      "actual_unique_wavelengths": 837,
+      "actual_state_count": 3348,
+      "T_range": [
+        0.4113084665679174,
+        0.9907301447289096
+      ],
+      "R_range": [
+        0.0035649354460728314,
+        0.5652542585956797
+      ],
+      "A_range": [
+        0.0007377245464014193,
+        0.14936058812948935
+      ],
+      "max_cascade_residual": 1.0007415106216803e-15,
+      "max_transfer_condition": 5.893716725644467,
+      "scope": "ActualcomputedperiodicRTA/cascadechecks; not material or completefinite-boundarycertificate"
+    },
+    "union837_minus713_main_pp": [
+      0.011341022273043677,
+      0.026863438356354408
+    ],
+    "selected7_point_control": {
+      "wavelength_um": [
+        0.4,
+        0.5230125523012551,
+        0.5900000000000001,
+        0.78,
+        0.86,
+        1.1,
+        2.5
+      ],
+      "point_count": 7,
+      "state_count": 28,
+      "RTA_max_absolute_change_pp": {
+        "R": 0.04276203730487482,
+        "T": 0.041226048214859645,
+        "A": 0.00366957637928933
+      },
+      "common81_hole_projection_max_change_pp": 0.03382968430900579,
+      "common81_field_absolute_max": {
+        "E": 0.00941472449875861,
+        "G": 0.009402948728673189,
+        "RE": 0.03382127046609149,
+        "RG": 0.033858062490117725
+      },
+      "new_tail88_forward_power_max": 0.00018504900419960067,
+      "new_tail88_reflected_power_max": 0.0011968478735591417,
+      "high_all_passive": true,
+      "high_cascade_residual_max": 1.1226435567921847e-15,
+      "modal_power_identity_max_abs": 3.3306690738754696e-16
+    },
+    "metric_scope": "Equal-wavelengthexploration:VIS380-780withuncomputed380-400arbitrarypassivitysubtraction;NIR780-2500minacrossvoltages.PPmeansabsolutetransmittancepercentagepoints,notrelativepercent.",
+    "spectra_path": "runs/20261105-q2-finish-decouple-solid-interface-readout64-837-600-01/spectra.npz",
+    "spectra_sha256": "fda5e57b07c16ab1e0fd2cd5689dde1e07a2f0b0c20b5c7edef1fc0e21282b49"
+  },
+  "constraints": {
+    "A_model_range_pass": true,
+    "A_evidence_closed": false,
+    "B_reference_550nm_25C_model_pass": true,
+    "B_reference_is_not_A": true,
+    "verified_model_n_rows": [
+      {
+        "material": "ZnO",
+        "working_temperatures_C": [
+          25,
+          50
+        ],
+        "model_temperature_policy": "same source complex spectrum at bothT",
+        "loaded_table_range_um": [
+          0.38,
+          2.5
+        ],
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.64614291774,
+        "Re_n_max": 2.3198796113604,
+        "min_at_um": 2.49675324675,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 2.0077902490579,
+        "B_reference_model_pass": true,
+        "method": "Piecewise-linear table: exact extrema over each linearsegment occur at nodes/endpoints, not a dense sample certificate."
+      },
+      {
+        "material": "SiNx",
+        "working_temperatures_C": [
+          25,
+          50
+        ],
+        "model_temperature_policy": "same source complex spectrum at bothT",
+        "loaded_table_range_um": [
+          0.38,
+          2.5
+        ],
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 2.005163717381406,
+        "Re_n_max": 2.1912081507363013,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 2.1068334072156563,
+        "B_reference_model_pass": true,
+        "method": "Piecewise-linear table: exact extrema over each linearsegment occur at nodes/endpoints, not a dense sample certificate."
+      },
+      {
+        "material": "Al2O3",
+        "working_temperatures_C": [
+          25,
+          50
+        ],
+        "model_temperature_policy": "same source complex spectrum at bothT",
+        "loaded_table_range_um": [
+          0.114114,
+          125.124
+        ],
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.6209947329376582,
+        "Re_n_max": 1.6773503830217784,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 1.6560500126160869,
+        "B_reference_model_pass": true,
+        "method": "Piecewise-linear table: exact extrema over each linearsegment occur at nodes/endpoints, not a dense sample certificate."
+      },
+      {
+        "material": "C_screen",
+        "working_temperatures_C": [
+          25,
+          50
+        ],
+        "model_temperature_policy": "same source complex spectrum at bothT",
+        "loaded_table_range_um": [
+          4.133e-05,
+          124.0
+        ],
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.7260812182741117,
+        "Re_n_max": 2.702290322580645,
+        "min_at_um": 0.38,
+        "max_at_um": 2.5,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 1.8384129032258065,
+        "B_reference_model_pass": true,
+        "method": "Piecewise-linear table: exact extrema over each linearsegment occur at nodes/endpoints, not a dense sample certificate."
+      },
+      {
+        "material": "E7_ne",
+        "working_temperature_C": 25,
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.69461968,
+        "Re_n_max": 1.8816004274061742,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 1.7496841267672973,
+        "B_reference_model_pass": true,
+        "n550_at_this_temperature": 1.7496841267672973,
+        "method": "Actual positive-coefficient Cauchy A+B/lambda^2+C/lambda^4; analytic monotonic endpoint extrema; wavelength inum."
+      },
+      {
+        "material": "E7_no",
+        "working_temperature_C": 25,
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.50053024,
+        "Re_n_max": 1.5670598552804231,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": 1.526911781982105,
+        "B_reference_model_pass": true,
+        "n550_at_this_temperature": 1.526911781982105,
+        "method": "Actual positive-coefficient Cauchy A+B/lambda^2+C/lambda^4; analytic monotonic endpoint extrema; wavelength inum."
+      },
+      {
+        "material": "E7_ne",
+        "working_temperature_C": 50,
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.6410711999999998,
+        "Re_n_max": 1.8012064786181814,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": null,
+        "B_reference_model_pass": null,
+        "n550_at_this_temperature": 1.692761389249368,
+        "method": "Actual positive-coefficient Cauchy A+B/lambda^2+C/lambda^4; analytic monotonic endpoint extrema; wavelength inum."
+      },
+      {
+        "material": "E7_no",
+        "working_temperature_C": 50,
+        "target_um": [
+          0.38,
+          2.5
+        ],
+        "Re_n_min": 1.5072233599999998,
+        "Re_n_max": 1.5786039103444571,
+        "min_at_um": 2.5,
+        "max_at_um": 0.38,
+        "A_model_pointwise_range_pass": true,
+        "B_reference_550nm_25C_Re_n": null,
+        "B_reference_model_pass": null,
+        "n550_at_this_temperature": 1.5335833754524963,
+        "method": "Actual positive-coefficient Cauchy A+B/lambda^2+C/lambda^4; analytic monotonic endpoint extrema; wavelength inum."
+      }
+    ],
+    "evidence_limit": "n-range/extremaareactualmodelchecks,notcontinuousmeasuredsame-filmallstateconfidencebound.E7no25at2500nm=1.50053024hasonly0.00053024modelmargin."
+  },
+  "materials": [
+    {
+      "id": "E7_real_n",
+      "role": "Three nematic LC cells: driver2.5um, crossed passive2.5um, thermal8.55um",
+      "source": {
+        "title": "Infrared refractive indices of liquid crystals",
+        "doi": "10.1063/1.1877815",
+        "url": "https://doi.org/10.1063/1.1877815",
+        "source_phase": "E7 nematic at the tabulated15-50C temperatures",
+        "temperature_C": [
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ],
+        "sample_thickness": "Different visible refractometry and infrared wedged-cell measurements; no matching2.5/8.55um patterned-device sample claimed",
+        "source_wavelength_um": [
+          0.45,
+          0.486,
+          0.546,
+          0.589,
+          0.633,
+          0.656,
+          1.55,
+          10.6
+        ]
+      },
+      "actual_use": "Separate25/50C rows of n=A+B/lambda^2+C/lambda^4 for ne/no; voltage changes director only.",
+      "transformation": "Transcribed TableI coefficients; six visible lines fit.380-450nm and continuous NIR are extrapolation;1.55/10.6um are discrete checks, not continuous measured nk.",
+      "unresolved_transfer": "Cross-batch combination with dielectric, anchoring and absorption sources. No continuous same-cell anisotropic complex25/50C spectrum; no below400nm Maxwell result.",
+      "evidence": [
+        {
+          "repository_path": "data/q2_current/Li2005_E7_Cauchy.csv",
+          "sha256": "5bf845d7e8762aff2770c4710bdad622309f25159cadbcede0117694a6e3895d"
+        },
+        {
+          "repository_path": ".worktrees/q2-dual-response/data/literature/q2_lc_thermal_20261101/Li2005_E7_source.json",
+          "sha256": "b80091b6995022fc9e01a6b74b9734d6fb043aec16b0d7d577ec04c869ee1df8"
+        }
+      ]
+    },
+    {
+      "id": "E7_absorption",
+      "role": "Common isotropic loss assigned to both axes in all three LC cells",
+      "source": {
+        "title": "Molecular Design Strategies for High Birefringence Liquid Crystals",
+        "doi": "10.1557/PROC-709-CC7.2.1",
+        "url": "https://lcd.creol.ucf.edu/publications/2002/MRS.pdf",
+        "source_phase": "Merck E7 isotropic",
+        "temperature_C_approx": 70,
+        "sample_path_cm": 2,
+        "reference_path_cm": 0.1,
+        "differential_path_cm": 1.9,
+        "source_figures": "Fig7 400-1700nm; Fig8 1600-3200nm"
+      },
+      "actual_use": "alpha is linearly interpolated then k=alpha_cm^-1*lambda_um*1e-4/(4pi); same k applied to ne/no at25/50C. Final candidate uses nominal curve, not max(k,.001) pressure.",
+      "transformation": "Vector marker digitization and stated natural-log intensity-alpha conversion.380-400nm model holds first alpha; weakly overlapping source graphs joined with traceable data.",
+      "unresolved_transfer": "Isotropic70C→nematic25/50C and axis dichroism unknown. Source Fig8 still labels1.9cm differential path while target-bandalpha~33.7cm^-1 would imply optical depth~64; detector dynamic range/shorter-cell calibration is not documented. This is an unresolved traceability question, not proven invalidation. No KK-consistent joint n,k uncertainty bound.",
+      "evidence": [
+        {
+          "repository_path": "data/q2_parallel_loss_20261105/source_audit.json",
+          "sha256": "887b1920a4905a410102a9c8cbc326d49c658d0a9d0bb051f07e406b38fdfd03"
+        },
+        {
+          "repository_path": "data/q2_parallel_loss_20261105/Wu2002_MRS.pdf",
+          "sha256": "2d640307d8c27017522b10dd42a3e264e0eb8e08fc0535538be5abdb8f5ee347"
+        },
+        {
+          "repository_path": "data/q2_parallel_loss_20261105/Wu2002_E7_graph_alpha_k.csv",
+          "sha256": "db993bda1240c823b2f10e7e4e2ab47f0b51d8ea198b82516bc03b1605421a27"
+        }
+      ]
+    },
+    {
+      "id": "E7_dielectric",
+      "role": "1kHz Frank-Gauss driver field at one common external0/9.235Vrms",
+      "source": {
+        "title": "Basu and Kehr2025 pure-E7 control, Micromachines16,457",
+        "doi": "10.3390/mi16040457",
+        "url": "https://doi.org/10.3390/mi16040457",
+        "source_phase": "Pure EMD E7 nematic control; not CNT mixture",
+        "temperature_C_domain": [
+          25,
+          60
+        ],
+        "cell_thickness_um": 20,
+        "sample": "Commercial rubbed planar cell; ethanol preparation and4h vacuum degassing; clearing60C"
+      },
+      "actual_use": {
+        "delta_epsilon25_50": [
+          12.34304932735426,
+          9.80080245456691
+        ],
+        "epsilon_perp25_50": [
+          4.886949076291233,
+          4.886949076291233
+        ]
+      },
+      "transformation": "Native Fig4b red pure-control symbols digitized; Fig4a low-field plateau estimates epsilon_perp25 only.",
+      "unresolved_transfer": "epsilon_perp50 is held, not measured. Different batch, alignment, cell thickness and processing than the optical/K sources and proposedSiNx device.",
+      "evidence": [
+        {
+          "repository_path": "runs/20261105-q2-finish-decouple-E7-constitutive-source-01/E7hCNT2025.pdf",
+          "sha256": "49e2984e501dfbe4172d38961470cd48d4e7ad888822541041ee449e7df553cd"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-decouple-E7-constitutive-digitized-01/Basu2025_Fig4b_pureE7_1kHz.csv",
+          "sha256": "183b67ea862d83cc85797d2ac4f4fc3e50feafd476981b209ce196884a9a4ccf"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-source25-config-01/config.json",
+          "sha256": "209c77385d60778a8e0345913310dde0a2ff7b658f0d5c4eb42aa55f17b021c3"
+        }
+      ]
+    },
+    {
+      "id": "E7_elasticity",
+      "role": "Frank splay/twist/bend energies in the frozen director fields",
+      "source": {
+        "title": "Huang and Tu, Current Applied Physics10(2010)561-564; independent constitutive comparator",
+        "doi": "10.1016/j.cap.2009.07.022",
+        "url": "http://www.yxhuang.cn/paper/paper/dependence.pdf",
+        "source_phase": "Slichem E7 nematic, clearing58C",
+        "temperature_C": [
+          25,
+          30,
+          35,
+          40
+        ],
+        "cell_thickness_um": 25,
+        "alignment": "Rubbed planar polymer; PVA in methods/PI in discussion; varied pretilt"
+      },
+      "actual_use": {
+        "K25_pN": [
+          11.1,
+          6.5,
+          17.1
+        ],
+        "K50_pN": [
+          5.646076171459213,
+          3.3062608211247646,
+          8.698009237112842
+        ],
+        "temperature_rule": "All3K scale by [Li2005dn589(T)/dn589(25)]^2. Baseline K25 values are assigned model inputs, not extracted fromHuang Fig4."
+      },
+      "transformation": "Huang actual K11/K22 curve independently digitized only to test common-temperature-scaling assumptions; noK33 or50C points fabricated.",
+      "unresolved_transfer": "Huang mode-specific K11/K22 temperature ratios differ and do not validate common dn^2 law, assignedK33 or0deg patternedSiNx anchoring. beta<1deg DLS absence is notK=0. Candidate is conditional on the stated elastic model.",
+      "evidence": [
+        {
+          "repository_path": "runs/20261105-q2-finish-constitutive-material-source-01/source.pdf",
+          "sha256": "e93ffc14c09bc9f7d15eae80582735b045edf5fcc3a0f52946fb298bb056475f"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-constitutive-material-digitized-01/Huang2010_Fig4_independent_curves.csv",
+          "sha256": "e77f1828ca3ad68036732effc202eb8db22e23b1e52d4294da9b0af3eddd79b0"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-constitutive-material-digitized-01/results.json",
+          "sha256": "5c9903aa9f12e7e851dd80b0947b2bb97c52ec20ec4369303da58c860850b5e6"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-assembly-phase25-d8p55-source64-01/results.json",
+          "sha256": "5ab69bf6f0d2dc637b55959e6ca54065a81864efd77d2bb61ff3c0e204798052"
+        }
+      ]
+    },
+    {
+      "id": "SiNx_optical",
+      "role": "Six retained20nm insulating alignment films; actual legacy adapter filename containsDLC but material isSiNx",
+      "source": {
+        "title": "Development of ion-beam sputtered silicon nitride thin films for low-noise mirror coatings of gravitational-wave detectors",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2409.07147v2",
+        "verified_local_version": "v2,10February2025, from retainedPDFpage1",
+        "source_phase": "IBS SiNx sample23028, not generically any stoichiometricSi3N4",
+        "source_film_family_thickness_nm": [
+          50,
+          500
+        ],
+        "sample23028_precise_thickness_nm": null,
+        "measurement_temperature": "No matching25/50C pair in the selected Fig4 curve",
+        "deposition": "700V,195mA,N2/Ar flowratio2; unannealed Fig4 model, not900C-annealed spectrum"
+      },
+      "actual_use": "Native-vector Fig4 complex model380-2500nm; same spectrum at25/50C; n550=2.1068334072.",
+      "transformation": "2126-node vector digitization; linear complex interpolation; positive fitted k retained. Above560nm author says k below instrument sensitivity: fitted tinyk is not measured zero/upper bound.",
+      "unresolved_transfer": "IBS optical film→20nm ion-treated alignment surface and bothT. No matching-wafer epsilon7.5/Wa/Wp;1.5um8direction pattern not validated by this optical source.",
+      "evidence": [
+        {
+          "repository_path": "data/q2_finish_material_20261105/SiNx_Amato2025.pdf",
+          "sha256": "e385aaca92b5937825b119d9f3bb5ac2316a540557caa55853433fcfac174b66"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-material-SiNx-extract-01/SiNx23028_vector.csv",
+          "sha256": "fbe9425f5e011286b816ae0908964b3a234a17396e839f7db3262ed6f4aa5a46"
+        },
+        {
+          "repository_path": "data/q2_finish_material_20261105/SiNx_spectrum/DLC_4keV_vector_digitized.csv",
+          "sha256": "fbe9425f5e011286b816ae0908964b3a234a17396e839f7db3262ed6f4aa5a46"
+        }
+      ]
+    },
+    {
+      "id": "SiNx_alignment_and_anchoring",
+      "role": "Planar easy-axis process precedent and assigned finite anchoring",
+      "source": {
+        "title": "Liquid Crystal Alignment Effects on SiNx Thin Film Layers Treated by Ion-Beam Irradiation",
+        "doi": "10.1143/JJAP.46.7711",
+        "url": "https://doi.org/10.1143/JJAP.46.7711",
+        "available_evidence": "Publisher/indexed abstract and metadata; savedIOPresponse is captcha, not fullpaper",
+        "source_phase": "PECVD SiNx ion-beam alignment precedent",
+        "temperature_and_thickness": "Not verified from fullpaper; no invented values",
+        "supporting_primary_fulltext": "https://www-ssrl.slac.stanford.edu/stohrgroup/publications/2001/Nature-411-56-01.pdf"
+      },
+      "actual_use": {
+        "pretilt_deg": 0,
+        "azimuthal_Wa_J_m2": 0.000114,
+        "polar_Wp_J_m2": 0.0002,
+        "SiNx_lowfrequency_epsilon": 7.5,
+        "Al2O3_lowfrequency_epsilon": 9
+      },
+      "transformation": "Wa1.14e-4 transferred from Chang2007a-C:H60deg treatment, doi10.1016/j.tsf.2007.04.039 (~20nmcarbon,pretilt~1.4deg). Wp2e-4, pretilt0 and dielectric7.5/9 remain scenario assignments, not thatSiNxmeasurement.",
+      "unresolved_transfer": "OpticalIBSfilm, PECVDalignmentprecedent and a-C:Hanchoring are different samples/processes. Need not call them measured joint material parameters. Full eightdirection treatment/dose/contamination/temporary-mask removal remains proposed.",
+      "evidence": [
+        {
+          "repository_path": "data/q2_finish_material_20261105/Lee2007_crossref.json",
+          "sha256": "18bf06394efbf98ecf63762649692be233783715dd0cbc5ebbb28a2d017cbbb6"
+        },
+        {
+          "repository_path": "data/q2_finish_material_20261105/source_manifest_final.json",
+          "sha256": "65bc6f93c7d2ed8c2573cf468462d9f1776813e2767f32f167f0346c1c6b428c"
+        },
+        {
+          "repository_path": "data/q2_package_A_20261105/DLC_Nature2001.pdf",
+          "sha256": "28e11ab60c1ece997d1a9b4ba760ee1118a261dba4d44def7db7d01ba7120fa2"
+        },
+        {
+          "repository_path": "data/q2_package_A_20261105/Chang2007_E7_aCH.pdf",
+          "sha256": "15161611ed688f89bb684e8b9b3a1352bd7edd868f532910830e4dc7a524cf27"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-material-mask-01/results.json",
+          "sha256": "e454c5111d04c5104973d5a432399a189ff519895c8166a2e00da020c9f5612d"
+        }
+      ]
+    },
+    {
+      "id": "ZnO",
+      "role": "Two99.8nm outer driver electrodes",
+      "source": {
+        "title": "Spectroscopic Ellipsometry Study on Tuning the Electrical and Optical Properties of Zr-Doped ZnO Thin Films Grown by Atomic Layer Deposition",
+        "doi": "10.1021/acsaelm.1c01026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9121516/",
+        "selected_sample": "Undoped reference Fig5d,notZr-dopedcurve",
+        "source_phase": "PolycrystallineZnOreference; scalarfit used",
+        "growth_temperature_C": 200,
+        "measurement_temperature": "roomtemperature",
+        "film_thickness_nm": 99.8,
+        "thickness_fit_uncertainty_nm": 0.3,
+        "substrate": "SiO2/Si(100),555ALDcycles",
+        "source_domain_um": [
+          0.35,
+          2.5
+        ]
+      },
+      "actual_use": "New1254x747Figure5d axes,335jointnodes; n550=2.0077902491,k2500=.041801115572scenario. Both25/50Cuse same graph.",
+      "transformation": "Colorcolumnmedians and actualtickcalibration; linearinterpolation; rawslightlynegativek floored0. Greenvisiblecurveends2444.805nm; final55.195nm explicitly continued with anchored linearfit. Author measured to2500nm: dashedblank doesnotmeanunmeasured.",
+      "unresolved_transfer": "PrintedAD/units-normalization ambiguity remains; AD*Gamma improvesgraphreproduction but isnotauthorerratum. Graphfittedrho isnotindependentDCtransport; contacts, operatingTtransport and opticalmigrationunclosed.",
+      "evidence": [
+        {
+          "repository_path": "data/q2_finish_lead_ZnO_source_20261105/PMC9121516.1.pdf",
+          "sha256": "c67cea1fbdafb8c78e0bb4210f20e6d4bd80263bbd1572603760ad3fde580d93"
+        },
+        {
+          "repository_path": "data/q2_finish_lead_ZnO_source_20261105/Figure5_original.png",
+          "sha256": "173c346562b8c90aa22313cb3f432c8871cf07246051d0bc0109c51e8dfb2bcb"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-material-ZnO-hires-calibration-01/results.json",
+          "sha256": "d248dc1ef25858236a4fac8856eaf7d3c25b0676884199a9701342fe344a5f3f"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-material-ZnO-hires-input-01/ZnO2022_Fig5d_hires_exactnodes_tail_linear_scenario.csv",
+          "sha256": "2504682932f858210bcb30b01d8d7d2b27208af0df143cb2adbcca9899c0b18e"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-material-ZnO-hires-drude-01/results.json",
+          "sha256": "b13afe5ce32a226a306fdb6b81c1f4025851501dc8a0b9236be489783baadd69"
+        }
+      ]
+    },
+    {
+      "id": "Al2O3",
+      "role": "Five structural plates, two83.028893nm exterior films; direct bonded continuous9.883028893um internal block",
+      "source": {
+        "title": "Dispersion model for optical thin films applicable in wide spectral range",
+        "doi": "10.1117/12.2190104",
+        "url": "https://doi.org/10.1117/12.2190104",
+        "source_phase": "Amorphous/veryfinepolycrystallineAl2O3 electron-beamevaporatedfilm",
+        "measurement_temperature": "roomtemperature",
+        "film_thickness_nm": 121.5,
+        "substrate": "c-Si",
+        "numerical_data": "Author-provideddataset preserved in pinnedrefractiveindex.info database",
+        "source_domain_um": [
+          0.114114,
+          125.124
+        ]
+      },
+      "actual_use": "FullcomplexFrantaspectrum; four8umplates,one9.8umplate,two83.028893nmfilms; same25/50C.",
+      "transformation": "Boundcheckedlinearcomplexinterpolation. Identicalepsilon contiguousexitoxide83.028893nm+physicalplate9.8um merges to9.883028893um. Algebraic shared4+4um cuts merge toone8umplate.",
+      "unresolved_transfer": "121.5nm/e-beam/c-Sisource→releasedmicronplates,ARandidealno-voidoxidebond. Static dielectric9/mechanicalE170GPa/nu.22 are separate scenarios. Process,stress,CTE,bondslip andactualflatness not certified.",
+      "evidence": [
+        {
+          "repository_path": "data/raw/Al2O3_Franta.yml",
+          "sha256": "e2b3bfc8b42b7c4e9201a709888a3fec06b7edf253ac97f0daa4ef5b08ba4df0"
+        },
+        {
+          "repository_path": "data/nk/Al2O3_Franta.csv",
+          "sha256": "86b105c198682acbdd77b4abfe22030ec3fe2622398175f1c438215066dfff4e"
+        },
+        {
+          "repository_path": "data/sources.json",
+          "sha256": "0d0999e73822de3ab4ab498e8f913cf0d677a8911516900fb19a94f278133dfa"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-decouple-solid-interface-merge127-01/results.json",
+          "sha256": "386a0f420926919a9de94b206e3b196f67218139aaf71387cb20c73f6d79db31"
+        },
+        {
+          "repository_path": "runs/20261105-q2-finish-assembly-solid-plate-01/results.json",
+          "sha256": "bc6152cf6689ff87cf8a68ecee31e8b7c02695ffb4cdb2188961f4bdd0cce0e8"
+        }
+      ]
+    },
+    {
+      "id": "carbon_screen",
+      "role": "5um tilted finite screen with three xslots, fixedinner600/yhalf600 and11umshadow",
+      "source": {
+        "title": "Optical constants from the far infrared to the x-ray region",
+        "doi": "10.1364/JOSA.65.000742",
+        "url": "https://doi.org/10.1364/JOSA.65.000742",
+        "additional_url": "https://refractiveindex.info/download/data/1974/Hagemann%201974%20-%20DESY%20report%20SR-74-7.pdf",
+        "source_phase": "Hagemann carbon tabulated scalar dataset; exact equivalence to proposedfreefoil not established",
+        "source_temperature": "Not specified in retainedYAML; no25/50Cpair",
+        "source_film_thickness": "Not specified in retainedYAML",
+        "source_domain_um": [
+          4.133e-05,
+          124
+        ]
+      },
+      "actual_use": "Complexn,k interpolation forfinite-thicknessscreenR/T; nominal5um,screenblockingboundalso checks3.75/5/6.25um andangle/polarization.",
+      "transformation": "No target-domainwavelengthendhold; finite-holephysical-opticsprojectionwithoutsideilluminationandscreenleakageincluded.",
+      "unresolved_transfer": "Dataset→free5umcarbonscreen,25/50Cinvariance,screenflatness,supportandmachining. It isnot theoldDLC20nmalignmentfilm.",
+      "evidence": [
+        {
+          "repository_path": "data/constraints_upgrade_sources/C_Hagemann.yml",
+          "sha256": "76a375b5248819c94ef0e0ffa82426904e326e444c13dc86aee010f31210e998"
+        },
+        {
+          "repository_path": "data/constraints_upgrade_sources/C_Hagemann.csv",
+          "sha256": "c77121a791fca055d1a98171c1725718883a2ab42ab40f2c1a8b336d577e04da"
+        },
+        {
+          "repository_path": "runs/20261105-q2-package-device-kernels-01/inner600/gram.npz",
+          "sha256": "d34590851378c2f5f6aa6c8a14ffbc5b96d34aaaf74682d5437a2472479ce6de"
+        }
+      ]
+    }
+  ],
+  "replay": {
+    "scope": "Exact saved-spectrum trapezoidal arithmetic replay only; no new optics or physical-input validation.",
+    "cases": [
+      {
+        "id": "solid713_hole600",
+        "wavelengths": 713,
+        "stats": {
+          "main_pp": [
+            39.15783371174143,
+            23.426228745852207
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.673103661369472,
+            3.1825620868944755
+          ],
+          "VIS_thermal_peak_pp": [
+            31.36757443363201,
+            15.656235147075662
+          ],
+          "NIR_electric_meanabs_pp": [
+            3.038016348181261,
+            2.3668937023462995
+          ],
+          "NIR_electric_peak_pp": [
+            16.783677865515156,
+            17.086811480650553
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "76a06faccdc2f0db23a485225076e1136e872bcd07794accaaa3863c76fd70af",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "solid713_hole700",
+        "wavelengths": 713,
+        "stats": {
+          "main_pp": [
+            43.493135617986006,
+            23.38772996392829
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.684368971639376,
+            3.0351238189376
+          ],
+          "VIS_thermal_peak_pp": [
+            31.361374860074935,
+            15.687227618911306
+          ],
+          "NIR_electric_meanabs_pp": [
+            3.8366136061066403,
+            3.1075697148364156
+          ],
+          "NIR_electric_peak_pp": [
+            39.91827675664983,
+            41.370022658071015
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "304393c724de9a99b62e62660357314eac7230ee21c72d372e70614d829a8b10",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "solid837_hole600",
+        "wavelengths": 837,
+        "stats": {
+          "main_pp": [
+            39.169174734014476,
+            23.45309218420856
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.649101617884135,
+            3.222831273495651
+          ],
+          "VIS_thermal_peak_pp": [
+            31.36757443363201,
+            15.656235147075662
+          ],
+          "NIR_electric_meanabs_pp": [
+            3.018847403910273,
+            2.361304289510771
+          ],
+          "NIR_electric_peak_pp": [
+            17.729122367078542,
+            17.086811480650553
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "fda5e57b07c16ab1e0fd2cd5689dde1e07a2f0b0c20b5c7edef1fc0e21282b49",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "solid837_hole700",
+        "wavelengths": 837,
+        "stats": {
+          "main_pp": [
+            43.488181949590675,
+            23.419045321766774
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.662885575261695,
+            3.097940055694333
+          ],
+          "VIS_thermal_peak_pp": [
+            31.361374860074935,
+            15.687227618911306
+          ],
+          "NIR_electric_meanabs_pp": [
+            3.8181070405226634,
+            3.1024413994406217
+          ],
+          "NIR_electric_peak_pp": [
+            39.91827675664983,
+            41.370022658071015
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "f317e3659e592dd1e007743cfbfa3df75e2df0fd45b51452ffdb7ee4674dfb62",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "air837_hole600",
+        "wavelengths": 837,
+        "stats": {
+          "main_pp": [
+            35.48788247651661,
+            21.042161173664642
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.972288857577844,
+            4.1090684957139985
+          ],
+          "VIS_thermal_peak_pp": [
+            36.43507619792155,
+            21.21168981483585
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.4256642069609855,
+            3.9746761922123084
+          ],
+          "NIR_electric_peak_pp": [
+            21.345512929289935,
+            24.601078914428186
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "4a8ceec6b9cb413afa56252ceaeb9107f65425650b054893553417abf646bde7",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "air127_hole600",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            34.03653595045063,
+            20.210106694978442
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.724877540500247,
+            4.129186596141608
+          ],
+          "VIS_thermal_peak_pp": [
+            29.75529238895353,
+            17.333255406250725
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.07921991304589,
+            4.025774210598649
+          ],
+          "NIR_electric_peak_pp": [
+            16.69671600625157,
+            24.601078914428186
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "babd6da53e28cf62c4531cf73e863a69ae9af79ef63f5b171bd89af5c2e56d74",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "d9p8_correctedZnO_hole600",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            34.54116249422961,
+            15.847527058876809
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.89993092461345,
+            5.178637010690218
+          ],
+          "VIS_thermal_peak_pp": [
+            27.029943164482678,
+            16.839780356838286
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.56246490938326,
+            4.492014089171667
+          ],
+          "NIR_electric_peak_pp": [
+            17.837112360748286,
+            20.243575692835957
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "227f60c9e83f7682eb97a2a9925f2348ef77785365fb1a349e270ba8d34ce5d8",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "air837_hole700",
+        "wavelengths": 837,
+        "stats": {
+          "main_pp": [
+            39.44518923644774,
+            21.00821039505838
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.976749112482585,
+            3.9263840611792826
+          ],
+          "VIS_thermal_peak_pp": [
+            36.42237640979386,
+            15.452865246451477
+          ],
+          "NIR_electric_meanabs_pp": [
+            6.145936617635927,
+            4.608448937492986
+          ],
+          "NIR_electric_peak_pp": [
+            37.79181535314454,
+            44.62949619535643
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "6d20dbc358124b2d3ca8ea386375f1e061df843f9006bd0ea429c29353fd12d1",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "air127_hole700",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            37.5819597686044,
+            20.106223227887345
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.661022965157857,
+            3.5617045428509595
+          ],
+          "VIS_thermal_peak_pp": [
+            29.747369566953058,
+            11.367402359792656
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.832546374984262,
+            4.526619634547746
+          ],
+          "NIR_electric_peak_pp": [
+            37.79181535314454,
+            27.101459833292996
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "a72c8077fddf472aed73287aa27bb3a456c4c3ed5307add7112f76f3795f5cf6",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "d9p8_correctedZnO_hole700",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            38.39478918479945,
+            15.949372554038376
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.915254675814829,
+            4.972501772745825
+          ],
+          "VIS_thermal_peak_pp": [
+            27.02005855958533,
+            16.836818614561764
+          ],
+          "NIR_electric_meanabs_pp": [
+            6.277417920158043,
+            5.0968226350747745
+          ],
+          "NIR_electric_peak_pp": [
+            34.316916544124766,
+            22.49409092716368
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "ca0bc95a559087a7ceedce687d281ce7c7548dd42bc7792107fe2edfed67b76a",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "d9p8_y750_correctedZnO",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            34.55504149952262,
+            16.83936091170144
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.903966891053692,
+            5.187739832330197
+          ],
+          "VIS_thermal_peak_pp": [
+            27.045058845616616,
+            16.84915925160434
+          ],
+          "NIR_electric_meanabs_pp": [
+            6.276647166870564,
+            4.875722406370593
+          ],
+          "NIR_electric_peak_pp": [
+            17.846757167838533,
+            20.298512805023794
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "54f132f1d9b13868763e9007c5456d52dcb8d7719fd69b0e17d06eda5b099579",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "d9p8_oldZnO_reference",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            34.848710588103096,
+            15.909805374815505
+          ],
+          "VIS_thermal_meanabs_pp": [
+            9.8602457950794,
+            5.1630442056852255
+          ],
+          "VIS_thermal_peak_pp": [
+            27.349015151761357,
+            16.81969304134033
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.648604314594152,
+            4.551167510761373
+          ],
+          "NIR_electric_peak_pp": [
+            17.980747798786567,
+            20.671058450943637
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "4ad5f3082281e85a9d5cf676eb79584195fcabab300df47b55898a624465084d",
+        "same_temperature_physical_candidate": true
+      },
+      {
+        "id": "diagnostic_freezeThermal",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            34.690450260191184,
+            0.7915511993826563
+          ],
+          "VIS_thermal_meanabs_pp": [
+            8.286400528641595,
+            4.510710561439419
+          ],
+          "VIS_thermal_peak_pp": [
+            34.92399541376091,
+            15.990240851260745
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.648604314594152,
+            5.407872267217777
+          ],
+          "NIR_electric_peak_pp": [
+            17.980747798786567,
+            18.974035449327296
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "1f1d3a1dfae7873567293d19982268cec6677a5e715db085ad17e751fb16c1ba",
+        "same_temperature_physical_candidate": false
+      },
+      {
+        "id": "diagnostic_freezeDC",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            35.15461514781145,
+            16.1065966688911
+          ],
+          "VIS_thermal_meanabs_pp": [
+            4.682949980736706,
+            1.9881095914726747
+          ],
+          "VIS_thermal_peak_pp": [
+            14.206313267136277,
+            6.6137955324140405
+          ],
+          "NIR_electric_meanabs_pp": [
+            5.648604314594152,
+            4.841394457746226
+          ],
+          "NIR_electric_peak_pp": [
+            17.980747798786567,
+            16.89473458503159
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "7111ef4feafa4846a2985b8151ba1e93197f60a8e72309b5d3e2094140d0138b",
+        "same_temperature_physical_candidate": false
+      },
+      {
+        "id": "diagnostic_singlePass",
+        "wavelengths": 127,
+        "stats": {
+          "main_pp": [
+            31.014873136960475,
+            13.926190709043102
+          ],
+          "VIS_thermal_meanabs_pp": [
+            6.249099409487286,
+            3.7247957098695412
+          ],
+          "VIS_thermal_peak_pp": [
+            20.742946221821413,
+            14.311864068770294
+          ],
+          "NIR_electric_meanabs_pp": [
+            4.231752753491107,
+            3.713642503472984
+          ],
+          "NIR_electric_peak_pp": [
+            13.625372601284358,
+            14.914529699784229
+          ]
+        },
+        "receipt_main_error_pp": 0.0,
+        "spectra_sha256": "b36d494c773d5ba24857d2f250589a95945430a880116a5d9c038f34d1a166f6",
+        "same_temperature_physical_candidate": false
+      }
+    ],
+    "runtime_seconds": 0.08318049996159971,
+    "limits": [
+      "The 380-400nm unknown VIS interval is treated by the same passivity-blue lower-bound formula.",
+      "Signed-band cancellation is not decoupling; report absolute spectral mean/peak.",
+      "Mixed-temperature and single-pass cases are diagnostics, never same-uniform-temperature device candidates."
+    ]
+  },
+  "cleanup": {
+    "removed": 12,
+    "bytes_released": 67828387,
+    "retained_dependencies_match": true
+  },
+  "full_problem_solved": false
+}
