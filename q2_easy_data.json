@@ -4720,6 +4720,480 @@
       ]
     ]
   },
+  "independent_numerical_audit": {
+    "input_files_checked": [
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/Al2O3_Franta.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/ITO.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/NiO_clear.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/NiO_dark.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/Ta2O5_Franta.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f1_100.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f1_30.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f2_100.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f2_30.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f3_100.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f3_30.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f4_100.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/VO2_f4_30.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/WO3_clear.csv",
+        "matches": true
+      },
+      {
+        "path": "runs/20261106-q2-process-first-design-05/inputs/WO3_dark.csv",
+        "matches": true
+      },
+      {
+        "path": "data/q2_easy_fabrication_20261106/ITO_raw.csv",
+        "matches": true
+      },
+      {
+        "path": "data/q2_easy_fabrication_20261106/NiO_clear_raw.csv",
+        "matches": true
+      },
+      {
+        "path": "data/q2_easy_fabrication_20261106/NiO_dark_raw.csv",
+        "matches": true
+      },
+      {
+        "path": "data/q2_easy_fabrication_20261106/WO3_clear_raw.csv",
+        "matches": true
+      },
+      {
+        "path": "data/q2_easy_fabrication_20261106/WO3_dark_raw.csv",
+        "matches": true
+      }
+    ],
+    "input_hashes_all_match": true,
+    "independent_full_spectrum_max_T_error": 1.6653345369377348e-15,
+    "independent_band_metric_max_error": 1.1102230246251565e-16,
+    "independent_nominal_summary": {
+      "visible_voltage_delta_min": 0.31667924926456303,
+      "nir_temperature_delta_min": 0.20890103776928812,
+      "nir_voltage_cross_max": 0.1166043869703739,
+      "visible_temperature_cross_max": 0.013788374692145222
+    },
+    "independent16": [
+      {
+        "parameters": [
+          0.95,
+          0.95,
+          1.55,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31818323158108464,
+          "nir_temperature_delta_min": 0.2067324660399498,
+          "nir_voltage_cross_max": 0.12120892886467166,
+          "visible_temperature_cross_max": 0.013870480453581802
+        },
+        "error_to_original": 2.7755575615628914e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          0.95,
+          1.55,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3182701217593017,
+          "nir_temperature_delta_min": 0.20632297347734607,
+          "nir_voltage_cross_max": 0.12152765647544844,
+          "visible_temperature_cross_max": 0.013746513899208085
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          0.95,
+          1.62,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31675548444809076,
+          "nir_temperature_delta_min": 0.20623549953477227,
+          "nir_voltage_cross_max": 0.12008113166258486,
+          "visible_temperature_cross_max": 0.013201046689699236
+        },
+        "error_to_original": 2.220446049250313e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          0.95,
+          1.62,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3166981655529233,
+          "nir_temperature_delta_min": 0.20499969052989298,
+          "nir_voltage_cross_max": 0.12002829318190081,
+          "visible_temperature_cross_max": 0.012840039913120105
+        },
+        "error_to_original": 1.3877787807814457e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          1.05,
+          1.55,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31516406578340705,
+          "nir_temperature_delta_min": 0.20644035859472515,
+          "nir_voltage_cross_max": 0.11088311076348625,
+          "visible_temperature_cross_max": 0.016910953752014762
+        },
+        "error_to_original": 1.6653345369377348e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          1.05,
+          1.55,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3152661509737699,
+          "nir_temperature_delta_min": 0.2061491361746188,
+          "nir_voltage_cross_max": 0.11114599585621798,
+          "visible_temperature_cross_max": 0.01679079507299336
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          1.05,
+          1.62,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31335773287859137,
+          "nir_temperature_delta_min": 0.20560374685370833,
+          "nir_voltage_cross_max": 0.10982290169364728,
+          "visible_temperature_cross_max": 0.01622685178505176
+        },
+        "error_to_original": 1.6653345369377348e-16
+      },
+      {
+        "parameters": [
+          0.95,
+          1.05,
+          1.62,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31405082975998533,
+          "nir_temperature_delta_min": 0.20475767241610096,
+          "nir_voltage_cross_max": 0.10964269859009856,
+          "visible_temperature_cross_max": 0.015816051659488795
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          0.95,
+          1.55,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3187041381484312,
+          "nir_temperature_delta_min": 0.21256604912962623,
+          "nir_voltage_cross_max": 0.12460740956477467,
+          "visible_temperature_cross_max": 0.01141146392721809
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          0.95,
+          1.55,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31879622754526654,
+          "nir_temperature_delta_min": 0.2120952282995625,
+          "nir_voltage_cross_max": 0.1239979802323335,
+          "visible_temperature_cross_max": 0.011301472294788117
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          0.95,
+          1.62,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3169467973047842,
+          "nir_temperature_delta_min": 0.21222592838429563,
+          "nir_voltage_cross_max": 0.12209983969009364,
+          "visible_temperature_cross_max": 0.0108200867847702
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          0.95,
+          1.62,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3176818635595136,
+          "nir_temperature_delta_min": 0.21092854350018914,
+          "nir_voltage_cross_max": 0.12208661577872129,
+          "visible_temperature_cross_max": 0.010472269165631043
+        },
+        "error_to_original": 5.551115123125783e-17
+      },
+      {
+        "parameters": [
+          1.05,
+          1.05,
+          1.55,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.3159310656645323,
+          "nir_temperature_delta_min": 0.2114895274850348,
+          "nir_voltage_cross_max": 0.11322219724235733,
+          "visible_temperature_cross_max": 0.014066236977857555
+        },
+        "error_to_original": 1.6653345369377348e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          1.05,
+          1.55,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31570704753195883,
+          "nir_temperature_delta_min": 0.21114723205224245,
+          "nir_voltage_cross_max": 0.11281112604536064,
+          "visible_temperature_cross_max": 0.013968604107124472
+        },
+        "error_to_original": 1.1102230246251565e-16
+      },
+      {
+        "parameters": [
+          1.05,
+          1.05,
+          1.62,
+          5.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31397555366588636,
+          "nir_temperature_delta_min": 0.2109069665155883,
+          "nir_voltage_cross_max": 0.11107950065787076,
+          "visible_temperature_cross_max": 0.013482635751396521
+        },
+        "error_to_original": 0.0
+      },
+      {
+        "parameters": [
+          1.05,
+          1.05,
+          1.62,
+          9.0
+        ],
+        "summary": {
+          "visible_voltage_delta_min": 0.31390925515821805,
+          "nir_temperature_delta_min": 0.20998377718193972,
+          "nir_voltage_cross_max": 0.11113491449842378,
+          "visible_temperature_cross_max": 0.013102222988466639
+        },
+        "error_to_original": 5.551115123125783e-17
+      }
+    ],
+    "independent_area_LP": [
+      {
+        "eta": 1.0,
+        "LP_feasible": true,
+        "LP_closed_interval": [
+          0.42124379311597415,
+          0.45301194979205556
+        ],
+        "note": "Strict optical thresholds require the interval interior; LP feasibility is used only when nonzero interval width is present."
+      },
+      {
+        "eta": 0.98,
+        "LP_feasible": true,
+        "LP_closed_interval": [
+          0.4298406052203818,
+          0.4469202995573758
+        ],
+        "note": "Strict optical thresholds require the interval interior; LP feasibility is used only when nonzero interval width is present."
+      },
+      {
+        "eta": 0.95,
+        "LP_feasible": false,
+        "LP_closed_interval": null,
+        "note": "Strict optical thresholds require the interval interior; LP feasibility is used only when nonzero interval width is present."
+      },
+      {
+        "eta": 0.9,
+        "LP_feasible": false,
+        "LP_closed_interval": null,
+        "note": "Strict optical thresholds require the interval interior; LP feasibility is used only when nonzero interval width is present."
+      }
+    ],
+    "selected_final_design_RT_vs_tmm_max_error": 1.3322676295501878e-15,
+    "passivity_global_RTA_min_max": [
+      7.075102715098491e-06,
+      0.9936240430900516
+    ],
+    "fresh_index_checks": {
+      "WO3_clear": {
+        "n_min": 1.874825,
+        "n_min_wavelength_um": 2.5,
+        "n_max": 2.197967,
+        "n_max_wavelength_um": 0.38,
+        "n_550nm": 1.986935,
+        "A_numerical_pass": true
+      },
+      "WO3_dark": {
+        "n_min": 1.657697,
+        "n_min_wavelength_um": 0.65,
+        "n_max": 2.44348,
+        "n_max_wavelength_um": 2.5,
+        "n_550nm": 1.689126,
+        "A_numerical_pass": true
+      },
+      "NiO_clear": {
+        "n_min": 1.811521,
+        "n_min_wavelength_um": 2.5,
+        "n_max": 1.848726,
+        "n_max_wavelength_um": 0.38,
+        "n_550nm": 1.826362,
+        "A_numerical_pass": true
+      },
+      "NiO_dark": {
+        "n_min": 1.536357,
+        "n_min_wavelength_um": 0.38,
+        "n_max": 2.433754,
+        "n_max_wavelength_um": 2.5,
+        "n_550nm": 1.759,
+        "A_numerical_pass": true
+      },
+      "ITO": {
+        "n_min": 0.23,
+        "n_min_wavelength_um": 1.68,
+        "n_max": 2.12,
+        "n_max_wavelength_um": 0.38,
+        "n_550nm": 1.9,
+        "A_numerical_pass": false
+      },
+      "Ta2O5_proxy": {
+        "n_min": 2.018003848315123,
+        "n_min_wavelength_um": 2.5,
+        "n_max": 2.2390982506198855,
+        "n_max_wavelength_um": 0.38,
+        "n_550nm": 2.122215099770972,
+        "A_numerical_pass": true
+      },
+      "Al2O3_transfer": {
+        "n_min": 1.6209947329376582,
+        "n_min_wavelength_um": 2.5,
+        "n_max": 1.6773503830217784,
+        "n_max_wavelength_um": 0.38,
+        "n_550nm": 1.6560500126160869,
+        "A_numerical_pass": true
+      },
+      "VO2_30C_transfer": {
+        "n_min": 1.96744,
+        "n_min_wavelength_um": 0.38,
+        "n_max": 2.8787,
+        "n_max_wavelength_um": 1.5,
+        "n_550nm": 2.51254,
+        "A_numerical_pass": true
+      },
+      "VO2_100C_transfer": {
+        "n_min": 1.34022,
+        "n_min_wavelength_um": 1.15,
+        "n_max": 2.63184939,
+        "n_max_wavelength_um": 2.5,
+        "n_550nm": 2.1414,
+        "A_numerical_pass": false
+      }
+    },
+    "strict_A_known_failure_confirmed": true,
+    "conclusion": "Numerical spectra, area inequality and known strict-A failure independently confirmed. Common applied voltages, thermal electrochemistry, same-process material transfer and manufacturing remain unvalidated.",
+    "scope": "Q2 audit, no new design optimization; scalar isotropic film and spatial flux-sum assumptions retained."
+  },
+  "trace_edge_audit": {
+    "native_trace_range_nm": [
+      781.592039800995,
+      2489.054726368159
+    ],
+    "untraced_width_nm": 12.537313432835845,
+    "nominal_fixed_clamp_delta": 0.31446497905281595,
+    "native_interior_integral_T_nm": 535.5866018743492,
+    "arbitrary_passive_edge_signed_delta_bounds": [
+      0.30409842351250777,
+      0.3186766949460378
+    ],
+    "vertical_diagnostics_plus_arbitrary_passive_edges": [
+      0.29024920142615607,
+      0.33278599632039607
+    ],
+    "old_45pct_TC_area_upper_diagnostic": 0.14675862437729467,
+    "old_area_failure_persists_under_this_diagnostic": true,
+    "correction": "Original vertical diagnostics used fixed edge clamps; they did not include edge extrapolation uncertainty.",
+    "limits": [
+      "Not a measurement confidence interval.",
+      "Does not include wavelength-axis calibration or pixel-selection ambiguity.",
+      "Does not transfer the120nm bare sample to the70nm capped candidate."
+    ]
+  },
   "worst16_main": [
     0.31335773287859137,
     0.204757672416101
