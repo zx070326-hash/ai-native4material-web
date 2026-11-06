@@ -1,0 +1,162 @@
+{
+  "scope": "Four genuinely same-source127-wave physical constructions; no mixedT or removed-reflection diagnostics",
+  "rows": [
+    {
+      "case": "baseline19",
+      "entities_including_screen": 19,
+      "supports": 5,
+      "cells": 3,
+      "waves": 127,
+      "main_VIS_lower_NIR_pp": [
+        38.83102314420567,
+        23.02759042287894
+      ],
+      "VIS_thermal_band_difference_pp": 1.0651498296216722,
+      "VIS_thermal_meanabs_pp": 7.4885640033597465,
+      "VIS_thermal_peak_pp": 26.025425972002793,
+      "NIR_voltage_band_difference_pp": 0.8324484603665799,
+      "NIR_voltage_meanabs_pp": 2.9661973599818734,
+      "NIR_voltage_peak_pp": 17.729122367078542,
+      "independent_main_error_pp": 0.0,
+      "spectra": "runs\\20261105-q2-finish-decouple-solid-interface-readout64-127-600-01\\spectra.npz",
+      "spectra_sha256": "4956f2426d3857142abe26f09fd137deb7f31d6b1f90aeeee8264c746f3bd3a0",
+      "pilot_main_thresholds_pass": true
+    },
+    {
+      "case": "noAR17",
+      "entities_including_screen": 17,
+      "supports": 5,
+      "cells": 3,
+      "waves": 127,
+      "main_VIS_lower_NIR_pp": [
+        35.7779626932474,
+        23.25361167320174
+      ],
+      "VIS_thermal_band_difference_pp": 1.8724485181186932,
+      "VIS_thermal_meanabs_pp": 11.813094874010147,
+      "VIS_thermal_peak_pp": 32.32876848600432,
+      "NIR_voltage_band_difference_pp": 0.1835651342604622,
+      "NIR_voltage_meanabs_pp": 3.022994353630964,
+      "NIR_voltage_peak_pp": 17.353041524847434,
+      "independent_main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-simplify-noAR17-readout127-600-01\\spectra.npz",
+      "spectra_sha256": "dc381bbaeed4ab73afb07a46eab2116371ddb66263079ab42ea8cebc14fddaee",
+      "pilot_main_thresholds_pass": true,
+      "physical_count_ledger": {
+        "Al2O3_supports": 5,
+        "ZnO_electrodes": 2,
+        "SiNx_alignment": 6,
+        "E7_cells": 3,
+        "carbon_screen": 1
+      },
+      "postflight": {
+        "all_original_input_hashes_match": true,
+        "all_source_dependencies_match": true
+      },
+      "periodic_checks": {
+        "state_count": 508,
+        "T_range": [
+          0.37679809422649024,
+          0.9820830356078545
+        ],
+        "A_min": 0.0006116638429956023,
+        "cascade_residual_max": 8.881858460966173e-16
+      }
+    },
+    {
+      "case": "shared16",
+      "entities_including_screen": 16,
+      "supports": 4,
+      "cells": 3,
+      "waves": 127,
+      "main_VIS_lower_NIR_pp": [
+        36.02164512328582,
+        22.710026956845798
+      ],
+      "VIS_thermal_band_difference_pp": 1.2724825944000022,
+      "VIS_thermal_meanabs_pp": 12.308372629082688,
+      "VIS_thermal_peak_pp": 41.19988821917903,
+      "NIR_voltage_band_difference_pp": 0.9042073614414146,
+      "NIR_voltage_meanabs_pp": 3.5904413588131936,
+      "NIR_voltage_peak_pp": 21.029724259754197,
+      "independent_main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-simplify-shared16-readout127-600-01\\spectra.npz",
+      "spectra_sha256": "59809a25da97f122ecd0e484273bd56660d3f293c2fc8bb3ed3a547e5a195601",
+      "pilot_main_thresholds_pass": true,
+      "physical_count_ledger": {
+        "Al2O3_supports": 4,
+        "ZnO_electrodes": 2,
+        "SiNx_alignment": 6,
+        "E7_cells": 3,
+        "carbon_screen": 1
+      },
+      "postflight": {
+        "all_original_input_hashes_match": true,
+        "all_source_dependencies_match": true
+      },
+      "periodic_checks": {
+        "state_count": 508,
+        "T_range": [
+          0.4028178897944847,
+          0.9614764838559905
+        ],
+        "A_min": 0.000623250621202498,
+        "cascade_residual_max": 8.95090418262362e-16
+      }
+    },
+    {
+      "case": "two12",
+      "entities_including_screen": 12,
+      "supports": 3,
+      "cells": 2,
+      "waves": 127,
+      "main_VIS_lower_NIR_pp": [
+        5.3700760615016785,
+        22.852332274406695
+      ],
+      "VIS_thermal_band_difference_pp": 12.805759520435721,
+      "VIS_thermal_meanabs_pp": 34.959024304475,
+      "VIS_thermal_peak_pp": 79.3740508245252,
+      "NIR_voltage_band_difference_pp": 0.8788992343758804,
+      "NIR_voltage_meanabs_pp": 3.8025886459061873,
+      "NIR_voltage_peak_pp": 21.36151327825262,
+      "independent_main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-simplify-two12-readout127-600-01\\spectra.npz",
+      "spectra_sha256": "64a6d666fedbebf7c2140d5e6b145188ccdf9f9102200ee9a5215bf2da71e0c8",
+      "pilot_main_thresholds_pass": false,
+      "physical_count_ledger": {
+        "Al2O3_supports": 3,
+        "ZnO_electrodes": 2,
+        "SiNx_alignment": 4,
+        "E7_cells": 2,
+        "carbon_screen": 1
+      },
+      "postflight": {
+        "all_original_input_hashes_match": true,
+        "all_source_dependencies_match": true
+      },
+      "periodic_checks": {
+        "state_count": 508,
+        "T_range": [
+          0.5076154046606232,
+          0.9866303792936573
+        ],
+        "A_min": 0.0004083010663714637,
+        "cascade_residual_max": 9.036560719766055e-16
+      }
+    }
+  ],
+  "recommendation": "shared16 is the new manufacturing simplification candidate; retain baseline19 as denser verified reference. noAR17 saves little hard assembly; direct two12 deletion fails VIS.",
+  "interpretation": "shared16 reduces19->16 entities and5->4 supports, removes twoAR depositions and a no-void direct bond. Three LC chambers/six alignment faces and thin-support handling remain.",
+  "index_scope": "Same complex material models and state range; no new n violation is introduced by deleting layers. Existing A evidence/uncertainty boundary persists.",
+  "limitations": [
+    "127 grid is a screening comparison, not the baseline713/837 numerical closure.",
+    "No same-construction thickness/order sensitivity or bow-coupled optical closure for reduced variants.",
+    "Main threshold pass does not certify crosstalk: shared16 VIS thermal absolute spectrum mean rises7.48856->12.30837pp.",
+    "12entity failure is current d2.5/source/texture/port only; prior d1.45 successes at otherT/materials do not transfer and are not disproved.",
+    "All <=10um supports/normal film constraints preserved; standard thick glass is not implicitly allowed.",
+    "Shared walls require double-side protected processing, actual anchoring/contact/fringe-field and frame assessment."
+  ],
+  "mechanics_control": "runs/20261106-q2-simplify-mechanics-01/results.json",
+  "full_problem_solved": false
+}
