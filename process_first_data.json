@@ -1,0 +1,1333 @@
+{
+  "status": "process-first architecture proposal with conditional optical budget; not a completed original-problem device",
+  "layout": "one retained mica sheet; side-by-side EC and TC regions; incoherent collected power over whole aperture",
+  "aperture_mm": [
+    2.0,
+    2.0
+  ],
+  "inactive_bare_mica_strip_mm": [
+    0.04,
+    2.0
+  ],
+  "EC_fraction_of_usable_area": 0.55,
+  "bands_um": {
+    "visible": [
+      0.38,
+      0.78
+    ],
+    "nir": [
+      0.78,
+      2.5
+    ]
+  },
+  "source_temperature_endpoints_C": [
+    30,
+    100
+  ],
+  "EC_voltage_endpoints": null,
+  "EC_temperature_response": "unknown, held invariant only in this diagnostic",
+  "electrical_region_names": [
+    "mica_PROXY",
+    "ITO",
+    "WO3",
+    "Li-bearing-Ta2O5_OPTICAL_PROXY",
+    "LiNiO",
+    "ITO",
+    "Al2O3_cap"
+  ],
+  "electrical_region_thickness_nm": [
+    8000.0,
+    500.0,
+    490.0,
+    300.0,
+    152.1461187214612,
+    500.0,
+    30.0
+  ],
+  "thermal_region_names": [
+    "mica_PROXY",
+    "VO2_film4_TRANSFER_UNVERIFIED",
+    "Al2O3_cap"
+  ],
+  "thermal_region_thickness_nm": [
+    8000.0,
+    110.0,
+    300.0
+  ],
+  "layer_count_max_path": 7,
+  "retained_entities_union": 9,
+  "counts_scope": "patterned functional coupon plus two local caps and shared mica; edge frame/leads counted separately in process drawing",
+  "nominal_component_amplitudes": {
+    "EC_VIS": 0.6206191629666885,
+    "TC_NIR": 0.5039921320909301
+  },
+  "component_break_even_thresholds_exclusive": {
+    "EC_VIS": 0.5565862708719851,
+    "TC_NIR": 0.45351473922902497
+  },
+  "nominal_f_EC_feasible_open_interval": [
+    0.4932532980713373,
+    0.5950698043511502
+  ],
+  "balanced_f_EC": 0.5491676272387627,
+  "metrics": {
+    "visible": {
+      "T_by_voltage_temperature": [
+        [
+          0.43801173816114103,
+          0.43120979790584146
+        ],
+        [
+          0.10349800932209612,
+          0.096696069066796
+        ]
+      ],
+      "voltage_delta_by_temperature": [
+        0.3345137288390449,
+        0.33451372883904545
+      ],
+      "temperature_delta_by_voltage": [
+        0.006801940255299566,
+        0.006801940255300121
+      ],
+      "voltage_relative_delta": [
+        0.7637095075200473,
+        0.7757563266502806
+      ],
+      "temperature_relative_delta": [
+        0.015529127789715047,
+        0.06572049356168586
+      ],
+      "voltage_mean_abs_spectral_delta": [
+        0.33451372883904495,
+        0.334513728839045
+      ],
+      "temperature_mean_abs_spectral_delta": [
+        0.014592557580137083,
+        0.014592557580137083
+      ],
+      "interaction_band_mean": -5.551115123125783e-16,
+      "interaction_mean_abs_spectral": 3.048117314108366e-17
+    },
+    "nir": {
+      "T_by_voltage_temperature": [
+        [
+          0.35881095715553657,
+          0.13655042690343605
+        ],
+        [
+          0.2847757044657447,
+          0.06251517421364468
+        ]
+      ],
+      "voltage_delta_by_temperature": [
+        0.07403525268979189,
+        0.07403525268979137
+      ],
+      "temperature_delta_by_voltage": [
+        0.22226053025210052,
+        0.22226053025210002
+      ],
+      "voltage_relative_delta": [
+        0.20633498284641083,
+        0.5421825062630281
+      ],
+      "temperature_relative_delta": [
+        0.6194362959650519,
+        0.7804757455312887
+      ],
+      "voltage_mean_abs_spectral_delta": [
+        0.07403525268979148,
+        0.0740352526897915
+      ],
+      "temperature_mean_abs_spectral_delta": [
+        0.22226053025209974,
+        0.22226053025209974
+      ],
+      "interaction_band_mean": 4.996003610813204e-16,
+      "interaction_mean_abs_spectral": 2.725741144421609e-17
+    },
+    "summary": {
+      "visible_voltage_delta_min": 0.3345137288390449,
+      "nir_temperature_delta_min": 0.22226053025210002,
+      "nir_voltage_cross_max": 0.07403525268979189,
+      "visible_temperature_cross_max": 0.006801940255300121,
+      "voltage_cross_over_main": 0.22132201553202857,
+      "temperature_cross_over_main": 0.030603455537449628,
+      "amplitude_thresholds_pass": true,
+      "decoupling_pass": null
+    }
+  },
+  "strict_A_pass": false,
+  "strict_A_evaluated_n_range": [
+    0.23,
+    3.34452528
+  ],
+  "nominal_B_reference": "550 nm, 30 C, EC clear and VO2 insulating; support/electrolyte response remains proxy",
+  "source_index_records": {
+    "WO3_clear": {
+      "n_min": 1.87,
+      "n_max": 2.2,
+      "n_550nm": 1.99
+    },
+    "WO3_dark": {
+      "n_min": 1.66,
+      "n_max": 2.44,
+      "n_550nm": 1.69
+    },
+    "NiO_clear": {
+      "n_min": 1.81,
+      "n_max": 1.85,
+      "n_550nm": 1.83
+    },
+    "NiO_dark": {
+      "n_min": 1.54,
+      "n_max": 2.43,
+      "n_550nm": 1.76
+    },
+    "Ta2O5_Franta": {
+      "n_min": 2.018003848315123,
+      "n_max": 2.2390982506198855,
+      "n_550nm": 2.122215099770972
+    },
+    "Al2O3_Franta": {
+      "n_min": 1.6209947329376582,
+      "n_max": 1.6773503830217784,
+      "n_550nm": 1.6560500126160869
+    },
+    "ITO": {
+      "n_min": 0.23,
+      "n_max": 2.12,
+      "n_550nm": 1.9
+    },
+    "VO2_f1_30": {
+      "n_min": 1.96744,
+      "n_max": 2.8787,
+      "n_550nm": 2.51254
+    },
+    "VO2_f1_100": {
+      "n_min": 1.34022,
+      "n_max": 2.63184939,
+      "n_550nm": 2.1414
+    },
+    "VO2_f2_30": {
+      "n_min": 1.84122,
+      "n_max": 3.0218,
+      "n_550nm": 2.18765
+    },
+    "VO2_f2_100": {
+      "n_min": 1.18763,
+      "n_max": 2.29450136,
+      "n_550nm": 2.08109
+    },
+    "VO2_f3_30": {
+      "n_min": 1.8335,
+      "n_max": 3.25042,
+      "n_550nm": 2.37038
+    },
+    "VO2_f3_100": {
+      "n_min": 1.22491,
+      "n_max": 2.16789,
+      "n_550nm": 1.96067
+    },
+    "VO2_f4_30": {
+      "n_min": 2.48428,
+      "n_max": 3.0019,
+      "n_550nm": 2.97736
+    },
+    "VO2_f4_100": {
+      "n_min": 1.47519,
+      "n_max": 3.34452528,
+      "n_550nm": 2.37961
+    }
+  },
+  "finite_scenarios": [
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.34050831785909746,
+      "NIR_thermal_min": 0.21950440987242772,
+      "f_EC_open_interval": [
+        0.48456966055166106,
+        0.5899854583682107
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.34050831785909724,
+      "NIR_thermal_min": 0.221646442993714,
+      "f_EC_open_interval": [
+        0.48456966055166106,
+        0.5939479164005697
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3405083178590975,
+      "NIR_thermal_min": 0.22325946734600427,
+      "f_EC_open_interval": [
+        0.48456966055166106,
+        0.5968815966916234
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.34050831785909774,
+      "NIR_thermal_min": 0.22446349639176053,
+      "f_EC_open_interval": [
+        0.48456966055166106,
+        0.5990439361110138
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.331655894033378,
+      "NIR_thermal_min": 0.2195044098724275,
+      "f_EC_open_interval": [
+        0.49750359625266943,
+        0.5899854583682107
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33165589403337825,
+      "NIR_thermal_min": 0.22164644299371433,
+      "f_EC_open_interval": [
+        0.49750359625266943,
+        0.5939479164005697
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33165589403337836,
+      "NIR_thermal_min": 0.2232594673460037,
+      "f_EC_open_interval": [
+        0.49750359625266943,
+        0.5968815966916234
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33165589403337836,
+      "NIR_thermal_min": 0.22446349639176036,
+      "f_EC_open_interval": [
+        0.49750359625266943,
+        0.5990439361110138
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33891906577782427,
+      "NIR_thermal_min": 0.21950440987242748,
+      "f_EC_open_interval": [
+        0.48684189430689745,
+        0.5899854583682107
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3389190657778243,
+      "NIR_thermal_min": 0.221646442993714,
+      "f_EC_open_interval": [
+        0.48684189430689745,
+        0.5939479164005697
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3389190657778245,
+      "NIR_thermal_min": 0.22325946734600413,
+      "f_EC_open_interval": [
+        0.48684189430689745,
+        0.5968815966916234
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3389190657778238,
+      "NIR_thermal_min": 0.22446349639176102,
+      "f_EC_open_interval": [
+        0.48684189430689745,
+        0.5990439361110138
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3311569460322629,
+      "NIR_thermal_min": 0.2195044098724278,
+      "f_EC_open_interval": [
+        0.49825317565262495,
+        0.5899854583682107
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33115694603226276,
+      "NIR_thermal_min": 0.22164644299371383,
+      "f_EC_open_interval": [
+        0.49825317565262495,
+        0.5939479164005697
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33115694603226364,
+      "NIR_thermal_min": 0.22325946734600374,
+      "f_EC_open_interval": [
+        0.49825317565262495,
+        0.5968815966916234
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3311569460322629,
+      "NIR_thermal_min": 0.22446349639176033,
+      "f_EC_open_interval": [
+        0.49825317565262495,
+        0.5990439361110138
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.34026237534938697,
+      "NIR_thermal_min": 0.21868900790054385,
+      "f_EC_open_interval": [
+        0.48491990873388585,
+        0.5884566816411259
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3402623753493868,
+      "NIR_thermal_min": 0.2208475268819394,
+      "f_EC_open_interval": [
+        0.48491990873388585,
+        0.5924790226511696
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3402623753493873,
+      "NIR_thermal_min": 0.22237595157421886,
+      "f_EC_open_interval": [
+        0.48491990873388585,
+        0.5952799780602076
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3402623753493865,
+      "NIR_thermal_min": 0.22360160957363065,
+      "f_EC_open_interval": [
+        0.48491990873388585,
+        0.5974984251159279
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33158575328632606,
+      "NIR_thermal_min": 0.21868900790054388,
+      "f_EC_open_interval": [
+        0.49760883380752946,
+        0.5884566816411259
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3315857532863261,
+      "NIR_thermal_min": 0.22084752688193904,
+      "f_EC_open_interval": [
+        0.49760883380752946,
+        0.5924790226511696
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3315857532863266,
+      "NIR_thermal_min": 0.22237595157421808,
+      "f_EC_open_interval": [
+        0.49760883380752946,
+        0.5952799780602076
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3315857532863262,
+      "NIR_thermal_min": 0.2236016095736314,
+      "f_EC_open_interval": [
+        0.49760883380752946,
+        0.5974984251159279
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33900310014764534,
+      "NIR_thermal_min": 0.21868900790054394,
+      "f_EC_open_interval": [
+        0.48672121266188345,
+        0.5884566816411259
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3390031001476454,
+      "NIR_thermal_min": 0.22084752688193918,
+      "f_EC_open_interval": [
+        0.48672121266188345,
+        0.5924790226511696
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33900310014764584,
+      "NIR_thermal_min": 0.22237595157421844,
+      "f_EC_open_interval": [
+        0.48672121266188345,
+        0.5952799780602076
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3390031001476456,
+      "NIR_thermal_min": 0.22360160957363107,
+      "f_EC_open_interval": [
+        0.48672121266188345,
+        0.5974984251159279
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33109480778348543,
+      "NIR_thermal_min": 0.21868900790054385,
+      "f_EC_open_interval": [
+        0.49834668536360527,
+        0.5884566816411259
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33109480778348566,
+      "NIR_thermal_min": 0.22084752688193918,
+      "f_EC_open_interval": [
+        0.49834668536360527,
+        0.5924790226511696
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3310948077834849,
+      "NIR_thermal_min": 0.2223759515742184,
+      "f_EC_open_interval": [
+        0.49834668536360527,
+        0.5952799780602076
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.55,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3310948077834853,
+      "NIR_thermal_min": 0.2236016095736312,
+      "f_EC_open_interval": [
+        0.49834668536360527,
+        0.5974984251159279
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3380110265275603,
+      "NIR_thermal_min": 0.2208633830135767,
+      "f_EC_open_interval": [
+        0.4881497556309642,
+        0.592508279226768
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3380110265275605,
+      "NIR_thermal_min": 0.22241108790704328,
+      "f_EC_open_interval": [
+        0.4881497556309642,
+        0.5953439154183917
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33801102652756043,
+      "NIR_thermal_min": 0.2244340105109396,
+      "f_EC_open_interval": [
+        0.4881497556309642,
+        0.5989912589669064
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33801102652756043,
+      "NIR_thermal_min": 0.22514143581278306,
+      "f_EC_open_interval": [
+        0.4881497556309642,
+        0.60025128348724
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3298132428348839,
+      "NIR_thermal_min": 0.22086338301357744,
+      "f_EC_open_interval": [
+        0.500283125631207,
+        0.592508279226768
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.32981324283488395,
+      "NIR_thermal_min": 0.22241108790704284,
+      "f_EC_open_interval": [
+        0.500283125631207,
+        0.5953439154183917
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.32981324283488367,
+      "NIR_thermal_min": 0.22443401051093917,
+      "f_EC_open_interval": [
+        0.500283125631207,
+        0.5989912589669064
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3298132428348839,
+      "NIR_thermal_min": 0.22514143581278312,
+      "f_EC_open_interval": [
+        0.500283125631207,
+        0.60025128348724
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33725629599132195,
+      "NIR_thermal_min": 0.22086338301357714,
+      "f_EC_open_interval": [
+        0.48924216378230556,
+        0.592508279226768
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3372562959913216,
+      "NIR_thermal_min": 0.22241108790704295,
+      "f_EC_open_interval": [
+        0.48924216378230556,
+        0.5953439154183917
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.337256295991322,
+      "NIR_thermal_min": 0.22443401051093956,
+      "f_EC_open_interval": [
+        0.48924216378230556,
+        0.5989912589669064
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33725629599132184,
+      "NIR_thermal_min": 0.2251414358127832,
+      "f_EC_open_interval": [
+        0.48924216378230556,
+        0.60025128348724
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.32895874981152706,
+      "NIR_thermal_min": 0.22086338301357655,
+      "f_EC_open_interval": [
+        0.5015826455278496,
+        0.592508279226768
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3289587498115276,
+      "NIR_thermal_min": 0.22241108790704328,
+      "f_EC_open_interval": [
+        0.5015826455278496,
+        0.5953439154183917
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.32895874981152745,
+      "NIR_thermal_min": 0.22443401051093997,
+      "f_EC_open_interval": [
+        0.5015826455278496,
+        0.5989912589669064
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 5.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.32895874981152773,
+      "NIR_thermal_min": 0.22514143581278273,
+      "f_EC_open_interval": [
+        0.5015826455278496,
+        0.60025128348724
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.33791218388904826,
+      "NIR_thermal_min": 0.21891916740711376,
+      "f_EC_open_interval": [
+        0.48829254423740104,
+        0.5888893555280559
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3379121838890482,
+      "NIR_thermal_min": 0.22070426708438123,
+      "f_EC_open_interval": [
+        0.48829254423740104,
+        0.5922144995701855
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3379121838890485,
+      "NIR_thermal_min": 0.22253318056601712,
+      "f_EC_open_interval": [
+        0.48829254423740104,
+        0.5955659296690792
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.33791218388904865,
+      "NIR_thermal_min": 0.22345638814709265,
+      "f_EC_open_interval": [
+        0.48829254423740104,
+        0.5972368445302334
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3296324123239876,
+      "NIR_thermal_min": 0.218919167407113,
+      "f_EC_open_interval": [
+        0.5005575721049706,
+        0.5888893555280559
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.32963241232398766,
+      "NIR_thermal_min": 0.22070426708438107,
+      "f_EC_open_interval": [
+        0.5005575721049706,
+        0.5922144995701855
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.32963241232398754,
+      "NIR_thermal_min": 0.22253318056601648,
+      "f_EC_open_interval": [
+        0.5005575721049706,
+        0.5955659296690792
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 0.95,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3296324123239879,
+      "NIR_thermal_min": 0.2234563881470921,
+      "f_EC_open_interval": [
+        0.5005575721049706,
+        0.5972368445302334
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.336926218168116,
+      "NIR_thermal_min": 0.2189191674071135,
+      "f_EC_open_interval": [
+        0.4897214615624535,
+        0.5888893555280559
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3369262181681163,
+      "NIR_thermal_min": 0.22070426708438098,
+      "f_EC_open_interval": [
+        0.4897214615624535,
+        0.5922144995701855
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3369262181681164,
+      "NIR_thermal_min": 0.22253318056601687,
+      "f_EC_open_interval": [
+        0.4897214615624535,
+        0.5955659296690792
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 0.95,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3369262181681163,
+      "NIR_thermal_min": 0.22345638814709257,
+      "f_EC_open_interval": [
+        0.4897214615624535,
+        0.5972368445302334
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.32941539579618073,
+      "NIR_thermal_min": 0.21891916740711376,
+      "f_EC_open_interval": [
+        0.5008873358854493,
+        0.5888893555280559
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 0.95,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.3294153957961813,
+      "NIR_thermal_min": 0.22070426708438132,
+      "f_EC_open_interval": [
+        0.5008873358854493,
+        0.5922144995701855
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.28,
+      "VIS_voltage_min": 0.3294153957961809,
+      "NIR_thermal_min": 0.22253318056601604,
+      "f_EC_open_interval": [
+        0.5008873358854493,
+        0.5955659296690792
+      ],
+      "area_interval_exists": true
+    },
+    {
+      "mica_proxy_n": 1.62,
+      "mica_um": 9.0,
+      "WO3_scale": 1.05,
+      "ITO_scale": 1.05,
+      "VO2_scale": 1.05,
+      "TC_cap_um": 0.32,
+      "VIS_voltage_min": 0.32941539579618073,
+      "NIR_thermal_min": 0.22345638814709287,
+      "f_EC_open_interval": [
+        0.5008873358854493,
+        0.5972368445302334
+      ],
+      "area_interval_exists": true
+    }
+  ],
+  "finite_scenario_summary": {
+    "count": 64,
+    "joint_fixed_area_pass_count": 64,
+    "min_VIS_voltage": 0.32895874981152706,
+    "min_NIR_thermal": 0.21868900790054385,
+    "common_f_EC_lower_exclusive": 0.5015826455278496,
+    "common_f_EC_upper_exclusive": 0.5884566816411259
+  },
+  "source_film_comparison": [
+    {
+      "film": 1,
+      "source_thickness_um": 0.069,
+      "NIR_thermal_delta": 0.3676740353952787,
+      "f_EC_lower_exclusive": 0.4932532980713373,
+      "f_EC_upper_exclusive": 0.4449386875152679,
+      "feasible_area_exists": false,
+      "source_process": "sputter on silicon/sapphire"
+    },
+    {
+      "film": 2,
+      "source_thickness_um": 0.13,
+      "NIR_thermal_delta": 0.3394985733492696,
+      "f_EC_lower_exclusive": 0.4932532980713373,
+      "f_EC_upper_exclusive": 0.3988733718680284,
+      "feasible_area_exists": false,
+      "source_process": "sputter on silicon/sapphire"
+    },
+    {
+      "film": 3,
+      "source_thickness_um": 0.12,
+      "NIR_thermal_delta": 0.3178247431059363,
+      "f_EC_lower_exclusive": 0.4932532980713373,
+      "f_EC_upper_exclusive": 0.35787997290998375,
+      "feasible_area_exists": false,
+      "source_process": "sputter on silicon/sapphire"
+    },
+    {
+      "film": 4,
+      "source_thickness_um": 0.11,
+      "NIR_thermal_delta": 0.5039921320909301,
+      "f_EC_lower_exclusive": 0.4932532980713373,
+      "f_EC_upper_exclusive": 0.5950698043511502,
+      "feasible_area_exists": true,
+      "source_process": "sol-gel on silicon"
+    }
+  ],
+  "independent_TMM_max_RT_error": 1.7763568394002505e-15,
+  "source_sha256": {
+    "WO3_clear": {
+      "path": "data/nk/WO3_clear.csv",
+      "sha256": "20d0f95e07760899be05d76cb24b70c8abd79997e1b928513ced60e852cd51da"
+    },
+    "WO3_dark": {
+      "path": "data/nk/WO3_dark.csv",
+      "sha256": "4e513dbf36af4dc29f1c3af287b48de1604ebb46aa77c57ffc425a394e598248"
+    },
+    "NiO_clear": {
+      "path": "data/nk/NiO_clear.csv",
+      "sha256": "5dcd227540fc7b677c73453c4903c21fd6757d4c635ba0e0486d94211d15f99f"
+    },
+    "NiO_dark": {
+      "path": "data/nk/NiO_dark.csv",
+      "sha256": "9da03f5636feeeaee63f35e9853ab315f48d2d10d6ab857d485ffb6e6045e36a"
+    },
+    "Ta2O5_Franta": {
+      "path": "data/nk/Ta2O5_Franta.csv",
+      "sha256": "b89a274452c683eb6d4b43e457a5dfa28ebb8bf2ed8d25bd6b502f385a55bbcb"
+    },
+    "Al2O3_Franta": {
+      "path": "data/nk/Al2O3_Franta.csv",
+      "sha256": "86b105c198682acbdd77b4abfe22030ec3fe2622398175f1c438215066dfff4e"
+    },
+    "ITO": {
+      "path": ".worktrees/q2-dual-response/data/q2_device/ITO_LBNL.csv",
+      "sha256": "ca0a07b69035c54f5b581bb7fe20d92390073ba65eb213be3fa3c1e266e3355e"
+    },
+    "VO2_f1_30": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film1_30C.csv",
+      "sha256": "c2fd6fe715a756349bc43610f5d061ef93cda3b55f5a9878219c7126d5ee6e09"
+    },
+    "VO2_f1_100": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film1_100C.csv",
+      "sha256": "169e57f2e40bec808738cb41d2bd8997a41046ffa1adb5d776f6c414d4e9ff82"
+    },
+    "VO2_f2_30": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film2_30C.csv",
+      "sha256": "e30d5e4d3a02b8aa16b891e6efbb297c4b1c267675b828cef4e67afed241f938"
+    },
+    "VO2_f2_100": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film2_100C.csv",
+      "sha256": "e974050a8ca104d9e0a744efc222292d9807931240cf78abd2470a84f98716eb"
+    },
+    "VO2_f3_30": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film3_30C.csv",
+      "sha256": "6d640e9f85c007c14647ed01b31ca4ffd91e398eaf0090e8acffd28f47a68b37"
+    },
+    "VO2_f3_100": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film3_100C.csv",
+      "sha256": "5d994aa61050b941e8ecdfecae5e8442fbfe9718a45f6450bdc78a3fe076348a"
+    },
+    "VO2_f4_30": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film4_30C.csv",
+      "sha256": "34d2e9e2c5f9bc5a09bfcd00831714f536490a38a01830086b41d73e7cdfffc2"
+    },
+    "VO2_f4_100": {
+      "path": ".worktrees/q2-dual-response/data/wan2019_author_20261101/film4_100C.csv",
+      "sha256": "0ccf31af0458755881c1d95f7ad7fb4c31c0f5f17c558f0d50c64222fff7168a"
+    }
+  },
+  "limits": [
+    "Mica n=1.58,k=0 is a screening proxy, not measured complete 380-2500 nm tensor or two-temperature response.",
+    "Published 400 C sputtered VO2/mica process does not establish transfer of Film4 sol-gel/Si optical constants.",
+    "Lithium content, ionic transport, charge balance and common voltage endpoints at 30/100 C are not demonstrated.",
+    "Li-bearing electrolyte is assigned neutral e-beam Ta2O5 optical constants; interface and state dependence are absent.",
+    "30 nm EC and300 nm TC caps have no demonstrated barrier performance, interface compatibility or lifetime in this construction.",
+    "Source VO2 tabulation gap1.34-1.43um is interpolated; no data extrapolation beyond source coverage.",
+    "Full-aperture spatial average is not a pointwise uniform-window solution; illumination and collection must cover both regions.",
+    "EC endpoint temperature invariance is unverified; retained cross-response metrics assume only this invariance.",
+    "Natural film grains are not deliberately patterned features; no nanoparticle effective medium is introduced.",
+    "Mica thickness/support/frame fabrication evidence at target5-9um is not a qualified process or yield.",
+    "Finite scenario pass, independent solver agreement and nominal B indices do not constitute fabrication or strict A qualification."
+  ],
+  "actual_complete_device_pass": false,
+  "derived_peak_cross_pp": {
+    "VIS_temperature": 4.745087180186205,
+    "NIR_voltage": 36.577882496542166
+  }
+}

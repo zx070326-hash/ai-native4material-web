@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>从完整工艺出发：两题的可实施设计取舍</title><style>
+:root{color-scheme:light}body{font:17px/1.8 system-ui,sans-serif;color:#17372d;background:#f6f8f4;margin:0}main{max-width:1040px;margin:auto;padding:32px 20px 72px}h1{font-size:30px;line-height:1.4}h2{font-size:23px;margin-top:36px}h3{font-size:19px}a{color:#12634c}.notice{padding:18px;border-left:5px solid #a56b22;background:#fff3dc}.panel{padding:18px;background:white;border:1px solid #ccd8cf;margin:20px 0}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;min-width:540px;font-size:15px}td,th{border:1px solid #c9d6ce;padding:10px;text-align:left;vertical-align:top}th{background:#e5ede6}figure{margin:24px 0}figure img{width:100%;height:auto}small,figcaption{color:#52675b;font-size:14px}code{word-break:break-all}.links a{display:inline-block;padding:6px 13px;margin:4px;border:1px solid #a1b9a8}@media print{body{background:white}main{padding:0}.links{display:none}table{min-width:0}h2{break-after:avoid}tr{break-inside:avoid}}
+</style><main><p>2026-11-06 · 工艺优先的结构设计与首轮判别</p>
+<h1>先减少加工难点，再检查能否完成原题</h1>
+<div class="notice"><b>当前交付是具体候选与可判别的完成路径，不是制造完成声明。</b>旧12实体液晶构造不再作为易加工推荐。新题二方案省去液腔、配向、薄板叠装和外筛，但薄云母、离子层、电化学温依与VO₂跨制程复谱仍待落实。严格折射率A已知不通过；B只能作为待材料验证的候选。题一保留已有七层平面膜作为工艺核查对象，本轮没有新增题一光学成绩。</div>
+<h2>题二的首选候选：同一片薄基底上左右分区</h2>
+<p>使用一片目标厚8µm的云母，在同一面制作毫米级电控区与温控区。先做需要高温的VO₂区，再遮蔽该区、低温制作电致变色叠层。两区光路并联，避免WO₃着色时把温控VO₂所需的近红外光先挡掉。该器件在空间上不均匀；下列指标针对同一整孔径的总透射功率，不等同于每个局部像素都具备双响应。</p>
+<div class="scroll"><table><tr><th>位置</th><th>从基底向外的名义层序</th><th>实际功能/限制</th></tr>
+<tr><td>共享基底</td><td>云母8µm；先比较5–9µm</td><td>保留在器件里，不以厚玻璃豁免。全谱复张量/两温响应尚缺；当前n=1.58、k=0仅诊断代理。</td></tr>
+<tr><td>电控区，55%可用面积</td><td>ITO500nm / WO₃490nm / 含Li离子导体300nm / LiNiO152.15nm / ITO500nm / Al₂O₃30nm</td><td>含Li层暂借中性Ta₂O₅光谱；NiO表实际为Li₀.₅Ni₀.₅O体系的端点，不能只把任意NiO薄膜接上线。离子来源/电容量/共同电压未落实。</td></tr>
+<tr><td>温控区，45%可用面积</td><td>VO₂110nm / Al₂O₃300nm</td><td>300nm层同时作为光学盖层；不因有氧化层就宣称已获得防护寿命。使用Film4的30/100°C复谱，来自溶胶凝胶/硅，迁移到云母未验证。</td></tr>
+<tr><td>孔径与接线</td><td>2×2mm研究孔径；两区间40µm裸云母条；接点在外围</td><td>电控宽1.078mm、温控宽0.882mm、间隔0.040mm。两电极错开接触垫，避免短路；实际覆盖率由掩膜交叠确定。外围支架/引线另列，不藏进光学层。</td></tr></table></div>
+<p>电控截面最多7层，温控截面3层；把两处不同厚度盖层分别算入，共9个保留实体。所有设计膜厚在10–10000nm内；横向只有毫米级分区与40µm间隔，不设计亚微米图案或纳米颗粒混合。器件工艺仍需要真空镀膜、掩膜、控温及离子装载能力，不能把“省掉装配”写成只需简单涂刷。</p>
+<h2>完整工序怎样衔接</h2>
+<div class="scroll"><table><tr><th>顺序</th><th>具体动作</th><th>继续条件/失败处理</th></tr>
+<tr><td>1 基底与载持</td><td>对云母先劈薄、测厚/检查裂纹；夹在开孔外围框架上。临时载持物不进入透光孔径。</td><td>核实5–9µm薄片在后续温度、真空及翻转时的完整性。缺少可靠薄片来源时，不默认已有可量产支持，也不换成超厚玻璃继续沿用成绩。</td></tr>
+<tr><td>2 热响应膜先做</td><td>毫米遮板限定VO₂区；先确定M1相成膜路线和热史，再制备热区盖层。其余区域保持可供后续EC镀膜的洁净表面。</td><td>文献给出云母上400°C反应磁控溅射M1薄膜的实物路线；现有达预算的Film4是溶胶凝胶/硅，不能直接拼接其n/k。应比较云母上的溶胶凝胶/溅射样品谱；哪条未达预算就淘汰哪条。</td></tr>
+<tr><td>3 电控叠层后做</td><td>屏蔽热区，顺序制ITO/WO₃/含Li导体/LiNiO/ITO，使用错位遮板留出两电极接点。Li装载必须作为实际工序，不能只在光学输入中改名称。</td><td>优先不再施加会改变VO₂相组成的高温步骤。各层真实沉积温度、氧分压、离子剂量和电容量须来自同一兼容制程。未确认前，本表是工艺设计而不是可直接照抄的配方。</td></tr>
+<tr><td>4 保护与封边</td><td>电控区覆盖30nm盖层、接点露出；边缘封装限定在孔径外。热区300nm盖层已进入光学计算。</td><td>检查盖层沉积是否氧化VO₂、损伤上电极或改变离子量；必要底层/阻隔层/封装若保留，必须加回模型和层账本。30nm并非已证阻湿厚度。</td></tr>
+<tr><td>5 驱动与共同温度</td><td>两区处在同一30/100°C温度条件；寻找两温均有效的同一对外加电压及充电终点。</td><td>当前只有电荷化学端点光谱，未定外电压。必须检查漏电、容量匹配和温度引起的光谱改变；不能分别为每态挑不同材料参数当作实际四态。</td></tr>
+<tr><td>6 完整器件仿真</td><td>用同制程全谱输入重新计算整孔径四态、R/T/A、所有交叉响应、角度/厚度/覆盖率及残余应力引起的形变。</td><td>仿真仍是原题验证；本方案不新增“先实际制样才能研究”的门槛。有可信公开完整数据即可继续。工艺无依据的理想层不能升级为通过。</td></tr></table></div>
+<h2>本轮已完成的计算：面积预算确实有空间</h2>
+<p>采用原探索口径：法向非偏振，VIS380–780nm、NIR780–2500nm、波长均匀平均；对另一控制态取最小主幅。完整谱包括所有输入表原生节点；VO₂1.34–1.43µm源空档仅作显式线性插值。裸云母条的透射已保留，不虚构黑色遮挡层。各区R/T采用同一平面叠层求解器，空间平均假定照明和收集同时覆盖两区。</p>
+<div class="scroll"><table><tr><th>项目</th><th>条件计算结果</th><th>解释</th></tr>
+<tr><td>整孔径VIS电端点主幅</td><td>33.45 pp</td><td>阈值&gt;30pp；未证这些化学端点对应两温共同电压。</td></tr>
+<tr><td>整孔径NIR温端点主幅</td><td>22.23 pp</td><td>阈值&gt;20pp；实际数据端温30/100°C，不声称25/50°C。</td></tr>
+<tr><td>NIR电交叉带差</td><td>7.40 pp</td><td>逐谱绝对均同为7.40pp。不是完全解耦。</td></tr>
+<tr><td>VIS温交叉带差/逐谱绝对均</td><td>0.68 / 1.46 pp</td><td>不设用户未给的合格线。</td></tr>
+<tr><td>交叉响应的采样谱峰</td><td>VIS温4.75 / NIR电36.58 pp</td><td>保存网格上的峰值，不是连续全谱严格上界。</td></tr>
+<tr><td>64个指定误差情景</td><td>64/64主幅过线；最小32.90/21.87 pp</td><td>云母代理n1.55/1.62、厚5/9µm；WO₃及容量配对层±5%、ITO±5%、VO₂±5%、热盖层280/320nm的组合。不是实测误差界、连续公差或制造良率。</td></tr>
+<tr><td>独立tmm选点对照</td><td>R/T最大差1.8e-15</td><td>检验实现，不能验证代理光谱、跨制程或制造。</td></tr></table></div>
+<figure><img src="process_first_area_budget.svg" alt="电控面积与两项主调制幅度之间的权衡"><figcaption>两区分别通过独立光路贡献功率。相同面积应同时满足两项不等式，不能把两个区域分别归一化后相加。</figcaption></figure>
+<p>对电控区域局部主幅a、温控区域局部主幅b、有效区内电控比例f、非响应间隔比例g，整器件需要(1−g)fa&gt;0.30和(1−g)(1−f)b&gt;0.20。名义a=62.06pp、b=50.40pp，g=2%时允许f约49.33%–59.51%（严格开区间）。64个指定情景的共同区间为50.16%–58.85%。选55%留出一定面积余量，并不是全局最优证明。</p>
+<p>500nm ITO沿用现有电极实体，不新增光学滤片；它降低电控区的NIR电响应，代价是电控区VIS主幅下降。300nm热区盖层提升此处模型的NIR温差。它们是可由普通镀膜厚度控制的改动，但所用材料响应迁移、残余应力与保护功能仍未证实。</p>
+<h3>真实负证决定下一步，而不是继续堆层</h3>
+<div class="scroll"><table><tr><th>VO₂源样品</th><th>源制程</th><th>加盖层后局部NIR温主幅</th><th>在本电控构造下有无面积可行区间</th></tr><tr><td>1</td><td>sputter on silicon/sapphire</td><td>36.77 pp</td><td>无</td></tr><tr><td>2</td><td>sputter on silicon/sapphire</td><td>33.95 pp</td><td>无</td></tr><tr><td>3</td><td>sputter on silicon/sapphire</td><td>31.78 pp</td><td>无</td></tr><tr><td>4</td><td>sol-gel on silicon</td><td>50.40 pp</td><td>有</td></tr></table></div>
+<p>只Film4留下可行面积区间。它不是“任何VO₂/云母都可以”的证据：前三种数据即使调整面积也无法在这个既定电控结构下同时过线。其否定范围限于本结构、本源厚度和盖层，不是原题不可行定理。</p>
+<h2>必须先解决的三个材料/工艺问题</h2>
+<ol><li><b>薄云母上的VO₂能否保留足够温响应？</b>所需局部NIR温主幅&gt;45.35pp。当前50.40pp来自Film4跨基底迁移，余量不能代替证据。应先取得/核查同制程两温全谱；未过预算便停止此材料组合，不能借用硅样品成绩。</li>
+<li><b>电控叠层在两温共同电压下是否仍有足够VIS响应？</b>局部VIS电主幅须&gt;55.66pp。当前62.06pp来自公开电荷端点。Li剂量匹配约33.32mC/cm²只是容量目标；不证明充电动力学、可逆性或100°C适用性。</li>
+<li><b>实际支持与保留层能否维持可加工性？</b>需要5–9µm云母的厚度/裂纹/全谱复张量、各层工艺温度及残余应力、局部边界电接触/短路防护。不能把普通厚基底、补加胶层或特殊释放工艺藏起来。若必须恢复复杂释放/多片装配，便失去本路线的工艺优势。</li></ol>
+<h2>折射率与“解耦”的结论边界</h2>
+<p><b>严格A：该材料组合明确失败。</b>已计算有限层n范围0.23–3.3445，超出1.5–3；不能通过改厚度修复材料本身的越界。<b>标称B：</b>建议明确550nm、30°C、EC透明/VO₂绝缘态为参考，各公开功能膜名义n在1.5–3内；但云母和含Li导体仍是代理，故整器件B也未认证。原题没有确认参考点，本报告不把建议写成用户规定。</p>
+<p>两区功率相加且暂假设EC谱不随温度变，所以混合差分接近零；这由模型结构造成，不能当作实物解耦证据。NIR电串扰7.40pp仍需按带平均和逐谱报告。题二没有新增最低透明态透过率要求；本候选的空间不均匀与低透射状态均应披露。</p>
+<div class="scroll"><table><tr><th>条件状态（E为化学端点，不是已知外加电压）</th><th>VIS平均T</th><th>NIR平均T</th></tr><tr><td>E0，30°C</td><td>43.80%</td><td>35.88%</td></tr><tr><td>E0，100°C</td><td>43.12%</td><td>13.66%</td></tr><tr><td>E1，30°C</td><td>10.35%</td><td>28.48%</td></tr><tr><td>E1，100°C</td><td>9.67%</td><td>6.25%</td></tr></table></div>
+<h2>题一怎样按同一原则推进</h2>
+<p>题一保留更接近常规镀膜工艺的七层平面方案：PEI9000 / TiO₂123 / Al₂O₃178 / TiO₂123 / Al₂O₃178 / ITO870 / Al₂O₃60nm。同一H/L配方重复两次，不再为几乎没有收益的独立层厚增加配方。基膜先完成预处理和尺寸稳定，再在外围载架上连续镀膜，保留所有保护层；不为减层恢复侧壁、独立薄片或隐藏胶。</p>
+<p>本轮不重用不同制程薄膜的数值成绩来声称制造通过。下一决定性输入仍是同热史PEI短波复谱、完整氧化物/ITO膜谱、薄基膜收缩和残余应力。若不得不降低沉积温度或换材料，先重建该制程材料数据再重算三波段；不能沿用旧n/k。七层原数值结果与热史正负证保留，严格A与完整加工尚未闭合。</p>
+<h2>先例与本设计之间的差距</h2>
+<ul><li><a href="https://doi.org/10.1016/j.matdes.2023.111864">Ekström等，2023：VO₂/云母</a>：文献支持M1相在云母上的反应磁控溅射；本文只采用400°C、17–180nm作为制程先例，不把该样品等同于Film4。</li>
+<li><a href="https://doi.org/10.1021/acssuschemeng.9b00052">Lee等，2019：同器件EC/TC</a>：给出集成器件先例；不据此认证本分区结构、厚度或n约束。</li>
+<li><a href="https://windows.lbl.gov/optical-indices-electrochromic-materials">LBNL公开电致变色材料表</a>：本计算的电荷端点与ITO输入；不是同一电压、两温工作器件的数据。</li>
+<li><a href="https://arxiv.org/abs/1901.02517">Wan等：VO₂光学数据与样品身份</a>：本计算使用作者XLSX的高精度导出两端谱，保留源厚度/基底差异与数据空档。</li>
+<li><a href="https://doi.org/10.1016/j.cej.2020.125628">Li等，2020：含Li的全固态EC制程</a>：支持离子装载必须作为实际制程；并不认证这里的云母/VO₂组合。</li></ul>
+<h2>复算与下一决定</h2><p>先核查三个关键材料/工艺问题；有对应数据时直接替换代理并重算。若B路线能保留阈值和可衔接制程，再完善完整器件敏感性与误差预算；严格A须换材料家族，不能在已知越界的ITO/VO₂组合上继续声称接近闭合。常规单胞液晶仅作为后备，需要真实薄支持、电极、统一配向及全谱数据；不回到多方向光栅/外筛。</p>
+<p class="links"><a href="process_first_data.json" download>计算与条件JSON</a><a href="process_first_four_states.csv" download>四态CSV</a><a href="process_first_evidence.zip" download>输入、源码与复核包</a></p>
+<p><code>python -X utf8 verify.py</code>独立重积分四态CSV；<code>python -X utf8 recompute.py</code>从包内输入重新计算条件光学/面积预算与64情景（NumPy2与tmm0.2.0），输出到新目录。包内另有实际源码快照；便携入口只改路径，物理逻辑相同。这不是实际电压驱动或制造的复现。早期字段名错误和缺tmm环境失败保留在run01/02，本结果是run05；run03/04保留作为改动对照。</p>
+<footer><small>结论：已经形成工艺更少装配的具体候选，并算清主幅预算与明确失败边界。仍未证明全部原题要求与简单真实制程同时满足；没有操作真实设备，没有使用服务器或启动额外模型循环。</small></footer></main></html>
