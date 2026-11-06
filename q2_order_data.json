@@ -1,0 +1,5495 @@
+{
+  "process_comparison": {
+    "records": [
+      {
+        "name": "frozen_protected",
+        "configuration": {
+          "ec_before": 0.0,
+          "ec_after": 0.38,
+          "tc_cap": 0.4,
+          "split_tc": true,
+          "gap_cap": 0.38,
+          "entities": 9,
+          "depositions": 8,
+          "tc_layers": 4
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4615976923386536,
+                0.4753860670307987
+              ],
+              [
+                0.14491844307409057,
+                0.1587068177662357
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.31667924926456303,
+              0.31667924926456303
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145111,
+              0.013788374692145139
+            ],
+            "voltage_relative_delta": [
+              0.6860503302348175,
+              0.6661517264115492
+            ],
+            "temperature_relative_delta": [
+              0.02900458311339572,
+              0.0868795360288458
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.3166792492645632,
+              0.3166792492645632
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045155,
+              0.022018983781045155
+            ],
+            "interaction_band_mean": 5.551115123125783e-17,
+            "interaction_mean_abs_spectral": 4.031303069140789e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48033552736641627,
+                0.271434489597128
+              ],
+              [
+                0.36373114039604243,
+                0.15483010262675423
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.11660438697037384,
+              0.11660438697037379
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928826,
+              0.2089010377692882
+            ],
+            "voltage_relative_delta": [
+              0.24275611593773294,
+              0.42958574329828847
+            ],
+            "temperature_relative_delta": [
+              0.43490648904246354,
+              0.5743281632192115
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.11660438697037363,
+              0.11660438697037362
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835883
+            ],
+            "interaction_band_mean": 5.551115123125783e-17,
+            "interaction_mean_abs_spectral": 3.95335250324205e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.31667924926456303,
+            "nir_temperature_delta_min": 0.2089010377692882,
+            "nir_voltage_cross_max": 0.11660438697037384,
+            "visible_temperature_cross_max": 0.013788374692145139,
+            "voltage_cross_over_main": 0.3682097492689177,
+            "temperature_cross_over_main": 0.06600433793619119,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7344138433779294,
+          "q_NIR_EC": 0.2704183371298091,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.41682554290042323,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31818323158108475,
+              "nir_temperature_delta_min": 0.20673246603994988,
+              "nir_voltage_cross_max": 0.12120892886467177,
+              "visible_temperature_cross_max": 0.013870480453581635,
+              "voltage_cross_over_main": 0.3809406556793465,
+              "temperature_cross_over_main": 0.0670938663833345,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41485530002344406,
+              0.4582370048333063
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3182701217593018,
+              "nir_temperature_delta_min": 0.20632297347734596,
+              "nir_voltage_cross_max": 0.1215276564754485,
+              "visible_temperature_cross_max": 0.013746513899208113,
+              "voltage_cross_over_main": 0.3818380933896027,
+              "temperature_cross_over_main": 0.06662619129380405,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41474204135262,
+              0.45716175900161166
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.316755484448091,
+              "nir_temperature_delta_min": 0.20623549953477238,
+              "nir_voltage_cross_max": 0.12008113166258474,
+              "visible_temperature_cross_max": 0.013201046689699236,
+              "voltage_cross_over_main": 0.37909724553565954,
+              "temperature_cross_over_main": 0.06400957507062682,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4167252233374722,
+              0.45693151638466484
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3166981655529233,
+              "nir_temperature_delta_min": 0.20499969052989303,
+              "nir_voltage_cross_max": 0.12002829318190075,
+              "visible_temperature_cross_max": 0.012840039913119994,
+              "voltage_cross_over_main": 0.3789990162157819,
+              "temperature_cross_over_main": 0.06263443559319745,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.416800646033239,
+              0.4536577118214319
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31516406578340705,
+              "nir_temperature_delta_min": 0.20644035859472515,
+              "nir_voltage_cross_max": 0.11088311076348634,
+              "visible_temperature_cross_max": 0.01691095375201479,
+              "voltage_cross_over_main": 0.3518266287365689,
+              "temperature_cross_over_main": 0.08191689777682304,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41882947433072903,
+              0.4574704250544657
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31526615097377,
+              "nir_temperature_delta_min": 0.2061491361746188,
+              "nir_voltage_cross_max": 0.11114599585621804,
+              "visible_temperature_cross_max": 0.016790795072993248,
+              "voltage_cross_over_main": 0.3525465563395207,
+              "temperature_cross_over_main": 0.08144974742348952,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4186938546757672,
+              0.45670400527349364
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3133577328785914,
+              "nir_temperature_delta_min": 0.20560374685370836,
+              "nir_voltage_cross_max": 0.10982290169364711,
+              "visible_temperature_cross_max": 0.01622685178505176,
+              "voltage_cross_over_main": 0.3504713309123836,
+              "temperature_cross_over_main": 0.07892293809508018,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4212437931159741,
+              0.4552628455760085
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31405082975998516,
+              "nir_temperature_delta_min": 0.204757672416101,
+              "nir_voltage_cross_max": 0.10964269859009868,
+              "visible_temperature_cross_max": 0.015816051659488795,
+              "voltage_cross_over_main": 0.34912405317920553,
+              "temperature_cross_over_main": 0.07724277910010618,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4203141259040188,
+              0.4530119497920554
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3187041381484313,
+              "nir_temperature_delta_min": 0.21256604912962637,
+              "nir_voltage_cross_max": 0.12460740956477478,
+              "visible_temperature_cross_max": 0.01141146392721798,
+              "voltage_cross_over_main": 0.3909814610149207,
+              "temperature_cross_over_main": 0.05368432058620554,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4141772390119474,
+              0.47310494569290207
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31879622754526665,
+              "nir_temperature_delta_min": 0.2120952282995624,
+              "nir_voltage_cross_max": 0.12399798023233347,
+              "visible_temperature_cross_max": 0.011301472294788117,
+              "voltage_cross_over_main": 0.3889568618396737,
+              "temperature_cross_over_main": 0.05328489653159932,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41405759728212904,
+              0.47193531463229377
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3169467973047841,
+              "nir_temperature_delta_min": 0.21222592838429555,
+              "nir_voltage_cross_max": 0.12209983969009375,
+              "visible_temperature_cross_max": 0.0108200867847702,
+              "voltage_cross_over_main": 0.38523765101396323,
+              "temperature_cross_over_main": 0.05098381176675711,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41647368303603755,
+              0.4722605251268284
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3176818635595136,
+              "nir_temperature_delta_min": 0.21092854350018914,
+              "nir_voltage_cross_max": 0.12208661577872126,
+              "visible_temperature_cross_max": 0.010472269165630876,
+              "voltage_cross_over_main": 0.38430464493875616,
+              "temperature_cross_over_main": 0.0496484211754939,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41551002792852704,
+              0.4690144911568185
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31593106566453244,
+              "nir_temperature_delta_min": 0.21148952748503497,
+              "nir_voltage_cross_max": 0.11322219724235733,
+              "visible_temperature_cross_max": 0.01406623697785761,
+              "voltage_cross_over_main": 0.3583762711153608,
+              "temperature_cross_over_main": 0.0665103239159345,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4178126634123483,
+              0.47042295033769604
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3157070475319588,
+              "nir_temperature_delta_min": 0.2111472320522425,
+              "nir_voltage_cross_max": 0.1128111260453607,
+              "visible_temperature_cross_max": 0.013968604107124583,
+              "voltage_cross_over_main": 0.3573285009861584,
+              "temperature_cross_over_main": 0.0661557528903265,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41810913323573357,
+              0.46956444130752845
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31397555366588636,
+              "nir_temperature_delta_min": 0.2109069665155883,
+              "nir_voltage_cross_max": 0.11107950065787076,
+              "visible_temperature_cross_max": 0.013482635751396521,
+              "voltage_cross_over_main": 0.3537839152154973,
+              "temperature_cross_over_main": 0.06392693410817234,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42041489682494954,
+              0.4689601683132547
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31390925515821805,
+              "nir_temperature_delta_min": 0.20998377718193978,
+              "nir_voltage_cross_max": 0.11113491449842378,
+              "visible_temperature_cross_max": 0.013102222988466694,
+              "voltage_cross_over_main": 0.3540351635774773,
+              "temperature_cross_over_main": 0.06239635825349648,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42050368962032875,
+              0.4666254626758247
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4212437931159741,
+              0.4530119497920554
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.42984060522038176,
+              0.4469202995573756
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.4434145190694464,
+              0.43736187372046675
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.468048659017749,
+              0.4221961657757978
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "finish_TC_first_separate_caps",
+        "configuration": {
+          "ec_before": 0.0,
+          "ec_after": 0.38,
+          "tc_cap": 0.4,
+          "gap_cap": 0.0,
+          "entities": 9,
+          "depositions": 8,
+          "tc_layers": 3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4617674734557935,
+                0.47555584814793816
+              ],
+              [
+                0.14508822419123013,
+                0.1588765988833755
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.31667924926456337,
+              0.3166792492645627
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692144667,
+              0.013788374692145361
+            ],
+            "voltage_relative_delta": [
+              0.6857980855485268,
+              0.6659138994880968
+            ],
+            "temperature_relative_delta": [
+              0.028994228008852735,
+              0.0867866935033448
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.3166792492645632,
+              0.3166792492645632
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045158,
+              0.022018983781045158
+            ],
+            "interaction_band_mean": 6.661338147750939e-16,
+            "interaction_mean_abs_spectral": 4.017834676073305e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48044323385080345,
+                0.27154219608151486
+              ],
+              [
+                0.3638388468804293,
+                0.15493780911114102
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.11660438697037417,
+              0.11660438697037384
+            ],
+            "temperature_delta_by_voltage": [
+              0.2089010377692886,
+              0.20890103776928826
+            ],
+            "voltage_relative_delta": [
+              0.24270169450775203,
+              0.42941534926442926
+            ],
+            "temperature_relative_delta": [
+              0.43480899105379134,
+              0.574158146004516
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.11660438697037362,
+              0.11660438697037362
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835886
+            ],
+            "interaction_band_mean": 3.3306690738754696e-16,
+            "interaction_mean_abs_spectral": 4.0197980603088493e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.3166792492645627,
+            "nir_temperature_delta_min": 0.20890103776928826,
+            "nir_voltage_cross_max": 0.11660438697037417,
+            "visible_temperature_cross_max": 0.013788374692145361,
+            "voltage_cross_over_main": 0.36820974926891914,
+            "temperature_cross_over_main": 0.06600433793619224,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7344138433779294,
+          "q_NIR_EC": 0.2704183371298091,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.41682554290042323,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3181832315810853,
+              "nir_temperature_delta_min": 0.20670511967918673,
+              "nir_voltage_cross_max": 0.1212089288646711,
+              "visible_temperature_cross_max": 0.013750144811068593,
+              "voltage_cross_over_main": 0.3809406556793437,
+              "temperature_cross_over_main": 0.0665205817466412,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41485530002344406,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31827012175930225,
+              "nir_temperature_delta_min": 0.20629333009074635,
+              "nir_voltage_cross_max": 0.12152765647544814,
+              "visible_temperature_cross_max": 0.013626849183721312,
+              "voltage_cross_over_main": 0.381838093389601,
+              "temperature_cross_over_main": 0.06605569447023323,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41474204135262,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31675548444809065,
+              "nir_temperature_delta_min": 0.20622211619327627,
+              "nir_voltage_cross_max": 0.12008113166258605,
+              "visible_temperature_cross_max": 0.013082413011310523,
+              "voltage_cross_over_main": 0.3790972455356641,
+              "temperature_cross_over_main": 0.0634384577794235,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4167252233374722,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31669816555292285,
+              "nir_temperature_delta_min": 0.20497590294119494,
+              "nir_voltage_cross_max": 0.12002829318190195,
+              "visible_temperature_cross_max": 0.012723780565243092,
+              "voltage_cross_over_main": 0.3789990162157862,
+              "temperature_cross_over_main": 0.06207451891988195,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.416800646033239,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31516406578340783,
+              "nir_temperature_delta_min": 0.20639823063367788,
+              "nir_voltage_cross_max": 0.11088311076348606,
+              "visible_temperature_cross_max": 0.016942117066705564,
+              "voltage_cross_over_main": 0.35182662873656717,
+              "temperature_cross_over_main": 0.08208460418817723,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41882947433072903,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3152661509737693,
+              "nir_temperature_delta_min": 0.20611086713784266,
+              "nir_voltage_cross_max": 0.1111459958562176,
+              "visible_temperature_cross_max": 0.01682272662272677,
+              "voltage_cross_over_main": 0.35254655633952003,
+              "temperature_cross_over_main": 0.08161979451319314,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4186938546757672,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31335773287859087,
+              "nir_temperature_delta_min": 0.20555799126127888,
+              "nir_voltage_cross_max": 0.10982290169364678,
+              "visible_temperature_cross_max": 0.01625882063070172,
+              "voltage_cross_over_main": 0.35047133091238314,
+              "temperature_cross_over_main": 0.07909602799161235,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4212437931159741,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31405082975998566,
+              "nir_temperature_delta_min": 0.2047217852049903,
+              "nir_voltage_cross_max": 0.10964269859009801,
+              "visible_temperature_cross_max": 0.0158478839697683,
+              "voltage_cross_over_main": 0.3491240531792028,
+              "temperature_cross_over_main": 0.07741181014956289,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4203141259040188,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3187041381484317,
+              "nir_temperature_delta_min": 0.21256003999726453,
+              "nir_voltage_cross_max": 0.1246074095647755,
+              "visible_temperature_cross_max": 0.01130094037896176,
+              "voltage_cross_over_main": 0.3909814610149225,
+              "temperature_cross_over_main": 0.05316587435299313,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4141772390119474,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3187962275452655,
+              "nir_temperature_delta_min": 0.21208660649293481,
+              "nir_voltage_cross_max": 0.12399798023233516,
+              "visible_temperature_cross_max": 0.011191310900967116,
+              "voltage_cross_over_main": 0.3889568618396804,
+              "temperature_cross_over_main": 0.052767645661490316,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41405759728212904,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3169467973047839,
+              "nir_temperature_delta_min": 0.21223149035753328,
+              "nir_voltage_cross_max": 0.12209983969009425,
+              "visible_temperature_cross_max": 0.010710495707890844,
+              "voltage_cross_over_main": 0.385237651013965,
+              "temperature_cross_over_main": 0.050466100435178275,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41647368303603755,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.317681863559513,
+              "nir_temperature_delta_min": 0.2109239907705614,
+              "nir_voltage_cross_max": 0.12208661577872179,
+              "visible_temperature_cross_max": 0.010364781327951933,
+              "voltage_cross_over_main": 0.3843046449387586,
+              "temperature_cross_over_main": 0.04913988821322142,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41551002792852704,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.315931065664533,
+              "nir_temperature_delta_min": 0.21142806316499985,
+              "nir_voltage_cross_max": 0.11322219724235918,
+              "visible_temperature_cross_max": 0.01408855245402113,
+              "voltage_cross_over_main": 0.358376271115366,
+              "temperature_cross_over_main": 0.06663520557829795,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4178126634123483,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31570704753195916,
+              "nir_temperature_delta_min": 0.21108982223751468,
+              "nir_voltage_cross_max": 0.11281112604536148,
+              "visible_temperature_cross_max": 0.01399175468923361,
+              "voltage_cross_over_main": 0.3573285009861605,
+              "temperature_cross_over_main": 0.06628341689297708,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41810913323573357,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3139755536658856,
+              "nir_temperature_delta_min": 0.21084452372807477,
+              "nir_voltage_cross_max": 0.11107950065787203,
+              "visible_temperature_cross_max": 0.013506038491396866,
+              "voltage_cross_over_main": 0.35378391521550223,
+              "temperature_cross_over_main": 0.06405686167507743,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42041489682494954,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3139092551582181,
+              "nir_temperature_delta_min": 0.20993063057470612,
+              "nir_voltage_cross_max": 0.11113491449842416,
+              "visible_temperature_cross_max": 0.013125958082449263,
+              "voltage_cross_over_main": 0.35403516357747844,
+              "temperature_cross_over_main": 0.0625252162893792,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42050368962032875,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4212437931159741,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.42984060522038176,
+              0.44682465004338656
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.4434145190694464,
+              0.4372989249018915
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.468048659017749,
+              0.42213376204947145
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "single_blanket_cap_before_EC",
+        "configuration": {
+          "ec_before": 0.4,
+          "ec_after": 0.0,
+          "tc_cap": 0.4,
+          "gap_cap": 0.4,
+          "entities": 8,
+          "depositions": 7,
+          "tc_layers": 3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.45334460815880956,
+                0.4671329828509549
+              ],
+              [
+                0.14480772198466352,
+                0.1585960966768086
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.30853688617414604,
+              0.3085368861741463
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145333,
+              0.013788374692145083
+            ],
+            "voltage_relative_delta": [
+              0.6805791458008552,
+              0.6604904759478077
+            ],
+            "temperature_relative_delta": [
+              0.029517022343388457,
+              0.08694018945651232
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.3085368861741456,
+              0.3085368861741456
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045172,
+              0.02201898378104516
+            ],
+            "interaction_band_mean": -2.7755575615628914e-16,
+            "interaction_mean_abs_spectral": 4.17064299762515e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48567802655717,
+                0.2767769887878801
+              ],
+              [
+                0.3637600919126697,
+                0.1548590541433803
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.12191793464450029,
+              0.12191793464449979
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928992,
+              0.20890103776928942
+            ],
+            "voltage_relative_delta": [
+              0.25102625191578254,
+              0.4404915855845835
+            ],
+            "temperature_relative_delta": [
+              0.43012248103981254,
+              0.5742824526760942
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.12191793464450035,
+              0.12191793464450035
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835886,
+              0.20978876705835886
+            ],
+            "interaction_band_mean": 4.996003610813204e-16,
+            "interaction_mean_abs_spectral": 3.945080696230087e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.30853688617414604,
+            "nir_temperature_delta_min": 0.20890103776928942,
+            "nir_voltage_cross_max": 0.12191793464450029,
+            "visible_temperature_cross_max": 0.013788374692145333,
+            "voltage_cross_over_main": 0.3951486519368278,
+            "temperature_cross_over_main": 0.06600433793619175,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.715530812092175,
+          "q_NIR_EC": 0.2827410358174872,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.42782566984712467,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.311729516406858,
+              "nir_temperature_delta_min": 0.20670511967918626,
+              "nir_voltage_cross_max": 0.12756789753607384,
+              "visible_temperature_cross_max": 0.013750144811068954,
+              "voltage_cross_over_main": 0.4092262388447582,
+              "temperature_cross_over_main": 0.06652058174664309,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4234440213473987,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.311978951746709,
+              "nir_temperature_delta_min": 0.20629333009074596,
+              "nir_voltage_cross_max": 0.12712819041274223,
+              "visible_temperature_cross_max": 0.013626849183720813,
+              "voltage_cross_over_main": 0.40748963896755347,
+              "temperature_cross_over_main": 0.06605569447023094,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.423105466766132,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30956612634887226,
+              "nir_temperature_delta_min": 0.2062221161932763,
+              "nir_voltage_cross_max": 0.12580952733559755,
+              "visible_temperature_cross_max": 0.013082413011309468,
+              "voltage_cross_over_main": 0.4064059876945767,
+              "temperature_cross_over_main": 0.06343845777941837,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4264032423600498,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3095260250467885,
+              "nir_temperature_delta_min": 0.20497590294119494,
+              "nir_voltage_cross_max": 0.1259881097523783,
+              "visible_temperature_cross_max": 0.012723780565242815,
+              "voltage_cross_over_main": 0.40703559493368524,
+              "temperature_cross_over_main": 0.0620745189198806,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4264584859384488,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30809067918951605,
+              "nir_temperature_delta_min": 0.20639823063367724,
+              "nir_voltage_cross_max": 0.11661700697537161,
+              "visible_temperature_cross_max": 0.016942117066705203,
+              "voltage_cross_over_main": 0.3785152062443178,
+              "temperature_cross_over_main": 0.08208460418817573,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4284452887287862,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3079574908335341,
+              "nir_temperature_delta_min": 0.206110867137843,
+              "nir_voltage_cross_max": 0.11624182256696514,
+              "visible_temperature_cross_max": 0.016822726622726963,
+              "voltage_cross_over_main": 0.3774606107237036,
+              "temperature_cross_over_main": 0.08161979451319394,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42863058678235666,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3053941089969231,
+              "nir_temperature_delta_min": 0.20555799126127766,
+              "nir_voltage_cross_max": 0.1148879902384714,
+              "visible_temperature_cross_max": 0.016258820630699666,
+              "voltage_cross_over_main": 0.37619582976182725,
+              "temperature_cross_over_main": 0.07909602799160283,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43222837674753606,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3057951261837341,
+              "nir_temperature_delta_min": 0.2047217852049914,
+              "nir_voltage_cross_max": 0.11513567389065002,
+              "visible_temperature_cross_max": 0.015847883969767995,
+              "voltage_cross_over_main": 0.3765124556676938,
+              "temperature_cross_over_main": 0.07741181014956097,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4316615560468058,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3105782818042736,
+              "nir_temperature_delta_min": 0.21256003999726397,
+              "nir_voltage_cross_max": 0.12886517497724143,
+              "visible_temperature_cross_max": 0.011300940378962232,
+              "voltage_cross_over_main": 0.4149201104102065,
+              "temperature_cross_over_main": 0.05316587435299549,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4250136205054621,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3104700539854426,
+              "nir_temperature_delta_min": 0.2120866064929353,
+              "nir_voltage_cross_max": 0.12935251645562335,
+              "visible_temperature_cross_max": 0.011191310900967588,
+              "voltage_cross_over_main": 0.4166344379921693,
+              "temperature_cross_over_main": 0.052767645661492425,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42516177745821865,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3078800533209042,
+              "nir_temperature_delta_min": 0.21223149035753341,
+              "nir_voltage_cross_max": 0.12878879491158218,
+              "visible_temperature_cross_max": 0.010710495707890899,
+              "voltage_cross_over_main": 0.41830834288360114,
+              "temperature_cross_over_main": 0.050466100435178504,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4287383952815413,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3081087581140908,
+              "nir_temperature_delta_min": 0.2109239907705614,
+              "nir_voltage_cross_max": 0.12842586477278528,
+              "visible_temperature_cross_max": 0.010364781327951655,
+              "voltage_cross_over_main": 0.41681990982297873,
+              "temperature_cross_over_main": 0.0491398882132201,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42842014880706925,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30716400213735184,
+              "nir_temperature_delta_min": 0.2114280631650005,
+              "nir_voltage_cross_max": 0.11751229979666225,
+              "visible_temperature_cross_max": 0.014088552454020964,
+              "voltage_cross_over_main": 0.38257184754389056,
+              "temperature_cross_over_main": 0.06663520557829695,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42973785691519484,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3070187329755388,
+              "nir_temperature_delta_min": 0.21108982223751332,
+              "nir_voltage_cross_max": 0.11784803324074772,
+              "visible_temperature_cross_max": 0.013991754689233693,
+              "voltage_cross_over_main": 0.3838463930151685,
+              "temperature_cross_over_main": 0.0662834168929779,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4299411919288879,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30451903249191015,
+              "nir_temperature_delta_min": 0.21084452372807438,
+              "nir_voltage_cross_max": 0.11742045940993578,
+              "visible_temperature_cross_max": 0.013506038491396505,
+              "voltage_cross_over_main": 0.3855931711363728,
+              "temperature_cross_over_main": 0.06405686167507584,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4334704432751886,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30404981965345806,
+              "nir_temperature_delta_min": 0.20993063057470435,
+              "nir_voltage_cross_max": 0.11712227476096798,
+              "visible_temperature_cross_max": 0.013125958082448652,
+              "voltage_cross_over_main": 0.38520751268479136,
+              "temperature_cross_over_main": 0.06252521628937682,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43413937936370917,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.43413937936370917,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.44299936669766243,
+              0.4465237841707956
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.45698882038285177,
+              0.43652025989460125
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.48237708818189906,
+              0.4206849737587898
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "blanket_before_EC_plus_terminal30",
+        "configuration": {
+          "ec_before": 0.4,
+          "ec_after": 0.03,
+          "tc_cap": 0.4,
+          "gap_cap": 0.4,
+          "entities": 9,
+          "depositions": 8,
+          "tc_layers": 3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.45847959869588883,
+                0.47226797338803345
+              ],
+              [
+                0.14498907971429548,
+                0.1587774544064407
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.31349051898159336,
+              0.31349051898159275
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692144612,
+              0.013788374692145222
+            ],
+            "voltage_relative_delta": [
+              0.6837611092691885,
+              0.6637979635430772
+            ],
+            "temperature_relative_delta": [
+              0.02919608245553326,
+              0.08684088521062665
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.3134905189815933,
+              0.3134905189815933
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045158,
+              0.02201898378104516
+            ],
+            "interaction_band_mean": 6.106226635438361e-16,
+            "interaction_mean_abs_spectral": 4.0464021022756893e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.4894334840104681,
+                0.2805324462411796
+              ],
+              [
+                0.36395824292544593,
+                0.15505720515615756
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.12547524108502217,
+              0.12547524108502206
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928848,
+              0.20890103776928837
+            ],
+            "voltage_relative_delta": [
+              0.25636832211982147,
+              0.44727532506934464
+            ],
+            "temperature_relative_delta": [
+              0.42682212107257556,
+              0.5739697941449843
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.12547524108502203,
+              0.12547524108502203
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835886,
+              0.20978876705835883
+            ],
+            "interaction_band_mean": 1.1102230246251565e-16,
+            "interaction_mean_abs_spectral": 4.027345317701546e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.31349051898159275,
+            "nir_temperature_delta_min": 0.20890103776928837,
+            "nir_voltage_cross_max": 0.12547524108502217,
+            "visible_temperature_cross_max": 0.013788374692145222,
+            "voltage_cross_over_main": 0.4002521080785531,
+            "temperature_cross_over_main": 0.06600433793619154,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7270188288070342,
+          "q_NIR_EC": 0.2909908188428149,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.42106536564109137,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31658491359810376,
+              "nir_temperature_delta_min": 0.2067051196791858,
+              "nir_voltage_cross_max": 0.13138812709051287,
+              "visible_temperature_cross_max": 0.01375014481106901,
+              "voltage_cross_over_main": 0.4150170189641653,
+              "temperature_cross_over_main": 0.0665205817466435,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.416949748172683,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31690823811220126,
+              "nir_temperature_delta_min": 0.2062933300907455,
+              "nir_voltage_cross_max": 0.1309650586008359,
+              "visible_temperature_cross_max": 0.013626849183720452,
+              "voltage_cross_over_main": 0.41325861195967956,
+              "temperature_cross_over_main": 0.06605569447022934,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4165243566601934,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31425413023237136,
+              "nir_temperature_delta_min": 0.2062221161932756,
+              "nir_voltage_cross_max": 0.12970752772485716,
+              "visible_temperature_cross_max": 0.01308241301130944,
+              "voltage_cross_over_main": 0.4127472489508619,
+              "temperature_cross_over_main": 0.06343845777941845,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4200422120224615,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31459874580625635,
+              "nir_temperature_delta_min": 0.20497590294119522,
+              "nir_voltage_cross_max": 0.1297679989356641,
+              "visible_temperature_cross_max": 0.012723780565243176,
+              "voltage_cross_over_main": 0.4124873371732413,
+              "temperature_cross_over_main": 0.06207451891988228,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.419582092298903,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.313909079446847,
+              "nir_temperature_delta_min": 0.20639823063367727,
+              "nir_voltage_cross_max": 0.11956458826883187,
+              "visible_temperature_cross_max": 0.01694211706670623,
+              "voltage_cross_over_main": 0.38088923225642884,
+              "temperature_cross_over_main": 0.0820846041881807,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4205039249982918,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3136863043076542,
+              "nir_temperature_delta_min": 0.2061108671378426,
+              "nir_voltage_cross_max": 0.11922149952770816,
+              "visible_temperature_cross_max": 0.016822726622727602,
+              "voltage_cross_over_main": 0.3800660018958917,
+              "temperature_cross_over_main": 0.0816197945131972,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4208025603519439,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31111157646277454,
+              "nir_temperature_delta_min": 0.20555799126127985,
+              "nir_voltage_cross_max": 0.11784035119454578,
+              "visible_temperature_cross_max": 0.016258820630700943,
+              "voltage_cross_over_main": 0.3787719908540457,
+              "temperature_cross_over_main": 0.07909602799160818,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4242850796514606,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3110284010299031,
+              "nir_temperature_delta_min": 0.2047217852049909,
+              "nir_voltage_cross_max": 0.11819972650031707,
+              "visible_temperature_cross_max": 0.015847883969768717,
+              "voltage_cross_over_main": 0.38002872441527624,
+              "temperature_cross_over_main": 0.07741181014956469,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4243985422646638,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31586759117300733,
+              "nir_temperature_delta_min": 0.21256003999726317,
+              "nir_voltage_cross_max": 0.13274068159011226,
+              "visible_temperature_cross_max": 0.011300940378961899,
+              "voltage_cross_over_main": 0.4202415356927435,
+              "temperature_cross_over_main": 0.05316587435299412,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41789662405631467,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31563478941498335,
+              "nir_temperature_delta_min": 0.21208660649293523,
+              "nir_voltage_cross_max": 0.1332622761203785,
+              "visible_temperature_cross_max": 0.011191310900967394,
+              "voltage_cross_over_main": 0.42220401739420066,
+              "temperature_cross_over_main": 0.05276764566149152,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41820485075379865,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3130701946949554,
+              "nir_temperature_delta_min": 0.21223149035753308,
+              "nir_voltage_cross_max": 0.13268266287976643,
+              "visible_temperature_cross_max": 0.010710495707890871,
+              "voltage_cross_over_main": 0.4238112254954444,
+              "temperature_cross_over_main": 0.05046610043517845,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4216306829483273,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3128959512144256,
+              "nir_temperature_delta_min": 0.21092399077056,
+              "nir_voltage_cross_max": 0.1324163071588534,
+              "visible_temperature_cross_max": 0.010364781327951433,
+              "voltage_cross_over_main": 0.42319597503551387,
+              "temperature_cross_over_main": 0.04913988821321937,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42186547792541196,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31299261987789795,
+              "nir_temperature_delta_min": 0.21142806316500037,
+              "nir_voltage_cross_max": 0.12061194339710729,
+              "visible_temperature_cross_max": 0.014088552454020825,
+              "voltage_cross_over_main": 0.3853507582516144,
+              "temperature_cross_over_main": 0.06663520557829634,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42173518356916717,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31294751461425474,
+              "nir_temperature_delta_min": 0.2110898222375147,
+              "nir_voltage_cross_max": 0.12089262355739502,
+              "visible_temperature_cross_max": 0.013991754689233638,
+              "voltage_cross_over_main": 0.3863031911482334,
+              "temperature_cross_over_main": 0.0662834168929772,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42179596844763495,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3104992215845528,
+              "nir_temperature_delta_min": 0.21084452372807558,
+              "nir_voltage_cross_max": 0.12040683366779692,
+              "visible_temperature_cross_max": 0.01350603849139656,
+              "voltage_cross_over_main": 0.3877846554762091,
+              "temperature_cross_over_main": 0.06405686167507574,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42512183871628384,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31006990941938173,
+              "nir_temperature_delta_min": 0.20993063057470568,
+              "nir_voltage_cross_max": 0.12012213106192327,
+              "visible_temperature_cross_max": 0.013125958082448763,
+              "voltage_cross_over_main": 0.38740338037591826,
+              "temperature_cross_over_main": 0.06252521628937695,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4257104478379581,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4257104478379581,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.4343984161611817,
+              0.446356133273313
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.44811626088206113,
+              0.4360278433393689
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.47301160870884223,
+              0.4197712525480488
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 8,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "two_coupons_independent_process",
+        "configuration": {
+          "ec_before": 0.0,
+          "ec_after": 0.38,
+          "tc_cap": 0.4,
+          "gap_cap": null,
+          "entities": 10,
+          "depositions": 8,
+          "tc_layers": 3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4637014519517555,
+                0.4774898266439012
+              ],
+              [
+                0.14702220268719238,
+                0.16081057737933782
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.31667924926456315,
+              0.31667924926456337
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145722,
+              0.013788374692145444
+            ],
+            "voltage_relative_delta": [
+              0.6829377995941905,
+              0.6632167463972674
+            ],
+            "temperature_relative_delta": [
+              0.028876792599036277,
+              0.08574295868374315
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.31667924926456326,
+              0.31667924926456326
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.02201898378104516,
+              0.022018983781045165
+            ],
+            "interaction_band_mean": -2.7755575615628914e-16,
+            "interaction_mean_abs_spectral": 3.9147018959795345e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.4823924575875567,
+                0.27349141981826725
+              ],
+              [
+                0.36578807061718244,
+                0.15688703284789468
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.11660438697037429,
+              0.11660438697037256
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928948,
+              0.20890103776928776
+            ],
+            "voltage_relative_delta": [
+              0.24172099943998396,
+              0.4263548269552851
+            ],
+            "temperature_relative_delta": [
+              0.43305203985568713,
+              0.5710985528227199
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.11660438697037366,
+              0.11660438697037363
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835886
+            ],
+            "interaction_band_mean": 1.7208456881689926e-15,
+            "interaction_mean_abs_spectral": 3.700612168121643e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.31667924926456315,
+            "nir_temperature_delta_min": 0.20890103776928776,
+            "nir_voltage_cross_max": 0.11660438697037429,
+            "visible_temperature_cross_max": 0.013788374692145722,
+            "voltage_cross_over_main": 0.368209749268919,
+            "temperature_cross_over_main": 0.06600433793619413,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7344138433779294,
+          "q_NIR_EC": 0.2704183371298091,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.41682554290042323,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3181832315810851,
+              "nir_temperature_delta_min": 0.20670511967918495,
+              "nir_voltage_cross_max": 0.12120892886467349,
+              "visible_temperature_cross_max": 0.013750144811068787,
+              "voltage_cross_over_main": 0.3809406556793515,
+              "temperature_cross_over_main": 0.06652058174664272,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41485530002344406,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3182701217593021,
+              "nir_temperature_delta_min": 0.2062933300907454,
+              "nir_voltage_cross_max": 0.12152765647544883,
+              "visible_temperature_cross_max": 0.013626849183720868,
+              "voltage_cross_over_main": 0.3818380933896034,
+              "temperature_cross_over_main": 0.06605569447023138,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41474204135262,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3167554844480911,
+              "nir_temperature_delta_min": 0.20622211619327668,
+              "nir_voltage_cross_max": 0.12008113166258516,
+              "visible_temperature_cross_max": 0.013082413011309413,
+              "voltage_cross_over_main": 0.37909724553566077,
+              "temperature_cross_over_main": 0.06343845777941798,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4167252233374722,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3166981655529234,
+              "nir_temperature_delta_min": 0.2049759029411939,
+              "nir_voltage_cross_max": 0.12002829318190175,
+              "visible_temperature_cross_max": 0.012723780565243037,
+              "voltage_cross_over_main": 0.3789990162157849,
+              "temperature_cross_over_main": 0.062074518919882,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.416800646033239,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31516406578340794,
+              "nir_temperature_delta_min": 0.206398230633677,
+              "nir_voltage_cross_max": 0.11088311076348634,
+              "visible_temperature_cross_max": 0.016942117066705453,
+              "voltage_cross_over_main": 0.35182662873656795,
+              "temperature_cross_over_main": 0.08208460418817705,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41882947433072903,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31526615097376937,
+              "nir_temperature_delta_min": 0.20611086713784244,
+              "nir_voltage_cross_max": 0.11114599585621823,
+              "visible_temperature_cross_max": 0.01682272662272738,
+              "voltage_cross_over_main": 0.35254655633952203,
+              "temperature_cross_over_main": 0.08161979451319619,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4186938546757672,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31335773287859114,
+              "nir_temperature_delta_min": 0.20555799126127802,
+              "nir_voltage_cross_max": 0.10982290169364756,
+              "visible_temperature_cross_max": 0.01625882063070011,
+              "voltage_cross_over_main": 0.3504713309123853,
+              "temperature_cross_over_main": 0.07909602799160484,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4212437931159741,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3140508297599852,
+              "nir_temperature_delta_min": 0.20472178520499112,
+              "nir_voltage_cross_max": 0.10964269859009818,
+              "visible_temperature_cross_max": 0.01584788396976841,
+              "voltage_cross_over_main": 0.34912405317920386,
+              "temperature_cross_over_main": 0.07741181014956311,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4203141259040188,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3187041381484318,
+              "nir_temperature_delta_min": 0.2125600399972643,
+              "nir_voltage_cross_max": 0.12460740956477534,
+              "visible_temperature_cross_max": 0.011300940378961899,
+              "voltage_cross_over_main": 0.3909814610149218,
+              "temperature_cross_over_main": 0.05316587435299384,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4141772390119474,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3187962275452662,
+              "nir_temperature_delta_min": 0.2120866064929358,
+              "nir_voltage_cross_max": 0.12399798023233477,
+              "visible_temperature_cross_max": 0.0111913109009672,
+              "voltage_cross_over_main": 0.38895686183967837,
+              "temperature_cross_over_main": 0.05276764566149047,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41405759728212904,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3169467973047834,
+              "nir_temperature_delta_min": 0.21223149035753197,
+              "nir_voltage_cross_max": 0.12209983969009364,
+              "visible_temperature_cross_max": 0.010710495707890927,
+              "voltage_cross_over_main": 0.3852376510139637,
+              "temperature_cross_over_main": 0.050466100435178976,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41647368303603755,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3176818635595133,
+              "nir_temperature_delta_min": 0.2109239907705603,
+              "nir_voltage_cross_max": 0.12208661577872137,
+              "visible_temperature_cross_max": 0.010364781327951572,
+              "voltage_cross_over_main": 0.38430464493875693,
+              "temperature_cross_over_main": 0.04913988821321996,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41551002792852704,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3159310656645325,
+              "nir_temperature_delta_min": 0.21142806316500012,
+              "nir_voltage_cross_max": 0.11322219724235902,
+              "visible_temperature_cross_max": 0.014088552454021963,
+              "voltage_cross_over_main": 0.3583762711153661,
+              "temperature_cross_over_main": 0.06663520557830181,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4178126634123483,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3157070475319588,
+              "nir_temperature_delta_min": 0.21108982223751563,
+              "nir_voltage_cross_max": 0.11281112604536275,
+              "visible_temperature_cross_max": 0.01399175468923361,
+              "voltage_cross_over_main": 0.3573285009861649,
+              "temperature_cross_over_main": 0.06628341689297679,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41810913323573357,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3139755536658858,
+              "nir_temperature_delta_min": 0.2108445237280721,
+              "nir_voltage_cross_max": 0.1110795006578719,
+              "visible_temperature_cross_max": 0.013506038491396727,
+              "voltage_cross_over_main": 0.3537839152155015,
+              "temperature_cross_over_main": 0.06405686167507757,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42041489682494954,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31390925515821766,
+              "nir_temperature_delta_min": 0.20993063057470684,
+              "nir_voltage_cross_max": 0.11113491449842422,
+              "visible_temperature_cross_max": 0.013125958082448846,
+              "voltage_cross_over_main": 0.3540351635774791,
+              "temperature_cross_over_main": 0.062525216289377,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42050368962032875,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4212437931159741,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.42984060522038176,
+              0.44682465004338656
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.4434145190694464,
+              0.4372989249018915
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.468048659017749,
+              0.42213376204947145
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "single_blanket_f44p5",
+        "configuration": {
+          "ec_before": 0.4,
+          "ec_after": 0.0,
+          "tc_cap": 0.4,
+          "gap_cap": 0.4,
+          "entities": 8,
+          "depositions": 7,
+          "tc_layers": 3,
+          "f": 0.445
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.45581002135556337,
+                0.46947528555938534
+              ],
+              [
+                0.14376703420216577,
+                0.15743229840598832
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.3120429871533976,
+              0.312042987153397
+            ],
+            "temperature_delta_by_voltage": [
+              0.01366526420382197,
+              0.013665264203822552
+            ],
+            "voltage_relative_delta": [
+              0.6845900101656223,
+              0.6646632884659607
+            ],
+            "temperature_relative_delta": [
+              0.029107526262089914,
+              0.08680089373136383
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.31204298715339795,
+              0.31204298715339795
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.02182238571157155,
+              0.021822385711571544
+            ],
+            "interaction_band_mean": 5.551115123125783e-16,
+            "interaction_mean_abs_spectral": 3.698819028841171e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48403116716583916,
+                0.2769953172337775
+              ],
+              [
+                0.3607278014458337,
+                0.15369195151377066
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.12330336572000544,
+              0.12330336572000686
+            ],
+            "temperature_delta_by_voltage": [
+              0.20703584993206164,
+              0.20703584993206306
+            ],
+            "voltage_relative_delta": [
+              0.2547426159393557,
+              0.445146029728516
+            ],
+            "temperature_relative_delta": [
+              0.42773247670046594,
+              0.5739392669548682
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.12330336572000627,
+              0.12330336572000629
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20791565306676635,
+              0.20791565306676632
+            ],
+            "interaction_band_mean": -1.4432899320127035e-15,
+            "interaction_mean_abs_spectral": 3.9150465814999985e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.312042987153397,
+            "nir_temperature_delta_min": 0.20703584993206164,
+            "nir_voltage_cross_max": 0.12330336572000686,
+            "visible_temperature_cross_max": 0.013665264203822552,
+            "voltage_cross_over_main": 0.3951486519368315,
+            "temperature_cross_over_main": 0.0660043379361921,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.715530812092175,
+          "q_NIR_EC": 0.2827410358174872,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.42782566984712467,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3152718972751185,
+              "nir_temperature_delta_min": 0.20485953825347883,
+              "nir_voltage_cross_max": 0.12901753273534805,
+              "visible_temperature_cross_max": 0.013627375660970276,
+              "voltage_cross_over_main": 0.4092262388447593,
+              "temperature_cross_over_main": 0.06652058174664396,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4234440213473987,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31552416710746717,
+              "nir_temperature_delta_min": 0.20445142535779293,
+              "nir_voltage_cross_max": 0.12857282894016003,
+              "visible_temperature_cross_max": 0.013505180887437296,
+              "voltage_cross_over_main": 0.4074896389675542,
+              "temperature_cross_over_main": 0.06605569447022948,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.423105466766132,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31308392323920076,
+              "nir_temperature_delta_min": 0.20438084729869246,
+              "nir_voltage_cross_max": 0.12723918105532012,
+              "visible_temperature_cross_max": 0.012965605752280063,
+              "voltage_cross_over_main": 0.40640598769457575,
+              "temperature_cross_over_main": 0.0634384577794194,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4264032423600498,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3130433662405018,
+              "nir_temperature_delta_min": 0.20314576095064887,
+              "nir_voltage_cross_max": 0.1274197928177459,
+              "visible_temperature_cross_max": 0.012610175381625621,
+              "voltage_cross_over_main": 0.4070355949336844,
+              "temperature_cross_over_main": 0.06207451891988565,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4264584859384488,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3115917096348513,
+              "nir_temperature_delta_min": 0.20455538928873185,
+              "nir_voltage_cross_max": 0.11794220023645677,
+              "visible_temperature_cross_max": 0.016790848164324107,
+              "voltage_cross_over_main": 0.37851520624432244,
+              "temperature_cross_over_main": 0.08208460418817745,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4284452887287862,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3114570077748243,
+              "nir_temperature_delta_min": 0.20427059153839783,
+              "nir_voltage_cross_max": 0.1175627523688616,
+              "visible_temperature_cross_max": 0.016672523706452835,
+              "voltage_cross_over_main": 0.37746061072370074,
+              "temperature_cross_over_main": 0.08161979451319508,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42863058678235666,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3088644965991606,
+              "nir_temperature_delta_min": 0.20372265205358886,
+              "nir_voltage_cross_max": 0.11619353558209028,
+              "visible_temperature_cross_max": 0.016113652589354294,
+              "voltage_cross_over_main": 0.3761958297618272,
+              "temperature_cross_over_main": 0.07909602799160315,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43222837674753606,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3092700707994588,
+              "nir_temperature_delta_min": 0.20289391212280417,
+              "nir_voltage_cross_max": 0.11644403382122567,
+              "visible_temperature_cross_max": 0.01570638500575272,
+              "voltage_cross_over_main": 0.37651245566769354,
+              "temperature_cross_over_main": 0.07741181014956343,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4316615560468058,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3141075804611405,
+              "nir_temperature_delta_min": 0.21066218249728771,
+              "nir_voltage_cross_max": 0.13032955196561957,
+              "visible_temperature_cross_max": 0.011200039125578931,
+              "voltage_cross_over_main": 0.41492011041020754,
+              "temperature_cross_over_main": 0.05316587435299704,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4250136205054621,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.313998122780732,
+              "nir_temperature_delta_min": 0.21019297607781778,
+              "nir_voltage_cross_max": 0.13082243141534644,
+              "visible_temperature_cross_max": 0.01109138848220953,
+              "voltage_cross_over_main": 0.41663443799216926,
+              "temperature_cross_over_main": 0.05276764566149569,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42516177745821865,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31137869029046006,
+              "nir_temperature_delta_min": 0.21033656633648296,
+              "nir_voltage_cross_max": 0.13025230394466825,
+              "visible_temperature_cross_max": 0.010614866281927482,
+              "voltage_cross_over_main": 0.41830834288360064,
+              "temperature_cross_over_main": 0.050466100435178254,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4287383952815413,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3116099940017504,
+              "nir_temperature_delta_min": 0.20904074085296687,
+              "nir_voltage_cross_max": 0.12988524959974776,
+              "visible_temperature_cross_max": 0.010272238637523329,
+              "voltage_cross_over_main": 0.41681990982297623,
+              "temperature_cross_over_main": 0.04913988821321926,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42842014880706925,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3106545021616399,
+              "nir_temperature_delta_min": 0.20954031260102754,
+              "nir_voltage_cross_max": 0.1188476668398063,
+              "visible_temperature_cross_max": 0.01396276180710973,
+              "voltage_cross_over_main": 0.3825718475438911,
+              "temperature_cross_over_main": 0.06663520557829529,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42973785691519484,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3105075822138962,
+              "nir_temperature_delta_min": 0.2092050916818231,
+              "nir_voltage_cross_max": 0.11918721543666441,
+              "visible_temperature_cross_max": 0.013866828308079754,
+              "voltage_cross_over_main": 0.3838463930151668,
+              "temperature_cross_over_main": 0.066283416892977,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4299411919288879,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30797947604295495,
+              "nir_temperature_delta_min": 0.20896198333764504,
+              "nir_voltage_cross_max": 0.11875478281232138,
+              "visible_temperature_cross_max": 0.013385448862008958,
+              "voltage_cross_over_main": 0.38559317113637226,
+              "temperature_cross_over_main": 0.06405686167507549,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4334704432751886,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3075049312404292,
+              "nir_temperature_delta_min": 0.20805624994457553,
+              "nir_voltage_cross_max": 0.11845320970143436,
+              "visible_temperature_cross_max": 0.013008762028142051,
+              "voltage_cross_over_main": 0.38520751268479403,
+              "temperature_cross_over_main": 0.06252521628938078,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43413937936370917,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.43413937936370917,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.44299936669766243,
+              0.4465237841707956
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.45698882038285177,
+              0.43652025989460125
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.48237708818189906,
+              0.4206849737587898
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "single_blanket_LiNiO_first",
+        "configuration": {
+          "ec_before": 0.4,
+          "ec_after": 0.0,
+          "tc_cap": 0.4,
+          "gap_cap": 0.4,
+          "entities": 8,
+          "depositions": 7,
+          "tc_layers": 3,
+          "reverse_ec": true
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4517415392340293,
+                0.465529913926175
+              ],
+              [
+                0.14480089205423782,
+                0.15858926674638293
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.3069406471797915,
+              0.3069406471797921
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145666,
+              0.013788374692145111
+            ],
+            "voltage_relative_delta": [
+              0.6794607547055304,
+              0.6593360340501504
+            ],
+            "temperature_relative_delta": [
+              0.029618665266550978,
+              0.08694393369127291
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.306940647179791,
+              0.306940647179791
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045165,
+              0.022018983781045158
+            ],
+            "interaction_band_mean": -5.551115123125783e-16,
+            "interaction_mean_abs_spectral": 3.717123830959676e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48636299716329356,
+                0.2774619593940031
+              ],
+              [
+                0.363768460003629,
+                0.15486742223434027
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.12259453715966456,
+              0.12259453715966281
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776929048,
+              0.20890103776928873
+            ],
+            "voltage_relative_delta": [
+              0.2520638656203201,
+              0.44184268512850594
+            ],
+            "temperature_relative_delta": [
+              0.42951671691247756,
+              0.5742692419436383
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.12259453715966395,
+              0.12259453715966394
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835883
+            ],
+            "interaction_band_mean": 1.7763568394002505e-15,
+            "interaction_mean_abs_spectral": 3.934469029645874e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.3069406471797915,
+            "nir_temperature_delta_min": 0.20890103776928873,
+            "nir_voltage_cross_max": 0.12259453715966456,
+            "visible_temperature_cross_max": 0.013788374692145666,
+            "voltage_cross_over_main": 0.39940795813809044,
+            "temperature_cross_over_main": 0.06600433793619355,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7118289591368073,
+          "q_NIR_EC": 0.2843101511123933,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.43005056910133066,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3091632857666422,
+              "nir_temperature_delta_min": 0.2067051196791856,
+              "nir_voltage_cross_max": 0.12862550419483385,
+              "visible_temperature_cross_max": 0.013750144811068676,
+              "voltage_cross_over_main": 0.4160439163268595,
+              "temperature_cross_over_main": 0.06652058174664197,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4269588469170112,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3093753349427229,
+              "nir_temperature_delta_min": 0.20629333009074635,
+              "nir_voltage_cross_max": 0.12813387533807935,
+              "visible_temperature_cross_max": 0.013626849183720813,
+              "voltage_cross_over_main": 0.4141696537049464,
+              "temperature_cross_over_main": 0.06605569447023081,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42666620473942474,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3070348221427761,
+              "nir_temperature_delta_min": 0.20622211619327577,
+              "nir_voltage_cross_max": 0.12680633506950817,
+              "visible_temperature_cross_max": 0.013082413011309357,
+              "voltage_cross_over_main": 0.41300310559087394,
+              "temperature_cross_over_main": 0.06343845777941799,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.42991866225068687,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3073031473567217,
+              "nir_temperature_delta_min": 0.20497590294119494,
+              "nir_voltage_cross_max": 0.1269178907182287,
+              "visible_temperature_cross_max": 0.012723780565243037,
+              "voltage_cross_over_main": 0.4130055022537751,
+              "temperature_cross_over_main": 0.06207451891988168,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.429543273915032,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3064574858031899,
+              "nir_temperature_delta_min": 0.20639823063367646,
+              "nir_voltage_cross_max": 0.11726121747770382,
+              "visible_temperature_cross_max": 0.016942117066705786,
+              "voltage_cross_over_main": 0.38263453467411845,
+              "temperature_cross_over_main": 0.08208460418817887,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4307285875365165,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3063002646627311,
+              "nir_temperature_delta_min": 0.2061108671378419,
+              "nir_voltage_cross_max": 0.11687370859554874,
+              "visible_temperature_cross_max": 0.016822726622726936,
+              "voltage_cross_over_main": 0.38156581002056605,
+              "temperature_cross_over_main": 0.08161979451319423,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4309496766035959,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30356662862275036,
+              "nir_temperature_delta_min": 0.2055579912612782,
+              "nir_voltage_cross_max": 0.11553139956657643,
+              "visible_temperature_cross_max": 0.01625882063069975,
+              "voltage_cross_over_main": 0.3805800396793618,
+              "temperature_cross_over_main": 0.07909602799160302,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4348304047742992,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3040049124562426,
+              "nir_temperature_delta_min": 0.20472178520499185,
+              "nir_voltage_cross_max": 0.1158082093452136,
+              "visible_temperature_cross_max": 0.015847883969768523,
+              "voltage_cross_over_main": 0.3809419012657653,
+              "temperature_cross_over_main": 0.07741181014956339,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43420350984953027,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.309298066846727,
+              "nir_temperature_delta_min": 0.21256003999726397,
+              "nir_voltage_cross_max": 0.1295504769273298,
+              "visible_temperature_cross_max": 0.011300940378961982,
+              "voltage_cross_over_main": 0.4188531737300792,
+              "temperature_cross_over_main": 0.053165874352994316,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4267727934601432,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30912001196065547,
+              "nir_temperature_delta_min": 0.21208660649293465,
+              "nir_voltage_cross_max": 0.1300673033414331,
+              "visible_temperature_cross_max": 0.011191310900967172,
+              "voltage_cross_over_main": 0.4207663635765774,
+              "temperature_cross_over_main": 0.05276764566149062,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4270186170179137,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3064729620331844,
+              "nir_temperature_delta_min": 0.21223149035753264,
+              "nir_voltage_cross_max": 0.1295427165728627,
+              "visible_temperature_cross_max": 0.010710495707891204,
+              "voltage_cross_over_main": 0.42268889142278077,
+              "temperature_cross_over_main": 0.05046610043518013,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4307068366628283,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30691533323281417,
+              "nir_temperature_delta_min": 0.21092399077056007,
+              "nir_voltage_cross_max": 0.12912523617399485,
+              "visible_temperature_cross_max": 0.010364781327951655,
+              "voltage_cross_over_main": 0.42071940431873245,
+              "temperature_cross_over_main": 0.04913988821322041,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4300860390701627,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30684936833267,
+              "nir_temperature_delta_min": 0.21142806316500112,
+              "nir_voltage_cross_max": 0.11783344393958894,
+              "visible_temperature_cross_max": 0.014088552454020797,
+              "voltage_cross_over_main": 0.38401071046638136,
+              "temperature_cross_over_main": 0.06663520557829598,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43017849675640335,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30666140301630296,
+              "nir_temperature_delta_min": 0.2110898222375157,
+              "nir_voltage_cross_max": 0.118199667398664,
+              "visible_temperature_cross_max": 0.01399175468923386,
+              "voltage_cross_over_main": 0.3854403137664513,
+              "temperature_cross_over_main": 0.06628341689297794,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43044217075137514,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30409102773360086,
+              "nir_temperature_delta_min": 0.21084452372807472,
+              "nir_voltage_cross_max": 0.11783288342262405,
+              "visible_temperature_cross_max": 0.013506038491396255,
+              "voltage_cross_over_main": 0.38749214108958063,
+              "temperature_cross_over_main": 0.06405686167507454,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43408054812994507,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30345916362319103,
+              "nir_temperature_delta_min": 0.2099306305747058,
+              "nir_voltage_cross_max": 0.11755144709073156,
+              "visible_temperature_cross_max": 0.013125958082448708,
+              "voltage_cross_over_main": 0.3873715517014231,
+              "temperature_cross_over_main": 0.06252521628937666,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4349843927069739,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4349843927069739,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.44386162521119793,
+              0.4464869753303184
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.45787830811260416,
+              0.4363990316589007
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.4833159918966377,
+              0.4204598469968179
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "finish_TC_first_LiNiO_first",
+        "configuration": {
+          "ec_before": 0.0,
+          "ec_after": 0.38,
+          "tc_cap": 0.4,
+          "gap_cap": 0.0,
+          "entities": 9,
+          "depositions": 8,
+          "tc_layers": 3,
+          "reverse_ec": true
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4617383227924413,
+                0.47552669748458676
+              ],
+              [
+                0.1450740460784126,
+                0.15886242077055768
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.31666427671402875,
+              0.3166642767140291
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145444,
+              0.013788374692145083
+            ],
+            "voltage_relative_delta": [
+              0.6858089551652276,
+              0.6659232349920651
+            ],
+            "temperature_relative_delta": [
+              0.028996005408492058,
+              0.08679443902003357
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.316664276714029,
+              0.3166642767140289
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045158,
+              0.022018983781045155
+            ],
+            "interaction_band_mean": -3.3306690738754696e-16,
+            "interaction_mean_abs_spectral": 4.063839542656214e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.48081118543692786,
+                0.27191014766763827
+              ],
+              [
+                0.3638251952275786,
+                0.1549241574582892
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.11698599020934924,
+              0.11698599020934908
+            ],
+            "temperature_delta_by_voltage": [
+              0.2089010377692896,
+              0.20890103776928942
+            ],
+            "voltage_relative_delta": [
+              0.24330962704838177,
+              0.43023767672085417
+            ],
+            "temperature_relative_delta": [
+              0.4344762436827563,
+              0.5741796898882124
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.11698599020935006,
+              0.11698599020935006
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835886,
+              0.20978876705835886
+            ],
+            "interaction_band_mean": 1.6653345369377348e-16,
+            "interaction_mean_abs_spectral": 4.0017424128923724e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.31666427671402875,
+            "nir_temperature_delta_min": 0.20890103776928942,
+            "nir_voltage_cross_max": 0.11698599020934924,
+            "visible_temperature_cross_max": 0.013788374692145444,
+            "voltage_cross_over_main": 0.3694322309522657,
+            "temperature_cross_over_main": 0.06600433793619227,
+            "amplitude_thresholds_pass": true,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.7343791203943153,
+          "q_NIR_EC": 0.27130331681203573,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.4168452512854987,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3191687048128129,
+              "nir_temperature_delta_min": 0.20670511967918534,
+              "nir_voltage_cross_max": 0.121073629337758,
+              "visible_temperature_cross_max": 0.013750144811068954,
+              "voltage_cross_over_main": 0.3793405415758593,
+              "temperature_cross_over_main": 0.0665205817466434,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4135743824803105,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3191380012905004,
+              "nir_temperature_delta_min": 0.20629333009074424,
+              "nir_voltage_cross_max": 0.1215405317704489,
+              "visible_temperature_cross_max": 0.01362684918372048,
+              "voltage_cross_over_main": 0.3808400481264364,
+              "temperature_cross_over_main": 0.06605569447022987,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4136141715064674,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31736754796487465,
+              "nir_temperature_delta_min": 0.20622211619327607,
+              "nir_voltage_cross_max": 0.12025501821006565,
+              "visible_temperature_cross_max": 0.013082413011309385,
+              "voltage_cross_over_main": 0.37891403510284277,
+              "temperature_cross_over_main": 0.06343845777941803,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41592154221958855,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31713170025909465,
+              "nir_temperature_delta_min": 0.2049759029411961,
+              "nir_voltage_cross_max": 0.12016067546234516,
+              "visible_temperature_cross_max": 0.012723780565243481,
+              "voltage_cross_over_main": 0.3788983421215054,
+              "temperature_cross_over_main": 0.0620745189198835,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4162308589527847,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3154226038218204,
+              "nir_temperature_delta_min": 0.20639823063367635,
+              "nir_voltage_cross_max": 0.11117151110113915,
+              "visible_temperature_cross_max": 0.016942117066705564,
+              "voltage_cross_over_main": 0.3524525818826193,
+              "temperature_cross_over_main": 0.08208460418817784,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41848617822762524,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31532022808835963,
+              "nir_temperature_delta_min": 0.2061108671378426,
+              "nir_voltage_cross_max": 0.1115251512128847,
+              "visible_temperature_cross_max": 0.01682272662272677,
+              "voltage_cross_over_main": 0.3536885403420199,
+              "temperature_cross_over_main": 0.08161979451319315,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41862204908405276,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31337533117151173,
+              "nir_temperature_delta_min": 0.20555799126127877,
+              "nir_voltage_cross_max": 0.11028852720723803,
+              "visible_temperature_cross_max": 0.01625882063069986,
+              "voltage_cross_over_main": 0.35193748912825756,
+              "temperature_cross_over_main": 0.07909602799160334,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4212201372282098,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31382701951878067,
+              "nir_temperature_delta_min": 0.20472178520499154,
+              "nir_voltage_cross_max": 0.11012446375966972,
+              "visible_temperature_cross_max": 0.015847883969768273,
+              "voltage_cross_over_main": 0.3509081656784477,
+              "temperature_cross_over_main": 0.07741181014956228,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4206138789528301,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3188394699941272,
+              "nir_temperature_delta_min": 0.21256003999726347,
+              "nir_voltage_cross_max": 0.12485417931585518,
+              "visible_temperature_cross_max": 0.011300940378962399,
+              "voltage_cross_over_main": 0.39158947077083933,
+              "temperature_cross_over_main": 0.0531658743529964,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41400144092082264,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3189839740343361,
+              "nir_temperature_delta_min": 0.21208660649293543,
+              "nir_voltage_cross_max": 0.12418680747071725,
+              "visible_temperature_cross_max": 0.011191310900967338,
+              "voltage_cross_over_main": 0.3893198956050047,
+              "temperature_cross_over_main": 0.05276764566149121,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.413813892687258,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3170316097009589,
+              "nir_temperature_delta_min": 0.21223149035753225,
+              "nir_voltage_cross_max": 0.12218643968617604,
+              "visible_temperature_cross_max": 0.010710495707891288,
+              "voltage_cross_over_main": 0.3854077509855525,
+              "temperature_cross_over_main": 0.050466100435180614,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4163622678650541,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3175167876281848,
+              "nir_temperature_delta_min": 0.21092399077056062,
+              "nir_voltage_cross_max": 0.12232617646499122,
+              "visible_temperature_cross_max": 0.010364781327951406,
+              "voltage_cross_over_main": 0.3852589256106872,
+              "temperature_cross_over_main": 0.049139888213219095,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4157260502224944,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3155233096235971,
+              "nir_temperature_delta_min": 0.21142806316500096,
+              "nir_voltage_cross_max": 0.11371803414102044,
+              "visible_temperature_cross_max": 0.014088552454020742,
+              "voltage_cross_over_main": 0.36041088145493955,
+              "temperature_cross_over_main": 0.06663520557829578,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4183526096929858,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3152612727902939,
+              "nir_temperature_delta_min": 0.2110898222375144,
+              "nir_voltage_cross_max": 0.11324312976093054,
+              "visible_temperature_cross_max": 0.01399175468923397,
+              "voltage_cross_over_main": 0.35920406194724025,
+              "temperature_cross_over_main": 0.06628341689297888,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.41870033331941814,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3135524150586942,
+              "nir_temperature_delta_min": 0.21084452372807544,
+              "nir_voltage_cross_max": 0.11141814681473938,
+              "visible_temperature_cross_max": 0.01350603849139645,
+              "voltage_cross_over_main": 0.3553413766367671,
+              "temperature_cross_over_main": 0.06405686167507525,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4209822462228227,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.31327824167815543,
+              "nir_temperature_delta_min": 0.20993063057470657,
+              "nir_voltage_cross_max": 0.11158322048320268,
+              "visible_temperature_cross_max": 0.013125958082448486,
+              "voltage_cross_over_main": 0.3561792861370725,
+              "temperature_cross_over_main": 0.06252521628937537,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4213506794883301,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4213506794883301,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.4299496729472756,
+              0.44679824617595965
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.44352703104034746,
+              0.4372815986581398
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.46816742165370007,
+              0.4221014725168168
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": true
+      },
+      {
+        "name": "patent_example9_functional_dimensions_cap_omitted_control",
+        "configuration": {
+          "ec_before": 0.4,
+          "ec_after": 0.0,
+          "tc_cap": 0.4,
+          "gap_cap": 0.4,
+          "entities": 8,
+          "depositions": 7,
+          "tc_layers": 3,
+          "reverse_ec": true,
+          "nio": 0.1,
+          "ion": 0.06,
+          "wo3": 0.3,
+          "ito_top": 0.3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.4506918733435919,
+                0.4644802480357373
+              ],
+              [
+                0.16039181031201588,
+                0.1741801850041611
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.290300063031576,
+              0.2903000630315762
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145389,
+              0.013788374692145222
+            ],
+            "voltage_relative_delta": [
+              0.6441209176413556,
+              0.6249998019490387
+            ],
+            "temperature_relative_delta": [
+              0.029685599657801823,
+              0.07916155727941053
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.29030006303157607,
+              0.29030006303157607
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045172,
+              0.02201898378104516
+            ],
+            "interaction_band_mean": -1.6653345369377348e-16,
+            "interaction_mean_abs_spectral": 3.678148063901431e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.4583070730157107,
+                0.24940603524642244
+              ],
+              [
+                0.3670970055962167,
+                0.15819596782692813
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.091210067419494,
+              0.0912100674194943
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928828,
+              0.2089010377692886
+            ],
+            "voltage_relative_delta": [
+              0.19901518608325586,
+              0.36570914304208946
+            ],
+            "temperature_relative_delta": [
+              0.4558101981597111,
+              0.569062222204739
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.09121006741949454,
+              0.09121006741949451
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835883
+            ],
+            "interaction_band_mean": -3.3306690738754696e-16,
+            "interaction_mean_abs_spectral": 3.581673071823635e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.290300063031576,
+            "nir_temperature_delta_min": 0.20890103776928828,
+            "nir_voltage_cross_max": 0.0912100674194943,
+            "visible_temperature_cross_max": 0.013788374692145389,
+            "voltage_cross_over_main": 0.31419237897159313,
+            "temperature_cross_over_main": 0.06600433793619237,
+            "amplitude_thresholds_pass": false,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.6732376229860302,
+          "q_NIR_EC": 0.2115261303791619,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.4547019336528433,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2915108577122637,
+              "nir_temperature_delta_min": 0.20670511967918556,
+              "nir_voltage_cross_max": 0.0946821230399984,
+              "visible_temperature_cross_max": 0.01375014481106876,
+              "voltage_cross_over_main": 0.3247979295970326,
+              "temperature_cross_over_main": 0.06652058174664238,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45281332241247313,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2913975580101508,
+              "nir_temperature_delta_min": 0.20629333009074546,
+              "nir_voltage_cross_max": 0.09480455503577873,
+              "visible_temperature_cross_max": 0.013626849183720952,
+              "voltage_cross_over_main": 0.3253443703618004,
+              "temperature_cross_over_main": 0.06605569447023177,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45298938296319424,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.28907955000731256,
+              "nir_temperature_delta_min": 0.2062221161932763,
+              "nir_voltage_cross_max": 0.09396425395502633,
+              "visible_temperature_cross_max": 0.013082413011309413,
+              "voltage_cross_over_main": 0.3250463547236372,
+              "temperature_cross_over_main": 0.0634384577794181,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45662171536056767,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2888430838030644,
+              "nir_temperature_delta_min": 0.20497590294119403,
+              "nir_voltage_cross_max": 0.09409086016351376,
+              "visible_temperature_cross_max": 0.012723780565243481,
+              "voltage_cross_over_main": 0.32575078109769,
+              "temperature_cross_over_main": 0.06207451891988413,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4569955363376425,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2864589998288609,
+              "nir_temperature_delta_min": 0.20639823063367704,
+              "nir_voltage_cross_max": 0.08786293038122261,
+              "visible_temperature_cross_max": 0.016942117066705176,
+              "voltage_cross_over_main": 0.30672078878204045,
+              "temperature_cross_over_main": 0.08208460418817567,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.460798927870518,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2864251435929224,
+              "nir_temperature_delta_min": 0.2061108671378422,
+              "nir_voltage_cross_max": 0.08785748160040482,
+              "visible_temperature_cross_max": 0.016822726622726908,
+              "voltage_cross_over_main": 0.30673802061620326,
+              "temperature_cross_over_main": 0.08161979451319398,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4608533955650313,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2842087930266548,
+              "nir_temperature_delta_min": 0.20555799126127938,
+              "nir_voltage_cross_max": 0.08695659055180943,
+              "visible_temperature_cross_max": 0.01625882063070011,
+              "voltage_cross_over_main": 0.30596024009592876,
+              "temperature_cross_over_main": 0.07909602799160433,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4644472769272141,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2843071677742681,
+              "nir_temperature_delta_min": 0.204721785204991,
+              "nir_voltage_cross_max": 0.08692949348770251,
+              "visible_temperature_cross_max": 0.015847883969768994,
+              "voltage_cross_over_main": 0.30575906393159274,
+              "temperature_cross_over_main": 0.077411810149566,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.464286570871137,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2954908316045081,
+              "nir_temperature_delta_min": 0.21256003999726367,
+              "nir_voltage_cross_max": 0.09586855456160026,
+              "visible_temperature_cross_max": 0.01130094037896201,
+              "voltage_cross_over_main": 0.32443833888529233,
+              "temperature_cross_over_main": 0.053165874352994524,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44671436769541395,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.29559997910060176,
+              "nir_temperature_delta_min": 0.21208660649293454,
+              "nir_voltage_cross_max": 0.0959296687110093,
+              "visible_temperature_cross_max": 0.011191310900967505,
+              "voltage_cross_over_main": 0.32452528921986656,
+              "temperature_cross_over_main": 0.05276764566149222,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4465494226407783,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.29332589165892875,
+              "nir_temperature_delta_min": 0.21223149035753333,
+              "nir_voltage_cross_max": 0.09511200292503275,
+              "visible_temperature_cross_max": 0.010710495707891232,
+              "voltage_cross_over_main": 0.32425369062075965,
+              "temperature_cross_over_main": 0.05046610043518009,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45001141649468124,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2928732345229107,
+              "nir_temperature_delta_min": 0.21092399077056112,
+              "nir_voltage_cross_max": 0.09521563534661492,
+              "visible_temperature_cross_max": 0.010364781327951877,
+              "voltage_cross_over_main": 0.3251086959234114,
+              "temperature_cross_over_main": 0.04913988821322122,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45070694225447877,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2914890773612048,
+              "nir_temperature_delta_min": 0.21142806316500148,
+              "nir_voltage_cross_max": 0.0886366539122378,
+              "visible_temperature_cross_max": 0.014088552454020908,
+              "voltage_cross_over_main": 0.30408224800273337,
+              "temperature_cross_over_main": 0.06663520557829639,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45284715707007195,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2917021940328718,
+              "nir_temperature_delta_min": 0.21108982223751427,
+              "nir_voltage_cross_max": 0.08863507714072691,
+              "visible_temperature_cross_max": 0.013991754689233915,
+              "voltage_cross_over_main": 0.30385468108868136,
+              "temperature_cross_over_main": 0.06628341689297866,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45251630841393287,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.28911742483666036,
+              "nir_temperature_delta_min": 0.21084452372807516,
+              "nir_voltage_cross_max": 0.08784120100134918,
+              "visible_temperature_cross_max": 0.013506038491397199,
+              "voltage_cross_over_main": 0.30382534380615733,
+              "temperature_cross_over_main": 0.06405686167507889,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.456561897210362,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2896691066564947,
+              "nir_temperature_delta_min": 0.20993063057470585,
+              "nir_voltage_cross_max": 0.08766339277828228,
+              "visible_temperature_cross_max": 0.01312595808244843,
+              "voltage_cross_over_main": 0.30263286889698693,
+              "temperature_cross_over_main": 0.06252521628937532,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.45569236403429464,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4644472769272141,
+              0.45291606417044317
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.47392579278287167,
+              0.4480730332425051
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.4888918704496991,
+              0.4407203215733242
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.5160525299191269,
+              0.4285569490819277
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": false
+      },
+      {
+        "name": "patent_example9_dimensions_AlOx_substitution_control",
+        "configuration": {
+          "ec_before": 0.0,
+          "ec_after": 0.2,
+          "tc_cap": 0.4,
+          "gap_cap": 0.0,
+          "entities": 9,
+          "depositions": 8,
+          "tc_layers": 3,
+          "reverse_ec": true,
+          "nio": 0.1,
+          "ion": 0.06,
+          "wo3": 0.3,
+          "ito_top": 0.3
+        },
+        "metrics": {
+          "visible": {
+            "T_by_voltage_temperature": [
+              [
+                0.45927857360104557,
+                0.4730669482931915
+              ],
+              [
+                0.16130445048075073,
+                0.17509282517289596
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.2979741231202948,
+              0.2979741231202956
+            ],
+            "temperature_delta_by_voltage": [
+              0.013788374692145944,
+              0.013788374692145222
+            ],
+            "voltage_relative_delta": [
+              0.6487873378981781,
+              0.6298772809966443
+            ],
+            "temperature_relative_delta": [
+              0.029146772442872837,
+              0.0787489417600627
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.29797412312029525,
+              0.2979741231202953
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.022018983781045148,
+              0.02201898378104516
+            ],
+            "interaction_band_mean": -7.216449660063518e-16,
+            "interaction_mean_abs_spectral": 4.1878306378251353e-17
+          },
+          "nir": {
+            "T_by_voltage_temperature": [
+              [
+                0.44930123562730134,
+                0.240400197858013
+              ],
+              [
+                0.3668548013497683,
+                0.15795376358048008
+              ]
+            ],
+            "voltage_delta_by_temperature": [
+              0.08244643427753306,
+              0.08244643427753293
+            ],
+            "temperature_delta_by_voltage": [
+              0.20890103776928834,
+              0.2089010377692882
+            ],
+            "voltage_relative_delta": [
+              0.18349923779404645,
+              0.3429549351961352
+            ],
+            "temperature_relative_delta": [
+              0.4649465018221612,
+              0.5694379274870575
+            ],
+            "voltage_mean_abs_spectral_delta": [
+              0.08244643427753308,
+              0.08244643427753306
+            ],
+            "temperature_mean_abs_spectral_delta": [
+              0.20978876705835883,
+              0.20978876705835886
+            ],
+            "interaction_band_mean": 1.6653345369377348e-16,
+            "interaction_mean_abs_spectral": 3.6015747877577955e-17
+          },
+          "summary": {
+            "visible_voltage_delta_min": 0.2979741231202948,
+            "nir_temperature_delta_min": 0.2089010377692882,
+            "nir_voltage_cross_max": 0.08244643427753306,
+            "visible_temperature_cross_max": 0.013788374692145944,
+            "voltage_cross_over_main": 0.2766899132521273,
+            "temperature_cross_over_main": 0.06600433793619505,
+            "amplitude_thresholds_pass": false,
+            "decoupling_pass": null
+          }
+        },
+        "local_coefficients": {
+          "a_VIS_EC": 0.6910346083494787,
+          "q_NIR_EC": 0.19120230583843392,
+          "b_NIR_TC": 0.3806505790256717,
+          "area_open_interval": [
+            0.44299148737392285,
+            0.46386096883016265
+          ],
+          "exists": true
+        },
+        "scenario16": [
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.29798668513715354,
+              "nir_temperature_delta_min": 0.20670511967918492,
+              "nir_voltage_cross_max": 0.08649766381444696,
+              "visible_temperature_cross_max": 0.01375014481106876,
+              "voltage_cross_over_main": 0.2902735864679152,
+              "temperature_cross_over_main": 0.06652058174664259,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4429728124907481,
+              0.45816533149334593
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2978908900153081,
+              "nir_temperature_delta_min": 0.20629333009074502,
+              "nir_voltage_cross_max": 0.08640741372488059,
+              "visible_temperature_cross_max": 0.01362684918372084,
+              "voltage_cross_over_main": 0.2900639684565052,
+              "temperature_cross_over_main": 0.06605569447023137,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4431152627501186,
+              0.45708375568549675
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2961322358366937,
+              "nir_temperature_delta_min": 0.20622211619327557,
+              "nir_voltage_cross_max": 0.08512709419243955,
+              "visible_temperature_cross_max": 0.013082413011309912,
+              "voltage_cross_over_main": 0.2874631123893722,
+              "temperature_cross_over_main": 0.06343845777942075,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4457468118154935,
+              0.45689627248790826
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2955711271327372,
+              "nir_temperature_delta_min": 0.20497590294119433,
+              "nir_voltage_cross_max": 0.08516472118605328,
+              "visible_temperature_cross_max": 0.012723780565244092,
+              "voltage_cross_over_main": 0.2881361316046506,
+              "temperature_cross_over_main": 0.062074518919887016,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44659301224885956,
+              0.4535943084386305
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.29385030018219527,
+              "nir_temperature_delta_min": 0.206398230633677,
+              "nir_voltage_cross_max": 0.07927226494212852,
+              "visible_temperature_cross_max": 0.016942117066705675,
+              "voltage_cross_over_main": 0.26977091700426215,
+              "temperature_cross_over_main": 0.08208460418817812,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44920832110144604,
+              0.4573596892951012
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2939068476683653,
+              "nir_temperature_delta_min": 0.2061108671378429,
+              "nir_voltage_cross_max": 0.07913733293064562,
+              "visible_temperature_cross_max": 0.016822726622726852,
+              "voltage_cross_over_main": 0.2692599153727155,
+              "temperature_cross_over_main": 0.08161979451319344,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44912189371288297,
+              0.4566031303672289
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2923355308580337,
+              "nir_temperature_delta_min": 0.20555799126127977,
+              "nir_voltage_cross_max": 0.07794935208611897,
+              "visible_temperature_cross_max": 0.01625882063069989,
+              "voltage_cross_over_main": 0.2666434417237272,
+              "temperature_cross_over_main": 0.07909602799160309,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4515359443738054,
+              0.45514159136902793
+            ]
+          },
+          {
+            "parameters": [
+              0.95,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2924856634505534,
+              "nir_temperature_delta_min": 0.20472178520499035,
+              "nir_voltage_cross_max": 0.07785911312679722,
+              "visible_temperature_cross_max": 0.015847883969768578,
+              "voltage_cross_over_main": 0.2661980495326391,
+              "temperature_cross_over_main": 0.07741181014956422,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4513041714344255,
+              0.45291606417044317
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30188114141491884,
+              "nir_temperature_delta_min": 0.21256003999726242,
+              "nir_voltage_cross_max": 0.08788430773736927,
+              "visible_temperature_cross_max": 0.011300940378961954,
+              "voltage_cross_over_main": 0.29112221891521595,
+              "temperature_cross_over_main": 0.05316587435299457,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.437258185063549,
+              0.47309005022090833
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.301883907483432,
+              "nir_temperature_delta_min": 0.21208660649293454,
+              "nir_voltage_cross_max": 0.08782365507007175,
+              "visible_temperature_cross_max": 0.011191310900967422,
+              "voltage_cross_over_main": 0.29091863757226505,
+              "temperature_cross_over_main": 0.05276764566149183,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43725417860256166,
+              0.47191384759258326
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.3003452145013916,
+              "nir_temperature_delta_min": 0.2122314903575338,
+              "nir_voltage_cross_max": 0.08661742546012782,
+              "visible_temperature_cross_max": 0.010710495707890871,
+              "voltage_cross_over_main": 0.2883928935039732,
+              "temperature_cross_over_main": 0.05046610043517828,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.43949426735210484,
+              0.47227435565136733
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              0.95,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.30036290868622073,
+              "nir_temperature_delta_min": 0.2109239907705607,
+              "nir_voltage_cross_max": 0.08656233673901956,
+              "visible_temperature_cross_max": 0.0103647813279516,
+              "voltage_cross_over_main": 0.28819249726153234,
+              "temperature_cross_over_main": 0.04913988821322,
+              "amplitude_thresholds_pass": true,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4394683770288566,
+              0.4690030299975153
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.299007786540755,
+              "nir_temperature_delta_min": 0.21142806316499999,
+              "nir_voltage_cross_max": 0.08022114913432443,
+              "visible_temperature_cross_max": 0.014088552454021186,
+              "voltage_cross_over_main": 0.26829117081668447,
+              "temperature_cross_over_main": 0.06663520557829818,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44146007542853116,
+              0.47026899682378565
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.55,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2990189724735609,
+              "nir_temperature_delta_min": 0.2110898222375146,
+              "nir_voltage_cross_max": 0.08023120498931319,
+              "visible_temperature_cross_max": 0.01399175468923372,
+              "voltage_cross_over_main": 0.26831476386137065,
+              "temperature_cross_over_main": 0.06628341689297763,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4414435609488665,
+              0.46942017946284864
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              5.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.29698266911042315,
+              "nir_temperature_delta_min": 0.2108445237280746,
+              "nir_voltage_cross_max": 0.07921413844485165,
+              "visible_temperature_cross_max": 0.013506038491396644,
+              "voltage_cross_over_main": 0.26672983538779665,
+              "temperature_cross_over_main": 0.06405686167507642,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.44447038069726497,
+              0.46880289789055263
+            ]
+          },
+          {
+            "parameters": [
+              1.05,
+              1.05,
+              1.62,
+              9.0
+            ],
+            "summary": {
+              "visible_voltage_delta_min": 0.2975031060250484,
+              "nir_temperature_delta_min": 0.20993063057470682,
+              "nir_voltage_cross_max": 0.07907377648837066,
+              "visible_temperature_cross_max": 0.013125958082449873,
+              "voltage_cross_over_main": 0.2657914317093315,
+              "temperature_cross_over_main": 0.0625252162893819,
+              "amplitude_thresholds_pass": false,
+              "decoupling_pass": null
+            },
+            "area": [
+              0.4436928466517792,
+              0.46649043213280267
+            ]
+          }
+        ],
+        "thermal_diagnostic_common_area": [
+          {
+            "eta": 1.0,
+            "common_area_open_interval": [
+              0.4515359443738054,
+              0.45291606417044317
+            ],
+            "exists": true
+          },
+          {
+            "eta": 0.98,
+            "common_area_open_interval": [
+              0.46075096364674023,
+              0.4485735187425691
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.95,
+            "common_area_open_interval": [
+              0.47530099407768994,
+              0.44191018106137614
+            ],
+            "exists": false
+          },
+          {
+            "eta": 0.9,
+            "common_area_open_interval": [
+              0.5017066048597838,
+              0.430812880074769
+            ],
+            "exists": false
+          }
+        ],
+        "maximum_optical_path_layers": 7,
+        "main_thresholds_nominal": false
+      }
+    ],
+    "serial_control": {
+      "metrics": {
+        "visible": {
+          "T_by_voltage_temperature": [
+            [
+              0.18691362548720897,
+              0.20799011806715356
+            ],
+            [
+              0.00210917120954859,
+              0.002458966087599364
+            ]
+          ],
+          "voltage_delta_by_temperature": [
+            0.18480445427766037,
+            0.2055311519795542
+          ],
+          "temperature_delta_by_voltage": [
+            0.021076492579944595,
+            0.0003497948780507741
+          ],
+          "voltage_relative_delta": [
+            0.9887157974489509,
+            0.9881774859764951
+          ],
+          "temperature_relative_delta": [
+            0.1013341055613981,
+            0.1422528272410098
+          ],
+          "voltage_mean_abs_spectral_delta": [
+            0.18480445427766057,
+            0.20553115197955418
+          ],
+          "temperature_mean_abs_spectral_delta": [
+            0.03287502275993063,
+            0.00042132976395256225
+          ],
+          "interaction_band_mean": -0.02072669770189381,
+          "interaction_mean_abs_spectral": 0.03245807327789497
+        },
+        "nir": {
+          "T_by_voltage_temperature": [
+            [
+              0.1469124680230398,
+              0.09955711301427525
+            ],
+            [
+              0.004191957434269693,
+              0.001821216664508895
+            ]
+          ],
+          "voltage_delta_by_temperature": [
+            0.1427205105887701,
+            0.09773589634976636
+          ],
+          "temperature_delta_by_voltage": [
+            0.04735535500876456,
+            0.0023707407697607977
+          ],
+          "voltage_relative_delta": [
+            0.9714662922032439,
+            0.9817068152202469
+          ],
+          "temperature_relative_delta": [
+            0.3223372096733,
+            0.5655450483298667
+          ],
+          "voltage_mean_abs_spectral_delta": [
+            0.14272051059245008,
+            0.09773614484496207
+          ],
+          "temperature_mean_abs_spectral_delta": [
+            0.04977874404229894,
+            0.0023944690205003932
+          ],
+          "interaction_band_mean": 0.04498461423900377,
+          "interaction_mean_abs_spectral": 0.04741973883893207
+        },
+        "summary": {
+          "visible_voltage_delta_min": 0.18480445427766037,
+          "nir_temperature_delta_min": 0.0023707407697607977,
+          "nir_voltage_cross_max": 0.1427205105887701,
+          "visible_temperature_cross_max": 0.021076492579944595,
+          "voltage_cross_over_main": 0.7722785208106454,
+          "temperature_cross_over_main": 8.890256095807203,
+          "amplitude_thresholds_pass": false,
+          "decoupling_pass": null
+        }
+      },
+      "retained_aperture_entities": 9,
+      "maximum_optical_path_layers": 9,
+      "limits": "Same assumed material endpoints; two-sided deposition and coating-exposure compatibility unvalidated."
+    },
+    "wavelength_points": 4405,
+    "independent_selected_RT_max_error": 2.1094237467877974e-15,
+    "source_files": {
+      "ITO": {
+        "path": "data\\q2_easy_fabrication_20261106\\ITO_raw.csv",
+        "sha256": "0624e1ff36efb56281836d2d6fb4bfdd21c9b42a7b28227c67e15cc737736203"
+      },
+      "WO3_clear": {
+        "path": "data\\q2_easy_fabrication_20261106\\WO3_clear_raw.csv",
+        "sha256": "9ce5bb56409f00afe7b07adff1f569cd9b64b45fd7738ed8109f8ab150f5a007"
+      },
+      "WO3_dark": {
+        "path": "data\\q2_easy_fabrication_20261106\\WO3_dark_raw.csv",
+        "sha256": "9fb99950eae1c22a73a9b35bc299764eb8e51a395bcd4932a7b74046cfd84c13"
+      },
+      "NiO_clear": {
+        "path": "data\\q2_easy_fabrication_20261106\\NiO_clear_raw.csv",
+        "sha256": "d73dfe9d35b7d45a0dad6f4b4f02a305ab43944047516b4019a307de8aba98e3"
+      },
+      "NiO_dark": {
+        "path": "data\\q2_easy_fabrication_20261106\\NiO_dark_raw.csv",
+        "sha256": "583c692f7195f5b45b291a0af2b484e69736d0cd63d3f078389f9f68644bfad2"
+      },
+      "cap": {
+        "path": "runs\\20261106-q2-process-first-design-05\\inputs\\Al2O3_Franta.csv",
+        "sha256": "86b105c198682acbdd77b4abfe22030ec3fe2622398175f1c438215066dfff4e"
+      },
+      "ion": {
+        "path": "runs\\20261106-q2-process-first-design-05\\inputs\\Ta2O5_Franta.csv",
+        "sha256": "b89a274452c683eb6d4b43e457a5dfa28ebb8bf2ed8d25bd6b502f385a55bbcb"
+      },
+      "cold": {
+        "path": "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f1_30.csv",
+        "sha256": "c2fd6fe715a756349bc43610f5d061ef93cda3b55f5a9878219c7126d5ee6e09"
+      },
+      "hot": {
+        "path": "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f1_100.csv",
+        "sha256": "169e57f2e40bec808738cb41d2bd8997a41046ffa1adb5d776f6c414d4e9ff82"
+      }
+    },
+    "limits": [
+      "Same transferred optical constants, chemical endpoints and scalar mica proxy as frozen candidate; no new material certification.",
+      "Counts cover aperture solids only; carriers, contact leads and any final package must be counted after design.",
+      "A single blanket cap before EC leaves no dedicated EC terminal protection; top ITO is not assumed hermetic.",
+      "400nm sputtered AlOx is not proved equivalent to the source electron-beam optical input or to20+380nm two-pass oxide.",
+      "No fixed pair of operating voltages or physical EC temperature dependence is supplied.",
+      "16 scenarios are shared thickness groups, not independent full tolerances; new single400nm TC cap scales with coating group.",
+      "Independent coupons remove shared deposition exposure but add a retained substrate and a thin-chip assembly requirement.",
+      "Patent example9 actually includes200nm SiNx top protection; omitted-cap and AlOx-substitution rows are explicitly altered optical controls, not the disclosed prototype. LiTaO3 remains aTa2O5 optical proxy and LiNiO gradient is not modeled."
+    ],
+    "strict_A_pass": false,
+    "fabrication_certified": false,
+    "scope": "Process-topology comparison, no thickness/material/area optimization."
+  },
+  "disclosed_device_trace": {
+    "source_url": "https://patents.google.com/patent/CN112649997A/zh",
+    "source_pdf_sha256": "2b5eda427fa57f07064c09eb3353ab8a0180f56b96c0824f5cfb8ae1e1d769a1",
+    "source_native_image_sha256": "9d67b0da19d14c0fc448a1797fb73e44cb3e50e0616d3c19fc6f532b18538828",
+    "source_identity": "CN112649997A example9 Figure7B; disclosed whole device, not independent reproduction",
+    "calibration": {
+      "x_nm": [
+        [
+          592,
+          500
+        ],
+        [
+          893,
+          2500
+        ]
+      ],
+      "y_fraction": [
+        [
+          272,
+          0
+        ],
+        [
+          35,
+          1
+        ]
+      ]
+    },
+    "native_trace_nm_range": [
+      380.39867109634554,
+      785.7142857142858
+    ],
+    "native_trace_count": 62,
+    "VIS_bleached_mean_T": 0.6570213003069937,
+    "VIS_voltage_delta": 0.5513720579783282,
+    "vertical_pixel_diagnostic_delta_range": [
+      0.5300216641877146,
+      0.57308586272708
+    ],
+    "vertical_diagnostics_plus_arbitrary_low_edge": [
+      0.5289332420522943,
+      0.5739553050116633
+    ],
+    "conditional_current_TC_local_NIR_delta": 0.3806505790256717,
+    "hypothetical_split_EC_area_lower_exclusive": 0.5552012376217005,
+    "hypothetical_split_EC_area_upper_exclusive": 0.4638609688301626,
+    "hypothetical_split_area_exists": false,
+    "even_best_vertical_plus_edge_case_split_area_exists": false,
+    "TC_local_delta_required_if_this_EC_contrast_transferred": 0.4588178967986666,
+    "limits": [
+      "Only a disclosed specimen at an unspecified plotted temperature and bleached bias; not a two-temperature common-voltage dataset.",
+      "Glass thickness and thin-mica process transfer remain unqualified.",
+      "2.5V is a reported colored endpoint, not an automatically safe voltage for the modeled design.",
+      "Figure trace uses fixed tiny band-edge interpolation/clamps and excludes curve-label4; vertical diagnostics do not include x-calibration or pixel-selection ambiguity.",
+      "Combining observed EC contrast with modeled TC contrast is an explicitly hypothetical budget, not a joint-device spectrum.",
+      "The optical failure does not deny other thicknesses, voltages or device architectures."
+    ],
+    "full_problem_solved": false
+  },
+  "local_TC_target_search": {
+    "EC_observed_VIS_delta": 0.5513720579783282,
+    "target_TC_local_delta": 0.4588178967986666,
+    "records": [
+      {
+        "film": 1,
+        "source_identity": "70+/-9nm, sputtered onSi/nativeoxide",
+        "rear_AR": false,
+        "parameters_um": [
+          0.079,
+          0.37518794709312847
+        ],
+        "local_NIR_signed_delta": 0.3928587109519392,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.4805215540249843
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": true,
+          "iterations": 28,
+          "evaluations": 473,
+          "message": "Optimization terminated successfully."
+        },
+        "coarse_to_fine_delta": -8.547086382593161e-06
+      },
+      {
+        "film": 1,
+        "source_identity": "70+/-9nm, sputtered onSi/nativeoxide",
+        "rear_AR": true,
+        "parameters_um": [
+          0.079,
+          0.37429137375133714,
+          0.034798841858030664
+        ],
+        "local_NIR_signed_delta": 0.39308636685071413,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.48082240987368785
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": true,
+          "iterations": 31,
+          "evaluations": 784,
+          "message": "Optimization terminated successfully."
+        },
+        "coarse_to_fine_delta": 2.697316405897432e-06
+      },
+      {
+        "film": 2,
+        "source_identity": "130+/-17nm, sputtered onSi/nativeoxide",
+        "rear_AR": false,
+        "parameters_um": [
+          0.147,
+          0.288499733319589
+        ],
+        "local_NIR_signed_delta": 0.3415309803374955,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.40245059920657567
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": true,
+          "iterations": 23,
+          "evaluations": 396,
+          "message": "Optimization terminated successfully."
+        },
+        "coarse_to_fine_delta": -5.325015340285066e-06
+      },
+      {
+        "film": 2,
+        "source_identity": "130+/-17nm, sputtered onSi/nativeoxide",
+        "rear_AR": true,
+        "parameters_um": [
+          0.147,
+          0.2882985148772428,
+          0.04818214212156067
+        ],
+        "local_NIR_signed_delta": 0.3419728695510864,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.40322273833897215
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": true,
+          "iterations": 35,
+          "evaluations": 884,
+          "message": "Optimization terminated successfully."
+        },
+        "coarse_to_fine_delta": 2.598635144235306e-06
+      },
+      {
+        "film": 3,
+        "source_identity": "120+/-12nm, sputtered on sapphire",
+        "rear_AR": false,
+        "parameters_um": [
+          0.132,
+          0.2913872281496647
+        ],
+        "local_NIR_signed_delta": 0.32421573184062485,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.3705375384024181
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": true,
+          "iterations": 27,
+          "evaluations": 460,
+          "message": "Optimization terminated successfully."
+        },
+        "coarse_to_fine_delta": -4.380160634975816e-06
+      },
+      {
+        "film": 3,
+        "source_identity": "120+/-12nm, sputtered on sapphire",
+        "rear_AR": true,
+        "parameters_um": [
+          0.132,
+          0.29126382584160315,
+          0.06461442450791706
+        ],
+        "local_NIR_signed_delta": 0.3248477813227166,
+        "required_TC_nominal_EC": 0.4588178967986666,
+        "hypothetical_common_area_open_interval": [
+          0.5552012376217005,
+          0.37176227024829667
+        ],
+        "hypothetical_nominal_area_exists": false,
+        "optimizer": {
+          "success": false,
+          "iterations": 35,
+          "evaluations": 888,
+          "message": "Maximum number of iterations has been exceeded."
+        },
+        "coarse_to_fine_delta": 2.08318673178276e-06
+      }
+    ],
+    "source_sha256": {
+      "runs\\20261106-q2-process-first-design-05\\inputs\\Al2O3_Franta.csv": "86b105c198682acbdd77b4abfe22030ec3fe2622398175f1c438215066dfff4e",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f1_30.csv": "c2fd6fe715a756349bc43610f5d061ef93cda3b55f5a9878219c7126d5ee6e09",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f1_100.csv": "169e57f2e40bec808738cb41d2bd8997a41046ffa1adb5d776f6c414d4e9ff82",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f2_30.csv": "e30d5e4d3a02b8aa16b891e6efbb297c4b1c267675b828cef4e67afed241f938",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f2_100.csv": "e974050a8ca104d9e0a744efc222292d9807931240cf78abd2470a84f98716eb",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f3_30.csv": "6d640e9f85c007c14647ed01b31ca4ffd91e398eaf0090e8acffd28f47a68b37",
+      "runs\\20261106-q2-process-first-design-05\\inputs\\VO2_f3_100.csv": "5d994aa61050b941e8ecdfecae5e8442fbfe9718a45f6450bdc78a3fe076348a"
+    },
+    "limits": [
+      "Bounded optical search only; no infeasibility theorem and no same-process fabrication certificate.",
+      "Thickness intervals are the source characterization intervals, not a guarantee that optical constants remain unchanged through them.",
+      "Source supports areSi/nativeoxide or sapphire;8um mica remains a scalar proxy, not a measured transferred specimen.",
+      "The extra rear AR is a real retained coating and adds a back-side deposition/handling step.",
+      "Two-temperature EC response and common applied voltages remain unavailable.",
+      "The oxide cap uses the same electron-beam source spectrum; sputter-transfer uncertainty remains.",
+      "No all-layer geometry/material tolerance certification is attempted for these screening candidates."
+    ]
+  },
+  "source_assessment": [
+    {
+      "id": "Ekstrom2023",
+      "url": "https://doi.org/10.1016/j.matdes.2023.111864",
+      "file": "Ekstrom2023_mica.pdf",
+      "status": "full text acquired",
+      "evidence": "Muscovite(001),400C pulsed sputtering,160W50kHz,0.31Pa,11.5%O2;actual17/26/62/180nm samples;structural/electrical data, not a VIS/NIR four-state optical dataset.",
+      "limit": "Does not certify8um support, Wan optical transfer, cap interfaces, or joint EC process.",
+      "sha256": "204cdcbb475f39c83e7c5b2242de5430543c3f302a263ad104e50c5f2de2ef56"
+    },
+    {
+      "id": "Ji2014",
+      "url": "https://doi.org/10.1088/1742-6596/559/1/012005",
+      "file": "AlOx2014_protection.pdf",
+      "status": "full conference paper acquired; distinct from related ThinSolidFilms2014 paper",
+      "evidence": "80nm VO2 on1mm glass; unheated reactiveDC AlOx deposition;10/30/100nm coating examples; measured300-2500nm at25/100C;100nm coating retains thermochromism after168h dry300C treatment.",
+      "limit": "Dry-air aging and its own coating deposition, not a later EC oxygen-plasma test; not400nm coating on8um mica. Source cap DC AlOx differs from e-beam model constants.",
+      "sha256": "1e84d2283e5fad37775adbbe36f497ac500ff666309df314c56e8e688c26a381"
+    },
+    {
+      "id": "CN112649997A",
+      "url": "https://patents.google.com/patent/CN112649997A/zh",
+      "file": "CN112649997A.pdf",
+      "status": "full public disclosure and original figure acquired",
+      "evidence": "Example9 explicitly includes ITO200/LiNiO100/LiTaO3 60/WO3 300/ITO300/SiNx200nm;bottomITO at150C,others room-temperature setpoints;reported2.5Vendpoint and Figure7 full wavelength curve.",
+      "limit": "Disclosed specimen, not independent experimental replication;no100C EC spectrum, no same-pair two-temperature validation;bleached bias and glass thickness unresolved. Figure trace is55.1pp VIS mean, not the reported single-point contrast.",
+      "sha256": "2b5eda427fa57f07064c09eb3353ab8a0180f56b96c0824f5cfb8ae1e1d769a1"
+    },
+    {
+      "id": "Zhu2019",
+      "url": "https://doi.org/10.1016/j.electacta.2019.05.125",
+      "status": "abstract and indexed method fragment only;publisher direct403",
+      "evidence": "Related authors and Li-gradient mechanism. Published comparison includes opposite deposition orders ECD1/ECD2.",
+      "limit": "Do not equate patent example9 with the2019 journal specimen or borrow its72.8%at550nm as a VIS mean."
+    },
+    {
+      "id": "Li2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167577X20301695",
+      "status": "indexed primary abstract only;publisher direct403",
+      "evidence": "Four-functional-layer ITO/LiNiO/LiWO3/ITO device is disclosed, using e-beam/resistive evaporation and direct Li introduction.",
+      "limit": "Omitting retained electrolyte does not remove Li evaporation/activation work;no fullrecipe, four-state or same-process spectra retrieved;not used as current simple-process solution."
+    },
+    {
+      "id": "Deng2023",
+      "url": "https://doi.org/10.1002/adma.202302685",
+      "status": "primary abstract only",
+      "evidence": "Electro-/thermochromic device uses thermochromic gel electrolyte.",
+      "limit": "Not the same as selectiveNIR VO2 temperature response;no compliant thickness/n/four-state data retrieved;not substituted."
+    },
+    {
+      "id": "Song2026",
+      "url": "https://doi.org/10.1016/j.electacta.2025.148079",
+      "status": "primary indexed abstract and method snippets",
+      "evidence": "Reports thermo-electrochemical interface stress/delamination in ITO/WO3/Li-phosphate-glass/NiO/ITO devices.",
+      "limit": "Evidence that temperature-independence is not automatic, not a numerical degradation law for our different materials;no new lifetime acceptance criterion added."
+    }
+  ],
+  "sampled_spectral_peak_cross": {
+    "frozen_protected": {
+      "NIR_electrical": 0.36649267171130606,
+      "VIS_thermal": 0.048277891610291196
+    },
+    "finish_TC_first_separate_caps": {
+      "NIR_electrical": 0.36649267171130595,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "single_blanket_cap_before_EC": {
+      "NIR_electrical": 0.3673025694536478,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "blanket_before_EC_plus_terminal30": {
+      "NIR_electrical": 0.37010363329713164,
+      "VIS_thermal": 0.04827789161029111
+    },
+    "two_coupons_independent_process": {
+      "NIR_electrical": 0.366492671711306,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "single_blanket_f44p5": {
+      "NIR_electrical": 0.3714764622883483,
+      "VIS_thermal": 0.047846839006627784
+    },
+    "single_blanket_LiNiO_first": {
+      "NIR_electrical": 0.3688078533555279,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "finish_TC_first_LiNiO_first": {
+      "NIR_electrical": 0.36512328583742004,
+      "VIS_thermal": 0.048277891610291196
+    },
+    "patent_example9_functional_dimensions_cap_omitted_control": {
+      "NIR_electrical": 0.34112731932888063,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "patent_example9_dimensions_AlOx_substitution_control": {
+      "NIR_electrical": 0.3453310218872824,
+      "VIS_thermal": 0.04827789161029117
+    },
+    "same_aperture_serial_control": {
+      "NIR_electrical": 0.4718543759430868,
+      "VIS_thermal": 0.07573779883922854
+    }
+  },
+  "preferred_process_control": "finish_TC_first_LiNiO_first",
+  "fabrication_certified": false,
+  "full_problem_solved": false
+}
