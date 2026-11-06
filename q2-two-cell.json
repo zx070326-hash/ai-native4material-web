@@ -1,0 +1,960 @@
+{
+  "scope": "Q2 actual two-cell redesign; reduced layers and processing. Conditional simulation, no fabrication certificate.",
+  "design": {
+    "goal": "Reduce three liquid chambers to two; remove direct bonded wall, reduce alignment face count and direction count; no original numeric requirement relaxed.",
+    "driver_d_um": 1.43997770297113,
+    "thermal_d_um": 8.55,
+    "bias_V_RMS": [
+      0,
+      4
+    ],
+    "T_C": [
+      25,
+      50
+    ],
+    "entity_sequence": [
+      [
+        "Al2O3",
+        8
+      ],
+      [
+        "ZnO",
+        0.0998
+      ],
+      [
+        "SiNx",
+        0.02
+      ],
+      [
+        "E7_driver",
+        1.43997770297113
+      ],
+      [
+        "SiNx",
+        0.02
+      ],
+      [
+        "ZnO",
+        0.0998
+      ],
+      [
+        "Al2O3_shared",
+        8
+      ],
+      [
+        "SiNx",
+        0.02
+      ],
+      [
+        "E7_thermal",
+        8.55
+      ],
+      [
+        "SiNx",
+        0.02
+      ],
+      [
+        "Al2O3_exit",
+        8
+      ],
+      [
+        "carbon_selector",
+        5
+      ]
+    ],
+    "physical_entities": 12,
+    "supports": 3,
+    "liquid_chambers": 2,
+    "alignment_faces": 4,
+    "electrodes": 2,
+    "in_cell_capacitor": "ZnO/SiNx20nm/LC/SiNx20nm/ZnO; supports are outside electrodes",
+    "pattern_candidates": {
+      "eight": "same8direction patterned surface, original smooth winding sector",
+      "binary": "two axes0/90deg; zero winding phase; driver6um andthermal12um stripes; no new nanoscale grooving"
+    },
+    "source_recovery": "v1 raw8step source forgot final resave of copiedthermal; v2 writes a new handoff with exact originalthermal arrays, preserving raw/incomplete files. Early relative-path and missing-array failures retained.",
+    "rotation_rule": "Binary phi has zero winding so thermal90deg axis rotation must remain explicit; cannot copy winding cancellation formula from8step.",
+    "manufacturing_proposal": "Deposit ZnO on driven-facing sides of entrance/shared8um Al2O3; prepare20nmSiNx on each LCface with carrier/protection; assemble three walls/two vented cavities; fill after all deposition/alignment; no direct wall-wall opticalbond.",
+    "limits": [
+      "Same real material models, nA/B ranges and transfer uncertainty",
+      "New ZnO/SiNx contact treatment and actual anchoring not source-certified",
+      "<=10um supports still require release/flatness; no conventional thick glass substitution",
+      "Binary pattern equilibrium is local zero-winding sector, not global/3D/defect stability",
+      "Initial source32, optical127 is screening; final64/dense controls recorded separately"
+    ],
+    "status": "Actual new source and optics computations in progress; no pass inferred."
+  },
+  "rows": [
+    {
+      "label": "直接删胞／旧相位",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        5.3700760615016785,
+        22.852332274406695
+      ],
+      "VISthermal_meanabs_pp": 34.959024304475,
+      "NIRvoltage_meanabs_pp": 3.8025886459061873,
+      "VISthermal_peak_pp": 79.3740508245252,
+      "NIRvoltage_peak_pp": 21.36151327825262,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.4710664171771907,
+            0.34300882197283356
+          ],
+          [
+            0.3117265170859806,
+            0.23385012658860535
+          ]
+        ],
+        [
+          [
+            0.5920375296928452,
+            0.3505697490147801
+          ],
+          [
+            0.5832485373490862,
+            0.35472521460501927
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-simplify-two12-readout127-600-01\\spectra.npz",
+      "spectra_sha256": "64a6d666fedbebf7c2140d5e6b145188ccdf9f9102200ee9a5215bf2da71e0c8"
+    },
+    {
+      "label": "新相位／32源",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        41.57031331003786,
+        23.834814658971826
+      ],
+      "VISthermal_meanabs_pp": 20.472081199971683,
+      "NIRvoltage_meanabs_pp": 4.234149985022398,
+      "VISthermal_peak_pp": 57.87131800510925,
+      "NIRvoltage_peak_pp": 19.98199761106817,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.2581651373184711,
+            0.21621394546678394
+          ],
+          [
+            0.7483789616346591,
+            0.740693954613111
+          ]
+        ],
+        [
+          [
+            0.6019036542353924,
+            0.3635555076456741
+          ],
+          [
+            0.6058994589028209,
+            0.3644579530258047
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-eight-readout32-127-600-01\\spectra.npz",
+      "spectra_sha256": "4ed17c9bdb892bee9643292cc299076292e8c1f41417e56d5ec75d4f64fd6eef"
+    },
+    {
+      "label": "新相位／64源",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        41.650411655829636,
+        23.83727680685528
+      ],
+      "VISthermal_meanabs_pp": 20.480068992583917,
+      "NIRvoltage_meanabs_pp": 4.233596815354942,
+      "VISthermal_peak_pp": 57.953986414325755,
+      "NIRvoltage_peak_pp": 20.218466041749828,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.25793661142317886,
+            0.21636564003049755
+          ],
+          [
+            0.7489935762213856,
+            0.7412691839454162
+          ]
+        ],
+        [
+          [
+            0.6017557859574666,
+            0.3633830178889138
+          ],
+          [
+            0.6057124051784285,
+            0.3642046998618206
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-eight-readout64-127-600-01\\spectra.npz",
+      "spectra_sha256": "70cb8b4149fd391e2308a14469eec5c0cca0b9f58038361d3dddb4ef58b837f8"
+    },
+    {
+      "label": "12实体／标准713",
+      "entities": 12,
+      "wavelengths": 713,
+      "main_pp": [
+        40.47033868369762,
+        23.832989285553552
+      ],
+      "VISthermal_meanabs_pp": 19.24599683738723,
+      "NIRvoltage_meanabs_pp": 4.056670826628564,
+      "VISthermal_peak_pp": 62.07200059659118,
+      "NIRvoltage_peak_pp": 23.442615296129652,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.2597731139005775,
+            0.21472102617036112
+          ],
+          [
+            0.7384082579394998,
+            0.7420448614919223
+          ]
+        ],
+        [
+          [
+            0.6082097392258443,
+            0.3670004805840215
+          ],
+          [
+            0.6033161822573148,
+            0.36498628940177924
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-eight-readout64-standard713-600-02\\spectra.npz",
+      "spectra_sha256": "8a6a6bcb22b93980d78db80ba15b8f2afe843ad1df60c8aa17aa0318254cca58"
+    },
+    {
+      "label": "12实体／联合837",
+      "entities": 12,
+      "wavelengths": 837,
+      "main_pp": [
+        40.53710069938568,
+        23.83939604297096
+      ],
+      "VISthermal_meanabs_pp": 19.28578075189103,
+      "NIRvoltage_meanabs_pp": 4.055492522998327,
+      "VISthermal_peak_pp": 62.07200059659118,
+      "NIRvoltage_peak_pp": 23.442615296129652,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.2595618026339518,
+            0.21495192020827036
+          ],
+          [
+            0.7388997047327485,
+            0.7421057167496973
+          ]
+        ],
+        [
+          [
+            0.6081565583771313,
+            0.3669604664306845
+          ],
+          [
+            0.6033703373806175,
+            0.3649763769509079
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-eight-readout64-union837-600-02\\spectra.npz",
+      "spectra_sha256": "8ce606cbbe58e312c90718fbdc1cd20c1a27f5a170b825822f330512f72a5447",
+      "half_subset_nodes": 420,
+      "half_subset_main_pp": [
+        40.53542762465273,
+        23.97039244714943
+      ]
+    },
+    {
+      "label": "双胞均两方向／700孔",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        33.311713269637636,
+        4.507362599726228
+      ],
+      "VISthermal_meanabs_pp": 15.967877891099338,
+      "NIRvoltage_meanabs_pp": 4.8173843578250155,
+      "VISthermal_peak_pp": 44.22222347563521,
+      "NIRvoltage_peak_pp": 36.83253725607174,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.3322328934683432,
+            0.2979914393209819
+          ],
+          [
+            0.7355140857803183,
+            0.7223870962515467
+          ]
+        ],
+        [
+          [
+            0.6435659884697448,
+            0.5984923624724825
+          ],
+          [
+            0.6643336157221743,
+            0.607323776730737
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-binary-readout32-127-700-01\\spectra.npz",
+      "spectra_sha256": "44c50f1ae8bd4755d42448823c143e4100e2cdf9d7e8cad4069c1771c9498ee0"
+    },
+    {
+      "label": "仅电控两方向／600孔",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        27.666799910231976,
+        23.40384560669636
+      ],
+      "VISthermal_meanabs_pp": 15.035746620804028,
+      "NIRvoltage_meanabs_pp": 4.2497792748622505,
+      "VISthermal_peak_pp": 42.65990767508669,
+      "NIRvoltage_peak_pp": 20.476240050642414,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.40638263298788835,
+            0.3624798426830829
+          ],
+          [
+            0.7502436846745407,
+            0.7423548912010385
+          ]
+        ],
+        [
+          [
+            0.5973652567352639,
+            0.36332680066830025
+          ],
+          [
+            0.6058554709977222,
+            0.36445267593737085
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-mixed-readout32-127-600-01\\spectra.npz",
+      "spectra_sha256": "f5cb0d57c8bd8e360af68f9bf6516e6283abaf0e51fab62751d9cbfcaa83970f"
+    },
+    {
+      "label": "仅电控两方向／700孔／32源",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        34.177222476224834,
+        22.76269549392531
+      ],
+      "VISthermal_meanabs_pp": 17.124989014777412,
+      "NIRvoltage_meanabs_pp": 5.458127740280688,
+      "VISthermal_peak_pp": 43.96532486695577,
+      "NIRvoltage_peak_pp": 37.636680642369015,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.33719541528165753,
+            0.31006025744693866
+          ],
+          [
+            0.7495872308208663,
+            0.7418069105644414
+          ]
+        ],
+        [
+          [
+            0.5800058506423897,
+            0.35237889570313663
+          ],
+          [
+            0.6054133832922097,
+            0.3642115566371304
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-mixed-readout32-127-700-01\\spectra.npz",
+      "spectra_sha256": "503f13b45c2dbd542a1b6e85182f96f13c974f0cbf635ad1474852e9a2aa8b1b"
+    },
+    {
+      "label": "仅电控两方向／700孔／64源",
+      "entities": 12,
+      "wavelengths": 127,
+      "main_pp": [
+        34.75954555426418,
+        22.80386271201807
+      ],
+      "VISthermal_meanabs_pp": 17.218596428238122,
+      "NIRvoltage_meanabs_pp": 5.463876841388243,
+      "VISthermal_peak_pp": 43.54434625428301,
+      "NIRvoltage_peak_pp": 37.85047012536297,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.3313714887671242,
+            0.3049055148983906
+          ],
+          [
+            0.7498930209172735,
+            0.7419981900442587
+          ]
+        ],
+        [
+          [
+            0.5802118197344607,
+            0.35217319261428
+          ],
+          [
+            0.6052484373015238,
+            0.3639678070318225
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-mixed-readout64-127-700-01\\spectra.npz",
+      "spectra_sha256": "a2b0fd3c953333fbeb0215b5abc61be828b8577e1abdd1ccf3b6a4262ea575d0"
+    },
+    {
+      "label": "少配向候选／standard713",
+      "entities": 12,
+      "wavelengths": 713,
+      "main_pp": [
+        34.148216985651615,
+        23.007581336826377
+      ],
+      "VISthermal_meanabs_pp": 16.337927803958745,
+      "NIRvoltage_meanabs_pp": 5.192972173444825,
+      "VISthermal_peak_pp": 48.993730102350014,
+      "NIRvoltage_peak_pp": 46.01678528949608,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.3271522251750182,
+            0.3013740801681716
+          ],
+          [
+            0.7392387197608247,
+            0.7427210247269667
+          ]
+        ],
+        [
+          [
+            0.5857249937959409,
+            0.3556491804276771
+          ],
+          [
+            0.6028459243839815,
+            0.36474347119500233
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-mixed-readout64-standard713-700-01\\spectra.npz",
+      "spectra_sha256": "f986e8f1f9f63b4a16c75ea6fbde6d461fae7c8014311a21962bea46df147ff6"
+    },
+    {
+      "label": "少配向候选／union837",
+      "entities": 12,
+      "wavelengths": 837,
+      "main_pp": [
+        34.194519554600575,
+        23.006080210559933
+      ],
+      "VISthermal_meanabs_pp": 16.370206233283717,
+      "NIRvoltage_meanabs_pp": 5.1895006207254495,
+      "VISthermal_peak_pp": 48.993730102350014,
+      "NIRvoltage_peak_pp": 46.01678528949608,
+      "four_state_band_means_VIS_NIR": [
+        [
+          [
+            0.32716023595068366,
+            0.3016367902969498
+          ],
+          [
+            0.7397341259991108,
+            0.7427837027474381
+          ]
+        ],
+        [
+          [
+            0.5856683080683742,
+            0.3556075059627749
+          ],
+          [
+            0.6029001651454304,
+            0.36473377091162185
+          ]
+        ]
+      ],
+      "main_error_pp": 0.0,
+      "spectra": "runs\\20261106-q2-twocell-mixed-readout64-union837-700-01\\spectra.npz",
+      "spectra_sha256": "3dac289512b7a5a6528ba24501cab651c8acdba11ce9e9746a7138598fcf6f6b",
+      "half_subset_nodes": 420,
+      "half_subset_main_pp": [
+        34.20896993076716,
+        23.04705307128972
+      ]
+    }
+  ],
+  "dense_eight_reference": {
+    "label": "12实体／联合837",
+    "entities": 12,
+    "wavelengths": 837,
+    "main_pp": [
+      40.53710069938568,
+      23.83939604297096
+    ],
+    "VISthermal_meanabs_pp": 19.28578075189103,
+    "NIRvoltage_meanabs_pp": 4.055492522998327,
+    "VISthermal_peak_pp": 62.07200059659118,
+    "NIRvoltage_peak_pp": 23.442615296129652,
+    "four_state_band_means_VIS_NIR": [
+      [
+        [
+          0.2595618026339518,
+          0.21495192020827036
+        ],
+        [
+          0.7388997047327485,
+          0.7421057167496973
+        ]
+      ],
+      [
+        [
+          0.6081565583771313,
+          0.3669604664306845
+        ],
+        [
+          0.6033703373806175,
+          0.3649763769509079
+        ]
+      ]
+    ],
+    "main_error_pp": 0.0,
+    "spectra": "runs\\20261106-q2-twocell-eight-readout64-union837-600-02\\spectra.npz",
+    "spectra_sha256": "8ce606cbbe58e312c90718fbdc1cd20c1a27f5a170b825822f330512f72a5447",
+    "half_subset_nodes": 420,
+    "half_subset_main_pp": [
+      40.53542762465273,
+      23.97039244714943
+    ]
+  },
+  "mixed_latest": {
+    "label": "少配向候选／union837",
+    "entities": 12,
+    "wavelengths": 837,
+    "main_pp": [
+      34.194519554600575,
+      23.006080210559933
+    ],
+    "VISthermal_meanabs_pp": 16.370206233283717,
+    "NIRvoltage_meanabs_pp": 5.1895006207254495,
+    "VISthermal_peak_pp": 48.993730102350014,
+    "NIRvoltage_peak_pp": 46.01678528949608,
+    "four_state_band_means_VIS_NIR": [
+      [
+        [
+          0.32716023595068366,
+          0.3016367902969498
+        ],
+        [
+          0.7397341259991108,
+          0.7427837027474381
+        ]
+      ],
+      [
+        [
+          0.5856683080683742,
+          0.3556075059627749
+        ],
+        [
+          0.6029001651454304,
+          0.36473377091162185
+        ]
+      ]
+    ],
+    "main_error_pp": 0.0,
+    "spectra": "runs\\20261106-q2-twocell-mixed-readout64-union837-700-01\\spectra.npz",
+    "spectra_sha256": "3dac289512b7a5a6528ba24501cab651c8acdba11ce9e9746a7138598fcf6f6b",
+    "half_subset_nodes": 420,
+    "half_subset_main_pp": [
+      34.20896993076716,
+      23.04705307128972
+    ]
+  },
+  "eight_driver_optimizer_flags_all_true": false,
+  "eight_driver_optimizer_status": [
+    {
+      "key": "electric_T25_V4",
+      "success": true,
+      "iterations": 1102,
+      "gradient_inf": 2.241390023452819e-07
+    },
+    {
+      "key": "electric_T25_V0",
+      "success": true,
+      "iterations": 107,
+      "gradient_inf": 1.78611156077986e-08
+    },
+    {
+      "key": "electric_T50_V4",
+      "success": false,
+      "iterations": 1800,
+      "gradient_inf": 5.809288537387408e-07
+    },
+    {
+      "key": "electric_T50_V0",
+      "success": true,
+      "iterations": 105,
+      "gradient_inf": 1.869871366251552e-08
+    }
+  ],
+  "mixed_driver_optimizer_status": [
+    {
+      "key": "electric_T25_V4",
+      "success": true,
+      "iterations": 2,
+      "gradient_inf": 1.7555309089694896e-07
+    },
+    {
+      "key": "electric_T25_V0",
+      "success": true,
+      "iterations": 0,
+      "gradient_inf": 1.639275104889189e-08
+    },
+    {
+      "key": "electric_T50_V4",
+      "success": false,
+      "iterations": 2400,
+      "gradient_inf": 8.772862665688656e-07
+    },
+    {
+      "key": "electric_T50_V0",
+      "success": true,
+      "iterations": 0,
+      "gradient_inf": 1.9375914447330653e-08
+    }
+  ],
+  "order_control": {
+    "scope": "Actual12entity dense-selected seven-point joint order4/slices32->6/64; exact selected-lambda finite hole Gram, high includes all169 modes/cross terms",
+    "wavelengths_um": [
+      0.4,
+      0.42423213982691327,
+      0.5495713343591997,
+      0.78,
+      0.7943464791817998,
+      1.4,
+      2.5
+    ],
+    "max_periodic_RTA_difference_pp": [
+      0.2316245852705734,
+      0.2238430613997644,
+      0.007781523870808993
+    ],
+    "max_full169_hole_difference_pp": 0.21566218824164984,
+    "max_common81_hole_difference_pp": 0.21570012693917784,
+    "max_added88_interference_effect_pp": 0.00032347957540368455,
+    "max_added88_transmitted_power_pp": 0.0008692075297840938,
+    "limits": [
+      "Only selected points, joint order/slice changes not separated",
+      "Finite-hole flux includes169 coherent channels; finite-exterior and carbon transmission corrections are not rebuilt here",
+      "Not a whole-band or uniform finite-domain Maxwell error bound",
+      "Director remains actual64 source and material Fourier128 sampling"
+    ],
+    "all_declared_inputs_still_match": true
+  },
+  "mixed_order_control": {
+    "scope": "Actual12entity dense-selected seven-point joint order4/slices32->6/64; exact selected-lambda finite hole Gram, high includes all169 modes/cross terms",
+    "wavelengths_um": [
+      0.4,
+      0.42423213982691327,
+      0.5495713343591997,
+      0.78,
+      0.7943464791817998,
+      1.4,
+      2.5
+    ],
+    "max_periodic_RTA_difference_pp": [
+      2.33373932568339,
+      1.7987291106323244,
+      0.5350102150510655
+    ],
+    "max_full169_hole_difference_pp": 10.007521917589667,
+    "max_common81_hole_difference_pp": 9.439727445465085,
+    "max_added88_interference_effect_pp": 5.318089622262498,
+    "max_added88_transmitted_power_pp": 5.853372641578905,
+    "limits": [
+      "Only selected points, joint order/slice changes not separated",
+      "Finite-hole flux includes169 coherent channels; finite-exterior and carbon transmission corrections are not rebuilt here",
+      "Not a whole-band or uniform finite-domain Maxwell error bound",
+      "Director remains actual64 source and material Fourier128 sampling"
+    ],
+    "all_declared_inputs_still_match": true
+  },
+  "mixed_verified_amplitude_pass": false,
+  "mixed_warning": "Loworder837 thresholds pass arithmetically, but selected highorder fullhole change10.0075pp and addedmodepower5.853pp invalidate a numerically settled pass claim. Open candidate, not no-go theorem.",
+  "same_material_index_policy": "A actual model range and B550nm25C retain previous material check; same optical materials and workingT; source/processing/anchoring transfers remain.",
+  "eight_checkpoint_control": {
+    "scope": "Actual8step64 source checkpoint continuation; dense837 remains original frozen source, not overwritten",
+    "rows": [
+      {
+        "T": 25,
+        "V": 0,
+        "max_axis_change_deg": 1.4787793334710982e-06,
+        "rms_axis_change_deg": 5.290615687163422e-07
+      },
+      {
+        "T": 25,
+        "V": 4,
+        "max_axis_change_deg": 1.2835032264144346e-05,
+        "rms_axis_change_deg": 3.4882383120094507e-06
+      },
+      {
+        "T": 50,
+        "V": 0,
+        "max_axis_change_deg": 1.7075472925031877e-06,
+        "rms_axis_change_deg": 5.482831077029632e-07
+      },
+      {
+        "T": 50,
+        "V": 4,
+        "max_axis_change_deg": 3.327527337066196e-05,
+        "rms_axis_change_deg": 9.479317753726484e-06
+      }
+    ],
+    "continuation_optimizer_rows": [
+      {
+        "key": "electric_T25_V4",
+        "iterations": 1,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "gradient_inf": 2.91690335983176e-07,
+        "initial_energy": -81.60264196403496,
+        "final_energy": -81.60264196403898,
+        "theta_max_deg": 89.10197346730807,
+        "LC_voltage_range_V": [
+          3.7729099978033767,
+          3.775029200630167
+        ],
+        "gauss": {
+          "Gauss_free_residual_inf": 1.4068746168049984e-12,
+          "electrode_charge_balance_abs": 1.0885514711844735e-11,
+          "positive_electric_dimensionless": 97.43969328469659,
+          "electrostatic_energy_vs_terminal_charge_abs": 5.911715561524034e-11,
+          "LC_Ex_over_Ez_rms": 0.0019073707223601231
+        },
+        "elapsed_s": 0.3123520000372082
+      },
+      {
+        "key": "electric_T25_V0",
+        "iterations": 0,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "gradient_inf": 1.78611156077986e-08,
+        "initial_energy": 0.1985935413291537,
+        "final_energy": 0.1985935413291537,
+        "theta_max_deg": 1.693532865305464,
+        "LC_voltage_range_V": [
+          0.0,
+          0.0
+        ],
+        "gauss": {
+          "Gauss_free_residual_inf": 0.0,
+          "electrode_charge_balance_abs": 0.0,
+          "positive_electric_dimensionless": 0.0,
+          "electrostatic_energy_vs_terminal_charge_abs": 0.0,
+          "LC_Ex_over_Ez_rms": 0
+        },
+        "elapsed_s": 0.42182920000050217
+      },
+      {
+        "key": "electric_T50_V4",
+        "iterations": 1,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "gradient_inf": 8.829204648228613e-07,
+        "initial_energy": -142.5350749669031,
+        "final_energy": -142.53507496691154,
+        "theta_max_deg": 89.69098961227697,
+        "LC_voltage_range_V": [
+          3.8072290354618996,
+          3.808274917665548
+        ],
+        "gauss": {
+          "Gauss_free_residual_inf": 7.389644451905042e-13,
+          "electrode_charge_balance_abs": 1.9838353182421997e-11,
+          "positive_electric_dimensionless": 162.84693503906036,
+          "electrostatic_energy_vs_terminal_charge_abs": 6.139089236967266e-11,
+          "LC_Ex_over_Ez_rms": 0.00195098593513368
+        },
+        "elapsed_s": 0.6430599000304937
+      },
+      {
+        "key": "electric_T50_V0",
+        "iterations": 0,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "gradient_inf": 1.869871366251552e-08,
+        "initial_energy": 0.28461219318776787,
+        "final_energy": 0.28461219318776787,
+        "theta_max_deg": 0.9753845353565852,
+        "LC_voltage_range_V": [
+          0.0,
+          0.0
+        ],
+        "gauss": {
+          "Gauss_free_residual_inf": 0.0,
+          "electrode_charge_balance_abs": 0.0,
+          "positive_electric_dimensionless": 0.0,
+          "electrostatic_energy_vs_terminal_charge_abs": 0.0,
+          "LC_Ex_over_Ez_rms": 0
+        },
+        "elapsed_s": 0.7495054999599233
+      }
+    ],
+    "limitation": "OriginalhotV4hit1800limit; warm continuation stops after1stepbyrelativeenergy. Tinyaxischangeandstopflagarelocalcontrols,notglobalstabilityorwhole-banderrorproof."
+  },
+  "source_mesh_comparison": {
+    "scope": "Actual64 solves vs interpolated32, not pointwise mesh certificate",
+    "rows": [
+      {
+        "T": 25,
+        "V": 0,
+        "axis_max_deg": 6.475400068088901,
+        "axis_rms_deg": 1.6121545254919118
+      },
+      {
+        "T": 25,
+        "V": 4,
+        "axis_max_deg": 6.1091815769572015,
+        "axis_rms_deg": 1.6676701819598747
+      },
+      {
+        "T": 50,
+        "V": 0,
+        "axis_max_deg": 7.246778799922972,
+        "axis_rms_deg": 1.8371175724529045
+      },
+      {
+        "T": 50,
+        "V": 4,
+        "axis_max_deg": 7.245194134395392,
+        "axis_rms_deg": 2.1459371268998457
+      }
+    ],
+    "same127_main32": [
+      41.57031331003786,
+      23.834814658971826
+    ],
+    "same127_main64": [
+      41.650411655829636,
+      23.83727680685528
+    ]
+  },
+  "capillary_scenario": {
+    "scope": "Specified a150 clamped8umAl3wall capillary model only; changed1.44drivergap, no bow/directedoptics coupled certificate",
+    "rows": [
+      {
+        "gamma_N_m": 0.025,
+        "center_change_nm": [
+          -66.67462031488483,
+          20.38479472062196
+        ],
+        "LC_min_um": [
+          1.3733030826562451,
+          8.55
+        ],
+        "LC_max_um": [
+          1.43997770297113,
+          8.570384794720622
+        ]
+      },
+      {
+        "gamma_N_m": 0.03,
+        "center_change_nm": [
+          -80.00954437786181,
+          24.46175366474636
+        ],
+        "LC_min_um": [
+          1.3599681585932681,
+          8.55
+        ],
+        "LC_max_um": [
+          1.43997770297113,
+          8.574461753664748
+        ]
+      },
+      {
+        "gamma_N_m": 0.035,
+        "center_change_nm": [
+          -93.3444684408388,
+          28.538712608870757
+        ],
+        "LC_min_um": [
+          1.3466332345302912,
+          8.55
+        ],
+        "LC_max_um": [
+          1.43997770297113,
+          8.578538712608871
+        ]
+      }
+    ],
+    "assumptions": [
+      "E170GPa nu.22",
+      "bothbaregaps=LC+.04um",
+      "20um vent branch, coscontact1",
+      "no residue/CTE/edgeframes"
+    ]
+  },
+  "binary_checkpoint_control": {
+    "scope": "Real binary64 checkpoint refinement; not proof of optimizer convergence or global stability",
+    "rows": [
+      {
+        "T": 25,
+        "V": 0,
+        "axis_max_deg": 1.4787793334710982e-06,
+        "axis_rms_deg": 5.422700087018233e-07
+      },
+      {
+        "T": 25,
+        "V": 4,
+        "axis_max_deg": 2.4133267946715553e-05,
+        "axis_rms_deg": 6.0896301149373375e-06
+      },
+      {
+        "T": 50,
+        "V": 0,
+        "axis_max_deg": 1.4787793334710982e-06,
+        "axis_rms_deg": 5.358675409441541e-07
+      },
+      {
+        "T": 50,
+        "V": 4,
+        "axis_max_deg": 0.030080454045741313,
+        "axis_rms_deg": 0.002614198909695798
+      }
+    ],
+    "source_limiter": "50C4V reached additional2400iteration cap; gradient_inf8.77286e-7. Success flag remainsfalse; other applicabledriverstatestrue.",
+    "mixed64_is_candidate_only": true
+  },
+  "full_problem_solved": false
+}
